@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('abstract').click(function() {
+    $('links').click(function() {
         $(find("abstract hidden").toggleClass('open'));
     });
     $('bibtex').click(function() {
