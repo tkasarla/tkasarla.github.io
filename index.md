@@ -104,3 +104,5 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
   </span>
   
 </div>
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
