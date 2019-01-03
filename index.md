@@ -41,10 +41,12 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 <script>
 $(document).ready(function(){
   $(".abstract").click(function(){
+    $(this).parent().find(".bibtex-hidden").toggle('close') 
     $(this).parent().find(".abstract-hidden").toggle('open');
   });
    $('.bibtex').click(function() {
-     $(this).parent().find(".bibtex-hidden").toggle('open');
+    $(this).parent().find(".abstract-hidden").toggle('close');  
+    $(this).parent().find(".bibtex-hidden").toggle('open');
   });
 });
 </script>
