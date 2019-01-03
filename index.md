@@ -29,4 +29,5 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 [[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] <span class="abstract"> [<a>abstract</a>] <span hidden class="abs-hidden"> Abstract goes here.</span></span>
      
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/common.js"></script>
 
