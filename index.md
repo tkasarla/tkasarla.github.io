@@ -30,6 +30,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019  
 [[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] <span class="abstract"> [<a>abstract</a>] 
+
 <span hidden class="hiddena"> Abstract goes here.</span></span>
      
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
