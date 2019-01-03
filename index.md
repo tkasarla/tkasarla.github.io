@@ -26,23 +26,15 @@ My primary research area is computer vision with my research focus in scene unde
 # publications
 
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019</br>
-[[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] <div id="Sharma2017">
-  
-    <span class="title">CSGNet: Neural Shape Parser for Constructive Solid Geometry</span>
+[[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] 
+<div id="Sharma2017">
+<span class="title">CSGNet: Neural Shape Parser for Constructive Solid Geometry</span>
     <span class="author">
       
         
           
-            
-              Sharma, Gopal,
-            
-          
-        
-      
-        
-          
-            
-              Goyal, Rishabh,
+           
+   Sharma, Gopal,
             
           
         
@@ -50,7 +42,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
         
           
             
-              Liu, Difan,
+   Goyal, Rishabh,
             
           
         
@@ -58,35 +50,43 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
         
           
             
-              Kalogerakis, Evangelos,
+   Liu, Difan,
             
           
         
       
         
-          and
           
             
-              Maji, Subhransu
+   Kalogerakis, Evangelos,
             
           
         
       
-    </span>
+        
+  and
+          
+            
+   Maji, Subhransu
+            
+          
+        
+      
+  </span>
 
-    <span class="periodical">
+  <span class="periodical">
     
-      <em>CVPR</em>
+   <em>CVPR</em>
     
     
-      2018
+  2018
     
-    </span>
+  </span>
   
 
   <span class="links">
   
-    [<a class="abstract">Abs</a>]
+  [<a class="abstract">Abs</a>]
   
   
   
