@@ -34,6 +34,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 <p>Abstract goes here.</p> </span>
      
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script>
 $(document).ready(function(){
   $("span.abstract").click(function(){
@@ -45,4 +46,4 @@ $(document).ready(function(){
 <!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
 
 
-<script src="https://tkasarla.github.io/assets/js/common.js"></script>
+<!--<script src="https://tkasarla.github.io/assets/js/common.js"></script>-->
