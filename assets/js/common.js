@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    $('links').click(function() {
-        $(find("abstract hidden").toggleClass('open'));
+    $('span.abstract').click(function() {
+        $("span.abstract-hidden").toggleClass('open');
     });
-    $('bibtex').click(function() {
-        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+    $('span.bibtex').click(function() {
+        $("span.bibtex-hidden").toggleClass('open');
     });
 });
+
