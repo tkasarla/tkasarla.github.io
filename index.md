@@ -35,4 +35,5 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
   
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+
 <script src="https://tkasarla.github.io/assets/js/common.js"></script>
