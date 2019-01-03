@@ -34,6 +34,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script>
 $(document).ready(function(){
   $(".abstract").click(function(){
     $(this).find(".abstract-hidden").toggle();
@@ -42,4 +43,5 @@ $(document).ready(function(){
      $(this).(".bibtex-hidden").toggleClass();
   });
 });
+</script>
 
