@@ -41,6 +41,8 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 <script>
 $(document).ready(function(){
+  $(".bibtex-hidden").hide()
+  $("abstract.hidden").hide()
   $(".abstract").click(function(){
     $(this).parent().find(".bibtex-hidden").hide(); 
     $(this).parent().find(".abstract-hidden").toggle('open');
