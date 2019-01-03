@@ -34,3 +34,4 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
      
   
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://hippogriff.github.io//assets/js/common.js"></script>
