@@ -17,7 +17,7 @@ My primary research area is computer vision with my research focus in scene unde
 
 **05 Nov 2018** | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](https://wacv19.wacv.net)!
 
-**15 Jun 2018 -<br \> 30 Oct 2018** | Interning with **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
+**15 Jun 2018 -<br>30 Oct 2018** | Interning with **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 
 **15 Apr 2018** | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad.
 
