@@ -26,18 +26,18 @@ My primary research area is computer vision with my research focus in scene unde
 # publications
 
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019  
-[[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)]   <span class="abstract"> [<a>abstract</a>] </span>
+[[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] <span class="abstract"> [<a>abstract</a>] </span>
 
   <!-- Hidden abstract block -->
   
-<p hidden>Abstract goes here.</p> 
+<p hidden id="name">Abstract goes here.</p> 
      
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
 $(document).ready(function(){
   $("span.abstract").click(function(){
-    $("p").toggle();
+    $("p.name").toggle();
   });
 });
 </script>
