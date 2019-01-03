@@ -30,14 +30,14 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 
   <!-- Hidden abstract block -->
   
-<p>Abstract goes here.</p> 
+<p id="hiddena">Abstract goes here.</p> 
      
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
 $(document).ready(function(){
   $("span.abstract").click(function(){
-    $("p").toggle();
+    $("p.hiddena").toggle('open');
   });
 });
 </script>
