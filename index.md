@@ -40,7 +40,7 @@ $(document).ready(function(){
     $(this).find(".abstract-hidden").toggle();
   });
    $('.bibtex').click(function() {
-     $(this).(".bibtex-hidden").toggleClass();
+     $(this).find(".bibtex-hidden").toggle();
   });
 });
 </script>
