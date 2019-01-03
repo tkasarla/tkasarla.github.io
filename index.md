@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Tejaswi Kasarla
 description: MS by Research. CVIT. IIIT Hyderabad
 nav_order: 1
 permalink: /
