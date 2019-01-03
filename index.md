@@ -26,17 +26,28 @@ My primary research area is computer vision with my research focus in scene unde
 # publications
 
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019  
-[[slides](assets/wacv%20spotlight%20presentation.pdf)] [[poster](assets/poster_wacv.pdf)] 
 
-<div>
-  <span class="abstract"> [<a>abstract</a>] 
-     <span hidden class="abstract-hidden"> Abstract goes here.</span>
-  </span> 
-  <span class="bibtex"> [<a>bibtex</a>] 
-     <span hidden class="bibtex-hidden"> Bibtex goes here.</span>
-  </span>
+
+<div  markdown="1">
+[[slides](assets/wacv%20spotlight%20presentation.pdf)]
+[[poster](assets/poster_wacv.pdf)] 
+<span class="abstract"> [<a>abstract</a>]  </span> 
+<span hidden class="abstract-hidden"> Abstract goes here.</span>
+<span class="bibtex"> [<a>bibtex</a>] </span> 
+<span hidden class="bibtex-hidden"> Bibtex goes here.</span>
 </div>
 
+Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019  
+
+
+<div  markdown="1">
+[[slides](assets/wacv%20spotlight%20presentation.pdf)]
+[[poster](assets/poster_wacv.pdf)] 
+<span class="abstract"> [<a>abstract</a>]</span>
+<span class="bibtex"> [<a>bibtex</a>] </span> </br>
+<span hidden class="abstract-hidden"> Abstract goes here.</span>
+<span hidden class="bibtex-hidden"> Bibtex goes here.</span>
+</div>
 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
