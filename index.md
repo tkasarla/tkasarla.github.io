@@ -31,7 +31,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 [<a href="assets/poster_wacv.pdf">poster</a>] 
 <span class="abstract"> [<a>abstract</a>]</span>
 <span class="bibtex"> [<a>bibtex</a>] </span> <br />  
-<span hidden class="abstract-hidden" style="border:2px gray"> Abstract goes here.</span>
+<span hidden class="abstract-hidden" style="width:360px; border:2px green;"> Abstract goes here.</span>
 <span hidden class="bibtex-hidden"> Bibtex goes here.</span>
 </div>
 
