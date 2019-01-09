@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Publications
-permalink:index.md/#publications
+permalink: index.md/#publications
 ---
