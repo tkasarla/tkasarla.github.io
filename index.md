@@ -27,13 +27,15 @@ My primary research area is computer vision with my research focus in scene unde
 
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019
 <div>
+[<a href="https://drive.google.com/file/d/1XhO5tDZxo3fI3iq2Re4Hl7KXT7wAUJA5/view?usp=sharing">paper</a>]
+[<a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing">supplementary</a>]
 [<a href="assets/wacv%20spotlight%20presentation.pdf">slides</a>]
 [<a href="assets/poster_wacv.pdf">poster</a>] 
 <span class="abstract"> [<a>abstract</a>]</span>
 <span class="bibtex"> [<a>bibtex</a>] </span> <br />  
 <span hidden class="abstract-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; text-align: justify"> As vision-based autonomous systems, such as self-driving vehicles, become a reality, there is an increasing need for large annotated datasets for developing solutions to vision tasks. One important task that has seen significant interest in recent years is semantic segmentation. However, the cost of annotating every pixel for semantic segmentation is immense, and can be prohibitive in scaling to various settings and locations. In this paper, we propose a region-based active learning method for efficient labeling in semantic segmentation. 
 Using the proposed active learning strategy, we show that we are able to judiciously select the regions for annotation such that we obtain 93.8% of the baseline performance (when all pixels are labeled) with addtional labeling of 10% of the total number of pixels. Further, we show that this approach can be used to transfer annotations from a model trained on a given dataset (Cityscapes) to a different dataset (Mapillary), thus highlighting its promise and potential. </span>
-<span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; text-align:justify"> Bibtex goes here.</span>
+<span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; text-align:justify"> Bibtex to be updated.</span>
 </div>
 
 
