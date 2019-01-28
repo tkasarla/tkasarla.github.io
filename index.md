@@ -38,7 +38,7 @@ Using the proposed active learning strategy, we show that we are able to judicio
 <span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; text-align:justify"> Bibtex to be updated.</span>
 </div>
 
-
+<!--@inproceedings{anue, title={IDD: A Dataset for Exploring Problems of Autonomous Navigation in Unconstrained Environments}, author={Varma, Girish and Subramanian, Anbumani and Namboodiri, Anoop and Chandraker, Manmohan and Jawahar, CV.}, booktitle={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)}, year={2019}, organization={IEEE} }-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
