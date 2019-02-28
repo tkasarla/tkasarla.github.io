@@ -15,10 +15,12 @@ description: possible funding scenarios for students to attend conferences outsi
     - usually only funds top tier CS conferences as mentioned on their website, with preference given to oral presentations.
     - funds between **$1000-$3000** which covers all expenses related to attending the conference.
 
+
 * [Microsoft Research India Travel Grants](https://msrprograms.cloudapp.net/TravelGrants/)
 
     - reply in 2-4 weeks. 
     - *required documents to upload*: paper acceptance mail, break-up of costs, paper summary (max 500 words)
+
 
 * [ACM India - IARCS Travel Grants](https://www.iarcs.org.in/activities/grants.php)
 
@@ -26,10 +28,12 @@ description: possible funding scenarios for students to attend conferences outsi
     - requires you to upload the research paper
     - grants **Rs.60,000** (max **Rs.1,00,000**)
 
+
 * [ACM-W Scholarship for Attendance at Research Conferences](https://women.acm.org/scholarships/) *
 
     - application deadline and decision dates posted on the website.
     - *required information to provide*: a statement of why you want to attend the conference, a support letter from your advisor.
+
 
 * [IEEE WIE Travel Grant](https://wie.ieee.org/travel-grant/) *
     
