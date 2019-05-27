@@ -38,14 +38,7 @@ Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. *
 <span hidden class="abstract-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; text-align: justify"> As vision-based autonomous systems, such as self-driving vehicles, become a reality, there is an increasing need for large annotated datasets for developing solutions to vision tasks. One important task that has seen significant interest in recent years is semantic segmentation. However, the cost of annotating every pixel for semantic segmentation is immense, and can be prohibitive in scaling to various settings and locations. In this paper, we propose a region-based active learning method for efficient labeling in semantic segmentation. 
 Using the proposed active learning strategy, we show that we are able to judiciously select the regions for annotation such that we obtain 93.8% of the baseline performance (when all pixels are labeled) with addtional labeling of 10% of the total number of pixels. Further, we show that this approach can be used to transfer annotations from a model trained on a given dataset (Cityscapes) to a different dataset (Mapillary), thus highlighting its promise and potential. </span>
 <span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display: block; text-align:justify">
-@inproceedings{kasarla2019region,
-  title={Region-based active learning for efficient labeling in semantic segmentation},
-  author={Kasarla, Tejaswi and Nagendar, G and Hegde, Guruprasad M and Balasubramanian, V and Jawahar, CV},
-  booktitle={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},
-  pages={1109--1117},
-  year={2019},
-  organization={IEEE}
-}
+  @inproceedings{kasarla2019region,</br>title={Region-based active learning for efficient labeling in semantic segmentation},</br>author={Kasarla, Tejaswi and Nagendar, G and Hegde, Guruprasad M and Balasubramanian, V and Jawahar, CV},</br>booktitle={2019 IEEE Winter Conference on Applications of Computer Vision (WACV)},</br>pages={1109--1117},</br>year={2019},</br>organization={IEEE}</br>}
 </span>
 </div>
 
