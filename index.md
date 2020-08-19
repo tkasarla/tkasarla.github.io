@@ -6,14 +6,27 @@ nav_order: 1
 permalink: /
 ---
 
+My primary research area is computer vision with a focus in scene understanding. <!-- I am vocal about reproducibility and ethics in AI. -->
 
-I am a Computer Science MS student at IIIT-Hyderabad. I am advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
+I am currently a Computer Vision Researcher at Research and Technology Center, Bosch, India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. 
 
-My primary research area is computer vision with my research focus in scene understanding. My current work is on improving smart data annotation through active learning methods for semantic segmentation.
+I graguated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
+
+
 
 *** 
 
 # news
+
+**21 Aug 2020** | Presented poster on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
+
+**Jul 2020** | Volunteered for **ICML 2020**.
+
+**Apr 2020** | Volunteered for **ICLR 2020**.
+
+**16 Aug 2019** | Reveiwed extended abstracts for **Women in Machine Learning (WiML) workshop**, co-located with NeurIPS 2019.
+
+**10 Aug 2019** | Received **MS by Research** degree from International Institute of Information Technology, India. 
 
 **02 May 2019** | Joined **Research and Technology Center, Bosch** as Computer Vision Researcher. Will be working on problems related to Autonomous Driving.
 
