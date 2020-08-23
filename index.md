@@ -20,9 +20,9 @@ I grauated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to b
 
 **21 Aug 2020** | Presented poster on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 
-**Jul 2020** | Volunteered for **International Conference on Machine Learning (ICML) 2020**.
+** Jul 2020** | Volunteered for **International Conference on Machine Learning (ICML) 2020**.
 
-**Apr 2020** | Volunteered for **International Conference on Learning Representations (ICLR) 2020**.
+** Apr 2020** | Volunteered for **International Conference on Learning Representations (ICLR) 2020**.
 
 **16 Aug 2019** | Reveiwed extended abstracts for **Women in Machine Learning (WiML) workshop**, co-located with NeurIPS 2019.
 
