@@ -10,7 +10,7 @@ My primary research area is computer vision with a focus in scene understanding.
 
 I am currently a Computer Vision Researcher at Research and Technology Center, Bosch, India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. 
 
-I graguated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
+I grauated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
 
 
 
@@ -20,9 +20,9 @@ I graguated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to 
 
 **21 Aug 2020** | Presented poster on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 
-**Jul 2020** | Volunteered for **ICML 2020**.
+**Jul 2020** | Volunteered for **International Conference on Machine Learning (ICML) 2020**.
 
-**Apr 2020** | Volunteered for **ICLR 2020**.
+**Apr 2020** | Volunteered for **International Conference on Learning Representations (ICLR) 2020**.
 
 **16 Aug 2019** | Reveiwed extended abstracts for **Women in Machine Learning (WiML) workshop**, co-located with NeurIPS 2019.
 
