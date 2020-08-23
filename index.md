@@ -18,19 +18,19 @@ I grauated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to b
 
 # news
 
-**21 Aug 2020** | Presented poster on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
+**21 Aug 2020** | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 
-** Jul 2020** | Volunteered for **International Conference on Machine Learning (ICML) 2020**.
+**7 Jul 2020-<br>18 Jul 2020** | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
 
-** Apr 2020** | Volunteered for **International Conference on Learning Representations (ICLR) 2020**.
+**14 Apr 2020-<br>3 May 2020** | Volunteered for and attended **International Conference on Learning Representations (ICLR) 2020**.
 
-**16 Aug 2019** | Reveiwed extended abstracts for **Women in Machine Learning (WiML) workshop**, co-located with NeurIPS 2019.
+**16 Aug 2019** | Reveiwed extended abstracts for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
 
-**10 Aug 2019** | Received **MS by Research** degree from International Institute of Information Technology, India. 
+**10 Aug 2019** | Received **MS by Research** degree from International Institute of Information Technology, Hyderabad, India. 
 
 **02 May 2019** | Joined **Research and Technology Center, Bosch** as Computer Vision Researcher. Will be working on problems related to Autonomous Driving.
 
-**05 Nov 2018** | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net)! [[link]](https://ieeexplore.ieee.org/document/8659293)
+**05 Nov 2018** | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
 
 **15 Jun 2018 -<br>30 Oct 2018** | Interning with **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 
