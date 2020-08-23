@@ -27,7 +27,8 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Aux links for the upper right navigation
 aux_links:
   Github: https://github.com/tkasarla
-  LinkedIn: https://linkedin.com/in/tejaswikasarla/"
+  LinkedIn: https://linkedin.com/in/tejaswikasarla/
+  Twitter: https://twitter.com/tkasarla_
   Resume: assets/tkasarla_resume.pdf
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
