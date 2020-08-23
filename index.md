@@ -10,7 +10,7 @@ My primary research area is computer vision with a focus in scene understanding.
 
 I am currently a Computer Vision Researcher at Research and Technology Center, Bosch, India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. 
 
-I grauated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
+I grauated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
 
 
 
