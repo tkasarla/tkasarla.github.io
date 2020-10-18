@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sources of student travel grants in India (specific to CV/ML/AI conferences)
+title: Sources of student travel grants in India (AI and Vision conferences)
 description: possible funding scenarios for students to attend conferences outside India
 ---
 
@@ -9,7 +9,7 @@ description: possible funding scenarios for students to attend conferences outsi
     - if they have a student volunteer option (they fund you partially in exchange for your help in arrangements).
 
 
-* [Google Travel and Conference Grants](https://buildyourfuture.withgoogle.com/scholarships/google-travel-and-conference-grants/#!?detail-content-tabby_activeEl=detail-india-content) 
+* [Google Travel and Conference Grants](https://buildyourfuture.withgoogle.com/scholarships/google-travel-and-conference-grants/#!?detail-content-tabby_activeEl=detail-india-content)
 
     - reply within 10 days.
     - usually only funds top tier CS conferences as mentioned on their website, with preference given to oral presentations.
@@ -18,7 +18,7 @@ description: possible funding scenarios for students to attend conferences outsi
 
 * [Microsoft Research India Travel Grants](https://msrprograms.cloudapp.net/TravelGrants/)
 
-    - reply in 2-4 weeks. 
+    - reply in 2-4 weeks.
     - *required documents to upload*: paper acceptance mail, break-up of costs, paper summary (max 500 words)
 
 
@@ -36,7 +36,7 @@ description: possible funding scenarios for students to attend conferences outsi
 
 
 * [IEEE WIE Travel Grant](https://wie.ieee.org/travel-grant/) *
-    
+
     - apply atleast 3 months prior to the conference. reply in atmost 2 months.
     - grant upto **$750**.
     - *necessary prerequisite*: IEEE WIE member for atleast one year and also hold the membership for the year of application. The conference should be IEEE sponsored conference.

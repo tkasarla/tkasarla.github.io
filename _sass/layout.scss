@@ -28,7 +28,7 @@
     position: absolute;
     width: $nav-width + 16;
     height: 100%;
-    padding-top: $gutter-spacing * 2;
+    padding-top: $gutter-spacing ;
     padding-bottom: 0;
     flex-direction: column;
     border-right: $border $border-color;
@@ -36,7 +36,7 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: calc((100% - #{$nav-width + $content-width}) / 5 + #{$nav-width});
     min-width: $nav-width;
   }
 }
