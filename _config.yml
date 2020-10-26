@@ -26,13 +26,13 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 # Aux links for the upper right navigation
 aux_links:
+  CV: assets/tkasarla_resume.pdf
   Google Scholar : https://scholar.google.co.in/citations?user=e_mkTxMAAAAJ&hl=en&oi=ao
   Github: https://github.com/tkasarla
   LinkedIn: https://linkedin.com/in/tejaswikasarla/
   Twitter: https://twitter.com/tkasarla_
-  Resume: assets/tkasarla_resume.pdf
+  Bookshelf and More: assets/more.md
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
 remote_theme: tkasarla/tkasarla.github.io
-
