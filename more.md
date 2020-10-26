@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Bookshelf and More
+nav_exclude: True
+
 ---
 
 Listing some of the things on the internet and offline that I enjoy[/ed] in my free time.
@@ -20,14 +23,14 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 - Sherlock Holmes, _Sir Arthur Conan Doyle_
 - The Old Man and the Sea, _Ernest Hemingway_
 
-# Non-Fiction
+## Non-Fiction
 
 - Deep Work, _Cal Newport_
 - The Emperor of All Maladies; The Gene, _Siddhartha Mukherjee_
 - The Simpsons and their Mathematical Secrets, _Simon Singh_
 - Endurance, _Scott Kelly_
 
-# Essays
+## Essays
 
 - A Mathematician's Apology by _G.H. Hardy_
 - The Cathedral and The Baazar, _Eric S. Raymond_
