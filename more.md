@@ -9,31 +9,40 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 
 **Note**: This list is very incomplete, I will update it soon!
 
-# Podcasts
+[[Podcasts]](#podcasts) [[Books]](#books)
+
+<!-- [[Coffee]](#coffee) -->
+
+## Podcasts
 
 - Houston, We Have a Podcast. [webpage](https://www.nasa.gov/johnson/HWHAP)
 - Humans of AI: Stories, Not Stats with Devi Parikh. [webpage](https://www.cc.gatech.edu/~parikh/humanstoriesai/)
 
-# Books
+## Books
 
-## Fiction
+### Fiction
 
 - The Harry Potter Series, _J.K. Rowling_
 - The Lord of the Rings Series, _J.R.R. Tolkien_
 - Sherlock Holmes, _Sir Arthur Conan Doyle_
 - The Old Man and the Sea, _Ernest Hemingway_
 
-## Non-Fiction
+### Non-Fiction
 
 - Deep Work, _Cal Newport_
 - The Emperor of All Maladies; The Gene, _Siddhartha Mukherjee_
 - The Simpsons and their Mathematical Secrets, _Simon Singh_
 - Endurance, _Scott Kelly_
 
-## Essays
+### Essays
 
 - A Mathematician's Apology by _G.H. Hardy_
 - The Cathedral and The Baazar, _Eric S. Raymond_
 
+<!-- ## Coffee
+
+Inspired by coffee pages from other researchers. [](), []() -->
+
+<hr>
 
 Text me on [twitter](https://twitter.com/tkasarla_) if you have any recommendations!
