@@ -31,7 +31,7 @@ aux_links:
   Github: https://github.com/tkasarla
   LinkedIn: https://linkedin.com/in/tejaswikasarla/
   Twitter: https://twitter.com/tkasarla_
-  Bookshelf and More: more.md
+  Bookshelf and More: more.html
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
 
