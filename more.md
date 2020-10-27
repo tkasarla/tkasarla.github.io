@@ -17,6 +17,8 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 
 - Houston, We Have a Podcast. [webpage](https://www.nasa.gov/johnson/HWHAP)
 - Humans of AI: Stories, Not Stats with Devi Parikh. [webpage](https://www.cc.gatech.edu/~parikh/humanstoriesai/)
+- Food,But We Digress by Alex (French Guy Cooking) [spotify](
+https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 
 ## Books
 
