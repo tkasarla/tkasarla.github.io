@@ -65,6 +65,11 @@ Using the proposed active learning strategy, we show that we are able to judicio
 </span>
 </div>
 
+
+# services
+
+- _Organizing Committee_, 
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
