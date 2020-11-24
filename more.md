@@ -16,8 +16,8 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 ## Podcasts
 
 - Houston, We Have a Podcast. [[webpage]](https://www.nasa.gov/johnson/HWHAP)
-- Humans of AI: Stories, Not Stats with Devi Parikh. [[webpage]](https://www.cc.gatech.edu/~parikh/humanstoriesai/)
-- Food,But We Digress by Alex (French Guy Cooking) [[spotify]](
+- Humans of AI: Stories, Not Stats with _Devi Parikh_. [[webpage]](https://www.cc.gatech.edu/~parikh/humanstoriesai/)
+- Food, But We Digress by _Alex (French Guy Cooking)_ [[spotify]](
 https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 
 ## Books
@@ -33,6 +33,7 @@ https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 - The Martian, _Andy Weir_
 - The Great Gatsby, _Scott F. Fitzgerald_
 - The Little Prince, _Antoine de Saint-Exupéry_
+- The Murder of Roger Ackroyd; Murder on the Orient Express; And Then There Were None, _Agatha Christie_
 - The Hitchhiker's Guide to the Galaxy, _Douglas Adams_; Borrow from [OpenLibrary](https://openlibrary.org/works/OL2163713W/The_Hitch_Hiker's_Guide_to_the_Galaxy_The_Restaurant_at_the_End_of_the_Universe_Life_the_Universe_an?edition=morethancomplete00adam)!
 
 
@@ -41,8 +42,10 @@ https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 - Braiding Sweetgrass, _Robin Wall Kimmerer_
 - Deep Work, _Cal Newport_
 - The Emperor of All Maladies; The Gene, _Siddhartha Mukherjee_
-- The Simpsons and their Mathematical Secrets, _Simon Singh_; I'd recommend this the most if you like Math humor in a TV show.
+- The Simpsons and their Mathematical Secrets, _Simon Singh_; I'd recommend this the most if you like [math humor in a TV show](https://www.theguardian.com/tv-and-radio/2013/sep/22/the-simpsons-secret-formula-maths-simon-singh).
 - Endurance, _Scott Kelly_
+- What If?, _Randall Munroe_
+- Lean In, _Sheryl Sandberg_
 
 ### Essays
 
