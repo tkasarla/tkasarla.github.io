@@ -22,23 +22,31 @@ https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 
 ## Books
 
+
+
 ### Fiction
 
 - The Harry Potter Series, _J.K. Rowling_
 - The Lord of the Rings Series, _J.R.R. Tolkien_
 - Sherlock Holmes, _Sir Arthur Conan Doyle_
 - The Old Man and the Sea, _Ernest Hemingway_
+- The Martian, _Andy Weir_
+- The Great Gatsby, _Scott F. Fitzgerald_
+- The Little Prince, _Antoine de Saint-Exupéry_
+- The Hitchhiker's Guide to the Galaxy, _Douglas Adams_; Borrow from [OpenLibrary](https://openlibrary.org/works/OL2163713W/The_Hitch_Hiker's_Guide_to_the_Galaxy_The_Restaurant_at_the_End_of_the_Universe_Life_the_Universe_an?edition=morethancomplete00adam)!
+
 
 ### Non-Fiction
 
+- Braiding Sweetgrass, _Robin Wall Kimmerer_
 - Deep Work, _Cal Newport_
 - The Emperor of All Maladies; The Gene, _Siddhartha Mukherjee_
-- The Simpsons and their Mathematical Secrets, _Simon Singh_
+- The Simpsons and their Mathematical Secrets, _Simon Singh_; I'd recommend this the most if you like Math humor in a TV show.
 - Endurance, _Scott Kelly_
 
 ### Essays
 
-- A Mathematician's Apology by _G.H. Hardy_
+- A Mathematician's Apology by _G.H. Hardy_; read this after I watched [this incredible video!](https://www.youtube.com/watch?v=s_L-fp8gDzY)
 - The Cathedral and The Baazar, _Eric S. Raymond_
 
 <!-- ## Coffee
