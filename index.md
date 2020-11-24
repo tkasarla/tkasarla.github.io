@@ -13,7 +13,7 @@ permalink: /
 
 <a name="/bio"></a>
 
-My primary research area is computer vision with a focus in scene understanding. I mainly [write](/blog) short paper summaries and meta-topics in research. <!-- I am vocal about reproducibility and ethics in AI. -->
+My primary research area is computer vision with a focus in deep learning for scene understanding. I mainly [write](/blog) short paper summaries and meta-topics in research. <!-- I am vocal about reproducibility and ethics in AI. -->
 
 I am currently a Computer Vision Researcher at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. <!---- I corganize Whiteboard Talks, a bi-monthly talk series --->
 
@@ -43,7 +43,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 
 # publications
 
-Region-Based Active Learning for Efficient Labelling in Semantic Segmentation. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019
+_Region-Based Active Learning for Efficient Labelling in Semantic Segmentation_. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019
 <div>
 [<a href="https://ieeexplore.ieee.org/document/8659293">paper</a>]
 [<a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing">supplementary</a>]
@@ -66,9 +66,15 @@ Using the proposed active learning strategy, we show that we are able to judicio
 </div>
 
 
-# services
+# scientific outreach
 
-- _Organizing Committee_, 
+<!-- - _Organizer, Women in Computer Vision Workshop (WiCV), CVPR 2021 -->
+- **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
+- **_Reviewer:_** WiML Workshop @ NeurIPS 2019
+- **_Volunteer:_** NeurIPS 2020, ICML 2020, ICLR 2020, ICVGIP 2018
+- **_Talks:_**
+
+
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

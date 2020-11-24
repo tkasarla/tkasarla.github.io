@@ -27,11 +27,11 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Aux links for the upper right navigation
 aux_links:
   CV: /cv.html
-#  Resources: /resources.html
   Google Scholar : https://scholar.google.co.in/citations?user=e_mkTxMAAAAJ&hl=en&oi=ao
   Github: https://github.com/tkasarla
   LinkedIn: https://linkedin.com/in/tejaswikasarla/
   Twitter: https://twitter.com/tkasarla_
+  Resources: /resources.html
 #  Art: /art.html
   Bookshelf and More: /more.html
 
