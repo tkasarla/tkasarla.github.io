@@ -9,7 +9,7 @@ This page is for resources related to (technical and non-technical parts of) res
 ### Do science right!
 
 - [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/) event held at CVPR 2018; of course, useful for all conference submissions!
-- Reproducibilty in ML: [Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/) blog. 
+- Reproducibility in ML: [Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/) blog.
 
 ### Writing Advice
 
@@ -20,8 +20,11 @@ This page is for resources related to (technical and non-technical parts of) res
 ### Reading Papers
 
 
-
 ### Reviewing Papers
 
+
+### General Advice
+
+- [23 things I didn't learn in grad school](https://twitter.com/dsivakumar/timelines/1328255107599802368) thread on twitter by [D. Sivakumar](https://twitter.com/dsivakumar).
 
 ### Applying to Grad School in CS
