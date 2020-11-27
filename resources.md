@@ -32,4 +32,4 @@ This page is for resources related to (technical and non-technical parts of) res
 
 --------------------------------------------------------------------------------
 
-Text me on [twitter](https://twitter.com/tkasarla_) if you have any recommendations!
+Text me on [twitter](https://twitter.com/tkasarla_) if you want me to add links you found useful here!
