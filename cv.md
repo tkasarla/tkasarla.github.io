@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bookshelf and More
+title: CV
 nav_exclude: True
 
 ---
