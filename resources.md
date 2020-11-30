@@ -19,9 +19,14 @@ This page is for resources related to (technical and non-technical parts of) res
 
 ### Reading Papers
 
+- [This advice](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) on how to read a paper by [S. Keshav](https://scholar.google.ca/citations?user=-EMkK7QAAAAJ&hl=en), now a Professor of CS at University of Cambridge.
+- [Reading primary literature](https://caitkirby.com/resources/reading-primary-literature.html) by Cait Kirby. It's a short 1 page infographic on how to read papers.  
+- [How to seriously read a scientific paper](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) by Science Magazine!
+
 
 ### Reviewing Papers
 
+- [Reviewing for dummies](https://drimpossible.github.io/blog/life/reviewing_for_dummies/) blog post on [Ameya Prabhu's](https://drimpossible.github.io/about) webpage.
 
 ### General Advice
 
@@ -32,4 +37,4 @@ This page is for resources related to (technical and non-technical parts of) res
 
 --------------------------------------------------------------------------------
 
-Text me on [twitter](https://twitter.com/tkasarla_) if you want me to add links you found useful here!
+Text me on [twitter](https://twitter.com/tkasarla_) if you want me to add links here that you found useful!

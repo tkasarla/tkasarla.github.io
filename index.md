@@ -19,6 +19,8 @@ I am currently a Computer Vision Researcher at [Research and Technology Center, 
 
 I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
 
+In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [art](/art.html)!
+
 
 
 
@@ -27,6 +29,7 @@ I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to 
 
 # news
 
+Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live) from 2nd to 8th November. ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presenting [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
 Apr 2020 | Volunteered for and attended **International Conference on Learning Representations (ICLR) 2020**.

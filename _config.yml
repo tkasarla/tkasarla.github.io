@@ -32,8 +32,9 @@ aux_links:
   LinkedIn: https://linkedin.com/in/tejaswikasarla/
   Twitter: https://twitter.com/tkasarla_
   Resources: /resources.html
-#  Art: /art.html
+  Art: /art.html
   Bookshelf and More: /more.html
+
 
 # Color scheme currently only supports "dark" or nil (default)
 color_scheme: nil
