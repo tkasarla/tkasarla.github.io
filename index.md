@@ -6,6 +6,8 @@ nav_order: 1
 permalink: /
 ---
 
+
+
 <img src="/assets/images/profile_photo.png" alt="Tejaswi Kasarla" width="200" style="vertical-align:middle;horizontal-align:right;border-radius:50%"> | <img width="500"/> <span style="font-size:larger;">Computer Vision Researcher</span> <br> [Bosch](https://www.bosch.com/research/)
 
 
