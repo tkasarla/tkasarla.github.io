@@ -6,6 +6,22 @@ nav_order: 1
 permalink: /
 ---
 
+<style>
+
+  table{
+    border-collapse: collapse;
+    box-shadow: none;
+  }
+
+  table, tr, td{
+    border: none;
+
+  tr, td {
+    padding: none;
+  }
+  }
+
+</style>
 
 
 <img src="/assets/images/profile_photo.png" alt="Tejaswi Kasarla" width="200" style="vertical-align:middle;horizontal-align:right;border-radius:50%"> | <img width="500"/> <span style="font-size:larger;">Computer Vision Researcher</span> <br> [Bosch](https://www.bosch.com/research/)
@@ -15,13 +31,13 @@ permalink: /
 
 <a name="/bio"></a>
 
-My primary research area is computer vision with a focus in deep learning for scene understanding. I mainly [write](/blog) short paper summaries and meta-topics in research. <!-- I am vocal about reproducibility and ethics in AI. -->
+I develop efficient deep learning methods for scene understanding. I also [write](/blog) short paper summaries and meta-topics in research. In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
 
-I am currently a Computer Vision Researcher at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. <!---- I corganize Whiteboard Talks, a bi-monthly talk series --->
+I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. <!---- I corganize Whiteboard Talks, a bi-monthly talk series --->
 
-I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). During my Masters, I worked on (i) improving smart data annotation through active learning methods for semantic segmentation and (ii) knowledge distillation for semantic segmentation. My thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* can be found [here](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)
+I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). My Master's work (i) simplifies data annotation through active learning methods for semantic segmentation and (ii) improves performance for real-time segmentation models with knowledge distillation. Read my thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* is on [this link](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
 
-In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [art](/art.html)!
+
 
 
 
@@ -73,7 +89,7 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 # scientific outreach
 
-<!-- - _Organizer, Women in Computer Vision Workshop (WiCV), CVPR 2021 -->
+- **_Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021 -->
 - **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
 - **_Volunteer:_** NeurIPS 2020, ICML 2020, ICLR 2020, ICVGIP 2018
