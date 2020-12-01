@@ -93,7 +93,7 @@ Using the proposed active learning strategy, we show that we are able to judicio
 - **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
 - **_Volunteer:_** NeurIPS 2020, ICML 2020, ICLR 2020, ICVGIP 2018
-- **_Talks:_**
+- **_Talks:_** <_to-be-updated_>
 
 
 
