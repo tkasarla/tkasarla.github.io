@@ -9,7 +9,7 @@ This page is for resources related to (technical and non-technical parts of) res
 ### Do science right!
 
 - [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/) event held at CVPR 2018; of course, useful for all conference submissions!
-- Reproducibility in ML: [Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/) blog.
+- **Reproducibility in ML**: [Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/) blog.
 
 ### Writing Advice
 
@@ -19,7 +19,7 @@ This page is for resources related to (technical and non-technical parts of) res
 
 ### Reading Papers
 
-- [This advice](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) on how to read a paper by [S. Keshav](https://scholar.google.ca/citations?user=-EMkK7QAAAAJ&hl=en), now a Professor of CS at University of Cambridge.
+- [This paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) on how to read a paper by [S. Keshav](https://scholar.google.ca/citations?user=-EMkK7QAAAAJ&hl=en), now a Professor of CS at University of Cambridge. I'd definitely recommend reading this! 
 - [Reading primary literature](https://caitkirby.com/resources/reading-primary-literature.html) by Cait Kirby. It's a short 1 page infographic on how to read papers.  
 - [How to seriously read a scientific paper](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) by Science Magazine!
 
@@ -31,7 +31,7 @@ This page is for resources related to (technical and non-technical parts of) res
 ### General Advice
 
 - [23 things I didn't learn in grad school](https://twitter.com/dsivakumar/timelines/1328255107599802368) thread on twitter by [D. Sivakumar](https://twitter.com/dsivakumar).
-- The very popular time management post, [Calendars. Not to-do lists](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd) by Devi Parikh[https://www.cc.gatech.edu/~parikh/]! A short trail run of this while applying to PhD positions proved it very useful for me. Plan to implement it more in the future. 
+- The very popular time management post, [Calendars. Not to-do lists](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd) by Devi Parikh[https://www.cc.gatech.edu/~parikh/]! A short trail run of this while applying to PhD positions proved it very useful for me. Plan to implement it more in the future.
 
 ### Applying to Grad School in CS
 
