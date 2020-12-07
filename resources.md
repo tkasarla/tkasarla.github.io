@@ -19,7 +19,7 @@ This page is for resources related to (technical and non-technical parts of) res
 
 ### Reading Papers
 
-- [This paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) on how to read a paper by [S. Keshav](https://scholar.google.ca/citations?user=-EMkK7QAAAAJ&hl=en), now a Professor of CS at University of Cambridge. I'd definitely recommend reading this! 
+- [This paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) on how to read a paper by [S. Keshav](https://scholar.google.ca/citations?user=-EMkK7QAAAAJ&hl=en), now a Professor of CS at University of Cambridge. I'd definitely recommend reading this!
 - [Reading primary literature](https://caitkirby.com/resources/reading-primary-literature.html) by Cait Kirby. It's a short 1 page infographic on how to read papers.  
 - [How to seriously read a scientific paper](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) by Science Magazine!
 
@@ -27,6 +27,7 @@ This page is for resources related to (technical and non-technical parts of) res
 ### Reviewing Papers
 
 - [Reviewing for dummies](https://drimpossible.github.io/blog/life/reviewing_for_dummies/) blog post on [Ameya Prabhu's](https://drimpossible.github.io/about) webpage.
+- CVPR 2020 tutorial on [How to Write a Good Review](https://sites.google.com/view/making-reviews-great-again)!
 
 ### General Advice
 
