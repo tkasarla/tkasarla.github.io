@@ -32,7 +32,7 @@ This page is for resources related to (technical and non-technical parts of) res
 ### General Advice
 
 - [23 things I didn't learn in grad school](https://twitter.com/dsivakumar/timelines/1328255107599802368) thread on twitter by [D. Sivakumar](https://twitter.com/dsivakumar).
-- The very popular time management post, [Calendars. Not to-do lists](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd) by Devi Parikh[https://www.cc.gatech.edu/~parikh/]! A short trail run of this while applying to PhD positions proved it very useful for me. Plan to implement it more in the future.
+- The very popular time management post, [Calendars. Not to-do lists](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd) by [Devi Parikh](https://www.cc.gatech.edu/~parikh/)! A short trail run of this while applying to PhD positions proved it very useful for me. Plan to implement it more in the future.
 
 ### Applying to Grad School in CS
 
