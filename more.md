@@ -9,9 +9,11 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 
 **Note**: This list is very incomplete, I will update it soon!
 
-[[Podcasts]](#podcasts) [[Books]](#books)
+<div align="center" markdown="1">
 
-<!-- [[Coffee]](#coffee) -->
+### [[Podcasts]](#podcasts) [[Books]](#books) <!-- [[Coffee]](#coffee) -->
+
+</div>
 
 ## Podcasts
 
