@@ -4,8 +4,7 @@ title: Resources
 nav_exclude: True
 ---
 
-This page is for resources related to (technical and non-technical parts of) research. **_To-be-updated_**
-
+This page is for resources related to (technical and non-technical parts of) research. Some parts of it is useful for research in general, but some resources are specific to Computer Vision and Machine Learning research. I update when I find good resources.
 ### Do science right!
 
 - [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/) event held at CVPR 2018; of course, useful for all conference submissions!
@@ -28,6 +27,7 @@ This page is for resources related to (technical and non-technical parts of) res
 
 - [Reviewing for dummies](https://drimpossible.github.io/blog/life/reviewing_for_dummies/) blog post on [Ameya Prabhu's](https://drimpossible.github.io/about) webpage.
 - CVPR 2020 tutorial on [How to Write a Good Review](https://sites.google.com/view/making-reviews-great-again)!
+- CVPR 2021 has [training information](http://luthuli.cs.uiuc.edu/~daf/cvPR21trainingmaterials/) for reviewers!
 
 ### General Advice
 
