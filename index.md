@@ -31,7 +31,7 @@ permalink: /
 
 <a name="/bio"></a>
 
-I develop efficient deep learning methods for scene understanding. I also [write](/blog) short paper summaries and meta-topics in research. In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
+I develop data-efficient machine learning methods for computer vision (mainly in scene understanding). I also [write](/blog) short paper summaries and collect resources for [meta-topics](/resources.html) in research. In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
 
 I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. <!---- I corganize Whiteboard Talks, a bi-monthly talk series --->
 
