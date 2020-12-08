@@ -50,8 +50,8 @@ I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to 
 Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live) from 2nd to 8th November. ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presenting [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
-Apr 2020 | Volunteered for and attended **International Conference on Learning Representations (ICLR) 2020**.
-Aug 2019 | Served as Reviewer for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
+Apr 2020 | [Volunteered](https://iclr.cc/virtual_2020/index.html#footer) for and attended **International Conference on Learning Representations (ICLR) 2020**.
+Aug 2019 | Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
 Aug 2019 | Graduated with MS by Research in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), India
 May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. \| Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
@@ -92,7 +92,7 @@ Using the proposed active learning strategy, we show that we are able to judicio
 - **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021
 - **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
-- **_Volunteer:_** NeurIPS 2020, ICML 2020, ICLR 2020, ICVGIP 2018
+- **_Volunteer:_** NeurIPS 2020, ICML 2020,[ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
 - **_Talks:_** <_to-be-updated_>
 
 
