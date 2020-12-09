@@ -5,26 +5,19 @@ description: Researcher. Bosch | MS by Research. CVIT. IIIT Hyderabad
 nav_order: 1
 permalink: /
 ---
-
-<style>
-
-  table{
-    border-collapse: collapse;
-    box-shadow: none;
-  }
-
-  table, tr, td{
-    border: none;
-
-  tr, td {
-    padding: none;
-  }
-  }
-
-</style>
+<div class="row">
+    <div class="col-sm-4 col-xs-12">
+        <img src="/assets/images/profile_photo.png" width="250" style="border-radius:50%">
+    </div>
+    <div class="col-sm-8 col-xs-12">
+    <br><br><br><br>
+    <span style="font-size:larger;">Computer Vision Researcher</span> <br>
+    <a href="https://www.bosch.com/research/">Robert Bosch</a> <br>
+    </div>
+</div>
 
 
-<img src="/assets/images/profile_photo.png" alt="Tejaswi Kasarla" width="200" style="vertical-align:middle;horizontal-align:right;border-radius:50%"> | <img width="500"/> <span style="font-size:larger;">Computer Vision Researcher</span> <br> [Bosch](https://www.bosch.com/research/)
+<!--<img src="/assets/images/profile_photo.png" alt="Tejaswi Kasarla" width="200" style="vertical-align:middle;horizontal-align:right;border-radius:50%"> | <img width="500"/> <span style="font-size:larger;">Computer Vision Researcher</span> <br> [Bosch](https://www.bosch.com/research/)-->
 
 
 <hr>
@@ -51,14 +44,19 @@ Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/
 Aug 2020 | Presenting [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
 Apr 2020 | [Volunteered](https://iclr.cc/virtual_2020/index.html#footer) for and attended **International Conference on Learning Representations (ICLR) 2020**.
-Aug 2019 | Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
-Aug 2019 | Graduated with MS by Research in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), India
+Aug 2019 |  Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
+Aug 2019 |  Graduated with MS by Research in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), India
 May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. \| Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
-Jun 2018 \-<br> Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
+Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
 
-
+<div id="read-more-button">
+    <a nohref>+ more</a>
+</div>
+<div id="read-less-button">
+    <a nohref>- less</a>
+</div>
 ***
 <a name="/publications"></a>
 
@@ -89,16 +87,39 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 # scientific outreach
 
-- **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021
+<!--- **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021 -->
 - **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
-- **_Volunteer:_** NeurIPS 2020, ICML 2020,[ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
-- **_Talks:_** <_to-be-updated_>
+- **_Volunteer:_** NeurIPS 2020, ICML 2020, [ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
+- **_Talks:_** _\<to-be-updated\>_
 
 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<script type="text/javascript">
+    $('tr:gt(5)').hide();
+    $('#read-less-button').hide();
+    $('#read-more-button > a').click(function() {
+        $('tr:gt(5)').show();
+        $('#read-less-button').show();
+        $('#read-more-button').hide();
+
+    });
+</script>
+
+<script type="text/javascript">
+    $('#read-less-button > a').click(function() {
+        $('tr:gt(5)').hide();
+        $('#read-more-button').show();
+        $('#read-less-button').hide();
+    });
+</script>
 
 <script>
 $(document).ready(function(){
@@ -116,7 +137,7 @@ $(document).ready(function(){
 </script>
 
 <script type="text/javascript">
-    $('ul:gt(0) li:gt(12)').hide();
+    $('tr:gt(0) tr:gt(12)').hide();
     $('#read-more-button > a').click(function() {
         $('ul:gt(0) li:gt(12)').show();
         $('#read-more-button').hide();

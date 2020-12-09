@@ -4,7 +4,7 @@ title: Resources
 nav_exclude: True
 ---
 
-This page is for resources related to (technical and non-technical parts of) research. Some parts of it is useful for research in general, but some resources are specific to Computer Vision and Machine Learning research. I update when I find good resources.
+Over time, I curated some awesome resources for (technical and non-technical parts of) research; most of which specific to Computer Vision, Machine Learning. I update this occasionally.
 
 <div align="center" markdown="1">
 
