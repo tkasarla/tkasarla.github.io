@@ -6,12 +6,13 @@ nav_order: 1
 permalink: /
 ---
 <div class="row">
-    <div class="col-sm-4 col-xs-12">
-        <img src="/assets/images/profile_photo.png" width="250" style="border-radius:50%">
+    <div class="col-sm-3 col-xs-12">
+        <img src="/assets/images/profile_photo.png" style="border-radius:50%">
     </div>
-    <div class="col-sm-8 col-xs-12">
-    <br><br><br><br>
-    <span style="font-size:larger;">Computer Vision Researcher</span> <br>
+    <div class="col-sm-9 col-xs-12">
+    <br><br>
+    <span style="font-size:larger;"><strong>Tejaswi Kasarla</strong></span><br>
+    <span style="font-size:large;">Computer Vision Researcher</span> <br>
     <a href="https://www.bosch.com/research/">Robert Bosch</a> <br>
     </div>
 </div>
