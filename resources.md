@@ -45,6 +45,7 @@ Over time, I curated some awesome resources for (technical and non-technical par
 
 ### Applying to Grad School in CS
 
+- [Krishna Murthy](http://krrish94.github.io) writes about grad school application [advice](http://krrish94.github.io/blog/gradschool-pick-school/) focusing on different factors that give a holistic view on choosing a school and advisor based on what is important to you.
 
 ## The actual research
 

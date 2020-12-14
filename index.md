@@ -25,9 +25,9 @@ permalink: /
 
 <a name="/bio"></a>
 
-I develop data-efficient machine learning methods for computer vision (mainly in scene understanding). I also [write](/blog) short paper summaries and collect [resources](/resources.html) for meta-topics in research. In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
+I develop data-efficient machine learning methods for computer vision (mainly in scene understanding). I also [write](/blog) short paper summaries and collect [resources](/resources.html) for meta-topics in research. As a strong proponent of diversity in tech, I am currently one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
 
-I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images. <!---- I corganize Whiteboard Talks, a bi-monthly talk series --->
+I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images.
 
 I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). My Master's work (i) simplifies data annotation through active learning methods for semantic segmentation and (ii) improves performance for real-time segmentation models with knowledge distillation. Read my thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* is on [this link](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
 
@@ -41,6 +41,7 @@ I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to 
 
 # news
 
+Dec 2020 | I will be co-organzing the Women in Computer Vision Workshop at CVPR 2021!
 Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live) from 2nd to 8th November. ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presenting [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
@@ -88,7 +89,7 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 # scientific outreach
 
-<!--- **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021 -->
+- **_Organizer_**, Women in Computer Vision Workshop (WiCV), CVPR 2021
 - **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
 - **_Volunteer:_** NeurIPS 2020, ICML 2020, [ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
