@@ -11,7 +11,7 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 
 <div align="center" markdown="1">
 
-### [[Podcasts]](#podcasts) [[Books]](#books) <!-- [[Coffee]](#coffee) -->
+### [[Podcasts]](#podcasts) [[Books]](#books) [[Coffee]](#coffee)
 
 </div>
 
@@ -56,11 +56,46 @@ https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 - A Mathematician's Apology by _G.H. Hardy_; read this after I watched [this incredible video!](https://www.youtube.com/watch?v=s_L-fp8gDzY)
 - The Cathedral and The Baazar, _Eric S. Raymond_
 
-<!-- ## Coffee
-
-Inspired by coffee pages from other researchers. [](), []() -->
-
 <hr>
+
+## Coffee
+
+Inspired by coffee pages from other researchers: [Justine Sherry](http://www.justinesherry.com/coffee.html), [Divyansh Kaushik](https://www.cs.cmu.edu/~dkaushik/index.html), [Akshay Narayan](https://akshayn.xyz/coffee.html), I have curated coffees I enjoyed in India.
+
+
+### Favorite coffee roasters
+
+I mainly brew with Aeropress, however, I sometimes enjoy French Press and (*every coffee connoisseur's nightmare*) instant coffee! I get coffee pre-ground until I decide to buy a hand grinder.
+
+- Third Wave Coffee Roasters
+- Blue Tokai Coffee Roasters
+- Toffee Coffee Roasters
+- KC Roasters
+- _Instant Coffee_ from VS Mani Co.
+
+### Favorite cafes
+
+I like these cafes for both the coffee selection and the foods they have. I have enjoyed both brewed specialty coffee and cappuccinos at these places.
+
+#### Bangalore
+
+- **Blue Tokai Coffee Roasters**. They source wonderful sourdough breads from Sour House India and have quite a delicious selection of open toasts.
+- **Third Wave Coffee Roasters**. Their selection of classic bagels is a perfect addition to your coffee.
+- **Dyu Art Cafe**. A pretty location and beautiful interiors. Their scrambled eggs are exactly how scrambled eggs are supposed to be: light and fluffly!
+
+
+#### Hyderabad
+
+- **Roastery Coffee House**.
+- **Eclaire Patisserie**.
+- (Bonus) **Feranoz**. The *best* patisserie in the city, their cakes and desserts are the best I've tasted so far! They have a good selection of coffee and freshly brewed teas to go with your desserts.
+
+#### Kochi
+*to-be-updated*
+#### Pondicherry
+*to-be-updated*
+
+Note: If you want general recommendations for best foods to try and best places to eat in Bangalore and Hyderabad (and not just cafes), drop me a [message](https://twitter.com/tkasarla_).
 
 --------------------------------------------------------------------------------
 
