@@ -15,6 +15,8 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 
 </div>
 
+<hr>
+
 ## Podcasts
 
 - Houston, We Have a Podcast. [[webpage]](https://www.nasa.gov/johnson/HWHAP)
@@ -22,9 +24,9 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 - Food, But We Digress by _Alex (French Guy Cooking)_ [[spotify]](
 https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 
+<hr>
+
 ## Books
-
-
 
 ### Fiction
 
