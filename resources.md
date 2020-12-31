@@ -15,6 +15,7 @@ Over time, I curated some awesome resources for (technical and non-technical par
 ## How to research
 
 ### Do science right!
+- [Research Culture and Community Norms](https://inst.eecs.berkeley.edu/~cs298-7/fa20/lectures/) from UC Berkeley has important discussions relating to the grad school experience. It's about the (often undiscussed) psychological, emotional counterpart of an academic journey. Prof. Justine Sherry also has a [similar reading list](https://docs.google.com/document/d/1L610weeNT_KDe6gPgjHjuN4rBSnsI0NfwE2RZCLuKgE/edit).
 
 - [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/) event held at CVPR 2018; of course, useful for all conference submissions!
 - **Reproducibility in ML**: [Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/) blog.
