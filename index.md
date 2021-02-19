@@ -41,7 +41,7 @@ I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to 
 
 # news
 
-Dec 2020 | I will be co-organzing the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021! Submit extended abstracts and papers by March 12th and accepted papers will be funded to attend CVPR 2021 virtually.
+Dec 2020 | I will be co-organzing the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021! Submit extended abstracts and papers by March 12th 2021 and accepted papers will be funded to attend CVPR 2021 virtually.
 Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live) from 2nd to 8th November. ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
