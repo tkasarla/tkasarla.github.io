@@ -25,11 +25,11 @@ permalink: /
 
 <a name="/bio"></a>
 
-I develop data-efficient machine learning methods for computer vision (mainly in scene understanding). I also [write](/blog) short paper summaries and collect [resources](/resources.html) for meta-topics in research. As a strong proponent of diversity in tech, I am one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
+I develop data and label-efficient deep learning methods for computer vision (mainly in scene understanding). I am one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
 
 I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images.
 
-I graduated with MS in Computer Science from IIIT-Hyderabad. I was fortunate to be advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/). My Master's work (i) simplifies data annotation through active learning methods for semantic segmentation and (ii) improves performance for real-time segmentation models with knowledge distillation. Read my thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* is on [this link](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
+I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in). I was advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/) and we worked on problems involving semantic segmentation with resource constraints (label efficiency and computational efficiency). Read my thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* at [this link](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
 
 
 
