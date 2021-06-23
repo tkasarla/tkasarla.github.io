@@ -25,15 +25,14 @@ permalink: /
 
 <a name="/bio"></a>
 
-I develop data and label-efficient deep learning methods for computer vision (mainly in scene understanding). I am one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)! <!-- I am vocal about reproducibility and ethics in AI. -->
 
-I am currently a Computer Vision Researcher at [Research and Technology Center, Robert Bosch](https://www.bosch.com/research/about-research/research-locations/), India. My work spans multimodal data visualization and annotation (LiDAR, RADAR and images), event detection in driving sequences and attribute understanding in images.
+I am interested in problems involving computer vision, machine learning with real world applications. I currently work at the [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/). I develop data and label-efficient algorithms for autonomous vehicles working with [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/).
 
-I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in). I was advised by [Prof. C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Dr. Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/) and we worked on problems involving semantic segmentation with resource constraints (label efficiency and computational efficiency). Read my thesis on *Efficient Annotation and Knowledge Distillation for Semantic Segmentation* at [this link](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
+I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in), during which I worked on active learning and semantic segmentation ([thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)). I was advised by [C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
 
+I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
 
-
-
+<!--I will be joining [VIS lab](https://ivi.fnwi.uva.nl/vislab/) at the [University of Amsterdam](https://www.uva.nl/en) starting October 2021.-->
 
 
 ***
@@ -41,13 +40,11 @@ I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://ww
 
 # news
 
-Dec 2020 | I will be co-organzing the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021! Submit extended abstracts and papers by March 12th 2021 and accepted papers will be funded to attend CVPR 2021 virtually.
-Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live) from 2nd to 8th November. ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
+Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
+Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live). ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
-Jul 2020 | Volunteered for and attended **International Conference on Machine Learning (ICML) 2020**.
-Apr 2020 | [Volunteered](https://iclr.cc/virtual_2020/index.html#footer) for and attended **International Conference on Learning Representations (ICLR) 2020**.
 Aug 2019 |  Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
-Aug 2019 |  Graduated with MS by Research in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), India
+Jun 2019 |  Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
 May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. \| Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)

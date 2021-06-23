@@ -7,8 +7,6 @@ nav_exclude: True
 
 Listing some of the things on the internet and offline that I enjoy[/ed] in my free time.
 
-**Note**: This list is very incomplete, I will update it soon!
-
 <div align="center" markdown="1">
 
 ### [[Podcasts]](#podcasts) [[Books]](#books) [[Coffee]](#coffee)
@@ -23,10 +21,14 @@ Listing some of the things on the internet and offline that I enjoy[/ed] in my f
 - Humans of AI: Stories, Not Stats with _Devi Parikh_. [[webpage]](https://www.cc.gatech.edu/~parikh/humanstoriesai/)
 - Food, But We Digress by _Alex (French Guy Cooking)_ [[spotify]](
 https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
+- The Anthropocene Reviewed with _John Green_ [[spotify]](https://open.spotify.com/show/3scirzcuaGm02MQ4FUZydq?si=rFJPJFrEQbqZCHoHDnAQLA&dl_branch=1)
+- Women in STEM Career & Confidence by _Hannah Roberts_ [[spotify]](https://open.spotify.com/show/5YDSgcBVq72iqy0YyWONVk?si=_ZGFGQLySkqXkGRPe_rbfA&dl_branch=1)
 
 <hr>
 
 ## Books
+
+Tracking my books in 2021 on [Notion](https://www.notion.so/0e903d43066a434d80ecb6727f940800?v=63c8e3b403ca4796bad33d1c0f4b42df).
 
 ### Fiction
 
