@@ -35,6 +35,7 @@ Over time, I curated some awesome resources for (technical and non-technical par
 
 ### Reviewing Papers
 
+- Amy Tabb's [blog post](https://amytabb.com/ts/2019_06_09/) on how to review technical papers when you've been not taught how!  
 - [Reviewing for dummies](https://drimpossible.github.io/blog/life/reviewing_for_dummies/) blog post on [Ameya Prabhu's](https://drimpossible.github.io/about) webpage.
 - CVPR 2020 tutorial on [How to Write a Good Review](https://sites.google.com/view/making-reviews-great-again)!
 - CVPR 2021 has [training information](http://luthuli.cs.uiuc.edu/~daf/cvPR21trainingmaterials/) for reviewers!
