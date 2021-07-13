@@ -4,8 +4,6 @@ title: The Affective Growth of Computer Vision
 description: summary of CVPR 2021 paper
 ---
 
-# The Affective Growth of Computer Vision
-
 ## Overview
 
 What is the paper about? Why is it important?
@@ -34,7 +32,11 @@ What is the paper about? Why is it important?
 
 - **Positive response** says participants are in awe and delight with how DL has revolutionized nearly every problem in the field. Including 21% with solely positive feelings (sec 4.1)
 
-- <details><summary>**Majority of stories** describe emotions of isolation, anger, apathy and cynicism regarding the growth of discipline and its side effects. (also talk about the increasing competitive nature) (sec 4.2)</summary>
+- <details><summary>
+
+**Majority of stories** describe emotions of isolation, anger, apathy and cynicism regarding the growth of discipline and its side effects. (also talk about the increasing competitive nature) (sec 4.2)
+
+</summary>
 
    - _from scientists to NN technicians_ — people are stuck in deep learning mode of thought
 
