@@ -34,7 +34,6 @@ What is the paper about? Why is it important?
 
 - <details><summary markdown='span'>**Majority of stories** describe emotions of isolation, anger, apathy and cynicism regarding the growth of discipline and its side effects. (also talk about the increasing competitive nature) (sec 4.2)</summary>
 
-  <br markdown='span'>
    - _from scientists to NN technicians_ — people are stuck in deep learning mode of thought
 
    - *paranoia and fatigue over harmful blackboxes* — uncertainty about social ramifications of the system.
