@@ -47,15 +47,15 @@ What is the paper about? Why is it important?
 
 </details>
 
-- <details><summary>Some new advances are both good and bad</summary>
+<details>
+<summary>Some new advances are both good and bad</summary>
 
-   - *newfound opportunities —* students. have more opportunities than ever, and also disregard for such because of vast number of choices
 
-   - *industry reinforcing the DL science —* competitive job market, ill-prepared candidates, frustration over industry funded research problem in academic labs.
+- *newfound opportunities —* students. have more opportunities than ever, and also disregard for such because of vast number of choices
 
-   <br />
+- *industry reinforcing the DL science —* competitive job market, ill-prepared candidates, frustration over industry funded research problem in academic labs.
 
-  </details>
+</details>
 
 ## Summary
 
