@@ -46,7 +46,7 @@ What is the paper about? Why is it important?
 
    <br/>
 
-  </details>
+  </details> | kramdown --parse-block-html
 
 - <details><summary>Some new advances are both good and bad</summary>
 
