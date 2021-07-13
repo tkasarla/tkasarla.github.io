@@ -34,19 +34,17 @@ What is the paper about? Why is it important?
 
 - <details><summary markdown='span'>**Majority of stories** describe emotions of isolation, anger, apathy and cynicism regarding the growth of discipline and its side effects. (also talk about the increasing competitive nature) (sec 4.2) </summary>
 
+  - _from scientists to NN technicians_ — people are stuck in deep learning mode of thought
 
+  - *paranoia and fatigue over harmful blackboxes* — uncertainty about social ramifications of the system.
 
-   - _from scientists to NN technicians_ — people are stuck in deep learning mode of thought
+  - _selective amnesia_ — effective erasure of classical techniques before deep learning
 
-   - *paranoia and fatigue over harmful blackboxes* — uncertainty about social ramifications of the system.
+  - *feeling left behind —* conferences less and less conducive to junior researchers; feeling of insecurity about celebrity culture; competitive environment making researchers feel unwelcome
 
-   - _selective amnesia_ — effective erasure of classical techniques before deep learning
+  - *marginalizing ethics —* ethics doesn't constitute core topics for a large majority in the field.
 
-   - *feeling left behind —* conferences less and less conducive to junior researchers; feeling of insecurity about celebrity culture; competitive environment making researchers feel unwelcome
-
-   - *marginalizing ethics —* ethics doesn't constitute core topics for a large majority in the field.
-
-   <br/>
+  <br/>
 
   </details>
 
