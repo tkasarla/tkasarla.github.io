@@ -32,7 +32,7 @@ I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://ww
 
 I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
 
-<!--I will be joining [VIS lab](https://ivi.fnwi.uva.nl/vislab/) at the [University of Amsterdam](https://www.uva.nl/en) starting October 2021.-->
+I will be joining [VIS lab](https://ivi.fnwi.uva.nl/vislab/) at the [University of Amsterdam](https://www.uva.nl/en) starting October 2021.
 
 
 ***
