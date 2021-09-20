@@ -13,7 +13,7 @@ permalink: /
     <br><br>
     <span style="font-size:larger;"><strong>Tejaswi Kasarla</strong></span><br>
     <span style="font-size:large;">PhD studentr</span> <br>
-    <a href="https://www.bosch.com/research/">University of Amsterdam</a> <br>
+    <a href="https://ivi.fnwi.uva.nl/vislab/">University of Amsterdam</a> <br>
     </div>
 </div>
 
