@@ -12,8 +12,8 @@ permalink: /
     <div class="col-sm-9 col-xs-12">
     <br><br>
     <span style="font-size:larger;"><strong>Tejaswi Kasarla</strong></span><br>
-    <span style="font-size:large;">Computer Vision Researcher</span> <br>
-    <a href="https://www.bosch.com/research/">Robert Bosch</a> <br>
+    <span style="font-size:large;">PhD studentr</span> <br>
+    <a href="https://www.bosch.com/research/">University of Amsterdam</a> <br>
     </div>
 </div>
 
