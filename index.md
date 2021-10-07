@@ -26,7 +26,7 @@ permalink: /
 <a name="/bio"></a>
 
 
-I am interested in problems involving computer vision, machine learning with real world applications. I will be an ELLIS PhD student at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) starting October 2021.
+I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at ELLIS Unit Amsterdam and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).
 
 I worked at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/) for 2.5 years, where I developed data and label-efficient algorithms for autonomous vehicles. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/). Prior to that, I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in), during which I worked on active learning and semantic segmentation ([thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)). I was advised by [C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
 
