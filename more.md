@@ -28,7 +28,7 @@ https://open.spotify.com/show/2byaYb4BvPJaTIJu8OCl4I?si=ND_-3T5TQmuf1YvimcDZlQ)
 
 ## Books
 
-Tracking my books in 2021 on [Notion](https://www.notion.so/0e903d43066a434d80ecb6727f940800?v=63c8e3b403ca4796bad33d1c0f4b42df).
+Tracking my books in 2021&2022 on [Notion](https://www.notion.so/0e903d43066a434d80ecb6727f940800?v=63c8e3b403ca4796bad33d1c0f4b42df).
 
 ### Fiction
 
@@ -62,12 +62,17 @@ Tracking my books in 2021 on [Notion](https://www.notion.so/0e903d43066a434d80ec
 
 ## Coffee
 
-Inspired by coffee pages from other researchers: [Justine Sherry](http://www.justinesherry.com/coffee.html), [Divyansh Kaushik](https://www.cs.cmu.edu/~dkaushik/index.html), [Akshay Narayan](https://akshayn.xyz/coffee.html), I have curated coffees I enjoyed in India.
+Inspired by coffee pages from other researchers: [Justine Sherry](http://www.justinesherry.com/coffee.html), [Divyansh Kaushik](https://www.cs.cmu.edu/~dkaushik/index.html), [Akshay Narayan](https://akshayn.xyz/coffee.html), I have curated coffees I enjoyed in India and Amsterdam.
 
 
-### Favorite coffee roasters
+### Amsterdam
+- Rum Baba Coffee Roasters
 
-I mainly brew with Aeropress, however, I sometimes enjoy French Press and (*every coffee connoisseur's nightmare*) instant coffee! I get coffee pre-ground until I decide to buy a hand grinder.
+### India
+
+#### Favorite coffee roasters
+
+I mainly brew with Aeropress and Mokapot!
 
 - Third Wave Coffee Roasters
 - Blue Tokai Coffee Roasters
@@ -75,26 +80,26 @@ I mainly brew with Aeropress, however, I sometimes enjoy French Press and (*ever
 - KC Roasters
 - _Instant Coffee_ from VS Mani Co.
 
-### Favorite cafes
+#### Favorite cafes
 
 I like these cafes for both the coffee selection and the foods they have. I have enjoyed both brewed specialty coffee and cappuccinos at these places.
 
-#### Bangalore
+##### Bangalore
 
 - **Blue Tokai Coffee Roasters**. They source wonderful sourdough breads from Sour House India and have quite a delicious selection of open toasts.
 - **Third Wave Coffee Roasters**. Their selection of classic bagels is a perfect addition to your coffee.
 - **Dyu Art Cafe**. A pretty location and beautiful interiors. Their scrambled eggs are exactly how scrambled eggs are supposed to be: light and fluffly!
 
 
-#### Hyderabad
+##### Hyderabad
 
 - **Roastery Coffee House**.
 - **Eclaire Patisserie**.
 - (Bonus) **Feranoz**. The *best* patisserie in the city, their cakes and desserts are the best I've tasted so far! They have a good selection of coffee and freshly brewed teas to go with your desserts.
 
-#### Kochi
+##### Kochi
 *to-be-updated*
-#### Pondicherry
+##### Pondicherry
 *to-be-updated*
 
 Note: If you want general recommendations for best foods to try and best places to eat in Bangalore and Hyderabad (and not just cafes), drop me a [message](https://twitter.com/tkasarla_).
