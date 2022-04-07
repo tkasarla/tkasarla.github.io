@@ -32,6 +32,8 @@ Over time, I curated some awesome resources for (technical and non-technical par
 - [Reading primary literature](https://caitkirby.com/resources/reading-primary-literature.html) by Cait Kirby. It's a short 1 page infographic on how to read papers.  
 - [How to seriously read a scientific paper](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) by Science Magazine!
 
+### Giving Good Presentations!
+- [Talks that don't suck](https://www.youtube.com/watch?v=Rfo5dFD3DLQ) by Cyrill Stachniss.
 
 ### Reviewing Papers
 
@@ -46,6 +48,8 @@ Over time, I curated some awesome resources for (technical and non-technical par
 - The very popular time management post, [Calendars. Not to-do lists](https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd) by [Devi Parikh](https://www.cc.gatech.edu/~parikh/)! A short trail run of this while applying to PhD positions proved it very useful for me. Plan to implement it more in the future.
 
 ### Applying to Grad School in CS
+
+- [A pragmatic guide to PhD programs](https://gautamcgoel.substack.com/p/a-pragmatic-guide-to-phd-programs) by [Gautam Goel](https://twitter.com/gautamcgoel)
 
 - [Krishna Murthy](http://krrish94.github.io) writes about grad school application [advice](http://krrish94.github.io/blog/gradschool-pick-school/) focusing on different factors that give a holistic view on choosing a school and advisor based on what is important to you.
 
