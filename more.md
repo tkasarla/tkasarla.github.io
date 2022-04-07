@@ -67,6 +67,7 @@ Inspired by coffee pages from other researchers: [Justine Sherry](http://www.jus
 
 ### Amsterdam
 - Rum Baba Coffee Roasters
+- Simon Levelt _has a large selection of good quality coffees and teas_
 
 ### India
 
