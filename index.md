@@ -41,7 +41,7 @@ I am one of the organizers of [Women in Computer Vision Workshop](https://sites.
 # news
 
 Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
-Oct 2021 | We organized the [Women in Computer Vision] Social at ICCV 2021!
+Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021!
 Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
 Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live). ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
