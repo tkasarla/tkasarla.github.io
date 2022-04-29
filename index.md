@@ -30,7 +30,7 @@ I am interested in problems involving computer vision, machine learning with rea
 
 I worked at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/) for 2.5 years, where I developed data and label-efficient algorithms for autonomous vehicles. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/). Prior to that, I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in), during which I worked on active learning and semantic segmentation ([thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)). I was advised by [C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
 
-I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), to be co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
+I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
 
 
 
@@ -41,6 +41,7 @@ I am one of the organizers of [Women in Computer Vision Workshop](https://sites.
 # news
 
 Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
+Oct 2021 | We organized the [Women in Computer Vision] Social at ICCV 2021!
 Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
 Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live). ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
@@ -87,11 +88,10 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 # scientific outreach
 
-- **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021
-- **_Organizer:_** Whiteboard Talks, Robert Bosch (ongoing). _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
+- **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021 and CVPR 2022
+- **_Organizer:_** Whiteboard Talks, Robert Bosch. _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
 - **_Volunteer:_** NeurIPS 2020, ICML 2020, [ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
-- **_Talks:_** _\<to-be-updated\>_
 
 
 
