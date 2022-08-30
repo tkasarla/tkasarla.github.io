@@ -6,40 +6,65 @@ nav_order: 1
 permalink: /
 ---
 <div class="row">
+
     <div class="col-sm-3 col-xs-12">
-        <img src="/assets/images/profile_photo.png" style="border-radius:50%">
+      <img src="/assets/images/profile_photo.png" width="85%" style="border-radius:15px" >
+      <!-- <span style="font-size:large;"><strong>Tejaswi Kasarla</strong></span><br> -->
+      <!-- <span style="font-size:large;">PhD student</span> <br> -->
+      <!-- <a href="https://ivi.fnwi.uva.nl/vislab/">University of Amsterdam</a> <br> -->
+      <p align="left"> <b><a href="mailto:t.kasarla@uva.nl"><img src="assets/icons/email.png" height="20px" width = "20px"> </a></b> | <b><a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer"><img src="assets/icons/gs.png" height="20px" width = "20px"></a></b> | <b><a href="cv.html"><img src="assets/icons/cv.png" height="20px" width = "20px"></a></b> | <b><a href="https://github.com/tkasarla" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github.png" height="20px" width = "20px"></a></b> | <b><a href="https://www.linkedin.com/in/tejaswikasarla/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin.png" height="20px" width = "20px"> </a></b> </p>
+
+      <p align="center"> <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 182px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.9d00f3a022654eb8edfbc3190e981f9d.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=tkasarla_&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1661827941003" data-screen-name="tkasarla_">
+      </iframe><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </p>
+
     </div>
+
     <div class="col-sm-9 col-xs-12">
-    <br><br>
-    <span style="font-size:larger;"><strong>Tejaswi Kasarla</strong></span><br>
-    <span style="font-size:large;">PhD student</span> <br>
-    <a href="https://ivi.fnwi.uva.nl/vislab/">University of Amsterdam</a> <br>
+
+    <p markdown="1">
+
+    I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).
+
+
+      </p>
+
+
+    <p markdown="1">
+      I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
+
+      </p>
+
+      <p class="past-research" markdown="1">
+
+      I worked at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/) for 2.5 years, where I developed data and label-efficient algorithms for autonomous vehicles. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/). Prior to that, I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in), during which I worked on active learning and semantic segmentation ([thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)). I was advised by [C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
+
+      </p>
+
+      <div id="past-research-button" style="align:center">
+          <a nohref style="color:gray; align:center">↓ research before PhD</a>
+      </div>
+      <div id="close-button">
+          <a nohref style="color:gray ; align:center"> ↑ close </a>
+      </div>
+
+
+
     </div>
+
 </div>
 
 
-<!--<img src="/assets/images/profile_photo.png" alt="Tejaswi Kasarla" width="200" style="vertical-align:middle;horizontal-align:right;border-radius:50%"> | <img width="500"/> <span style="font-size:larger;">Computer Vision Researcher</span> <br> [Bosch](https://www.bosch.com/research/)-->
-
-
-<hr>
-
-<a name="/bio"></a>
-
-
-I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).
-
-I worked at [Research and Technology Center, Bosch](https://www.bosch.com/research/about-research/research-locations/) for 2.5 years, where I developed data and label-efficient algorithms for autonomous vehicles. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/). Prior to that, I graduated with a Master's in Computer Science from [IIIT-Hyderabad](https://www.iiit.ac.in), during which I worked on active learning and semantic segmentation ([thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)). I was advised by [C. V. Jawahar](http://faculty.iiit.ac.in/~jawahar/) and [Vineeth N. Balasubramanian](https://www.iith.ac.in/~vineethnb/).
-
-I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing drums and ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
 
 
 
 
-***
 <a name="/news"></a>
 
-# news
+# highlights
 
+Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
+Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
 Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
 Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021!
 Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
@@ -52,18 +77,38 @@ Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Sem
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
 
-<div id="read-more-button">
-    <a nohref>+ more</a>
+<!-- <a href="" class="read-more">Read More</a> -->
+
+<!-- <div id="read-more-button">
+    <a nohref style="color:gray">↓ more</a>
 </div>
 <div id="read-less-button">
-    <a nohref>- less</a>
-</div>
-***
+    <a nohref style="color:gray">↑ less</a>
+</div> -->
+
+
 <a name="/publications"></a>
 
 # publications
 
-_Region-Based Active Learning for Efficient Labelling in Semantic Segmentation_. **Tejaswi Kasarla**, G Nagendar, Guruprasad Hegde, Vineeth N. Balasubramanian, C.V. Jawahar. WACV 2019
+_Maximum Class Separation as Inductive Bias in One Matrix_, **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/). arXiv preprint.
+<div>
+[<a href="https://arxiv.org/abs/2206.08704">paper</a>]
+<span class="bibtex"> [<a>bibtex</a>] </span> <br />  
+<span hidden class="abstract-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; font-size: 10pt; text-align: justify"> Maximizing the separation between classes constitutes a well-known inductive bias in machine learning and a pillar of many traditional algorithms. By default, deep networks are not equipped with this inductive bias and therefore many alternative solutions have been proposed through differential optimization. Current approaches tend to optimize classification and separation jointly: aligning inputs with class vectors and separating class vectors angularly. This paper proposes a simple alternative: encoding maximum separation as an inductive bias in the network by adding one fixed matrix multiplication before computing the softmax activations. The main observation behind our approach is that separation does not require optimization but can be solved in closed-form prior to training and plugged into a network. We outline a recursive approach to obtain the matrix consisting of maximally separable vectors for any number of classes, which can be added with negligible engineering effort and computational overhead. Despite its simple nature, this one matrix multiplication provides real impact. We show that our proposal directly boosts classification, long-tailed recognition, out-of-distribution detection, and open-set recognition, from CIFAR to ImageNet. We find empirically that maximum separation works best as a fixed bias; making the matrix learnable adds nothing to the performance. The closed-form implementation and code to reproduce the experiments are on github. </span>
+<span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display: block; font-size: 10pt; text-align:justify">
+@article{kasarla2022maximum, <br>
+title={Maximum Class Separation as Inductive Bias in One Matrix}, <br>
+author={Kasarla, Tejaswi and Burghouts, Gertjan J and van Spengler, Max and van der Pol, Elise and Cucchiara, Rita and Mettes, Pascal}, <br>
+journal={arXiv preprint arXiv:2206.08704}, <br>
+year={2022} <br>
+}
+</span>
+<span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display: block; font-size: 10pt; text-align:justify">
+</span>
+</div>
+<br>
+_Region-Based Active Learning for Efficient Labelling in Semantic Segmentation_. **Tejaswi Kasarla**, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113), [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a), [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). WACV 2019
 <div>
 [<a href="https://ieeexplore.ieee.org/document/8659293">paper</a>]
 [<a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing">supplementary</a>]
@@ -89,7 +134,8 @@ Using the proposed active learning strategy, we show that we are able to judicio
 # scientific outreach
 
 - **_General Chair_**, Women in Computer Vision Workshop (WiCV), CVPR 2021 and CVPR 2022
-- **_Organizer:_** Whiteboard Talks, Robert Bosch. _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
+- **_Organizer_**, Women in Computer Vision Social, ICCV 2021.
+- **_Organizer:_** Whiteboard Talks, Robert Bosch 2020-2021. _A bi-weekly talk series discussing research, engineering and other ongoing topics at Corporate Research, Robert Bosch, India_
 - **_Reviewer:_** WiML Workshop @ NeurIPS 2019
 - **_Volunteer:_** NeurIPS 2020, ICML 2020, [ICLR 2020](https://iclr.cc/virtual_2020/index.html#footer), ICVGIP 2018
 
@@ -102,11 +148,11 @@ Using the proposed active learning strategy, we show that we are able to judicio
 </script>
 
 
-<script type="text/javascript">
-    $('tr:gt(5)').hide();
+<!-- <script type="text/javascript">
+    $('tr:gt(3)').hide();
     $('#read-less-button').hide();
     $('#read-more-button > a').click(function() {
-        $('tr:gt(5)').show();
+        $('tr:gt(3)').show();
         $('#read-less-button').show();
         $('#read-more-button').hide();
 
@@ -115,11 +161,34 @@ Using the proposed active learning strategy, we show that we are able to judicio
 
 <script type="text/javascript">
     $('#read-less-button > a').click(function() {
-        $('tr:gt(5)').hide();
+        $('tr:gt(3)').hide();
         $('#read-more-button').show();
         $('#read-less-button').hide();
     });
+</script> -->
+
+
+<script type="text/javascript">
+    $('p.past-research').hide();
+    $('#close-button').hide();
+    $('#past-research-button > a').click(function() {
+        $('p.past-research').show();
+        $('#close-button').show();
+        $('#past-research-button').hide();
+
+    });
 </script>
+
+<script type="text/javascript">
+    $('#close-button > a').click(function() {
+        $('p.past-research').hide();
+        $('#past-research-button').show();
+        $('#close-button').hide();
+    });
+</script>
+
+
+
 
 <script>
 $(document).ready(function(){
@@ -134,12 +203,4 @@ $(document).ready(function(){
     $(this).parent().find(".bibtex-hidden").toggle();
   });
 });
-</script>
-
-<script type="text/javascript">
-    $('tr:gt(0) tr:gt(12)').hide();
-    $('#read-more-button > a').click(function() {
-        $('ul:gt(0) li:gt(12)').show();
-        $('#read-more-button').hide();
-    });
 </script>

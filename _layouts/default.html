@@ -2,8 +2,7 @@
 
 <html lang="en-us">
 {% include head.html %}
-
-  <div class="page-wrap">
+  <!-- <div class="page-wrap">
     <div class="side-bar">
       <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-6 lh-tight">{{ site.title }}</a>
       <span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
@@ -13,10 +12,13 @@
       <footer role="contentinfo" class="site-footer">
         <p class="text-small text-grey-dk-000 mb-0">Tejaswi Kasarla (c) 2018</p>
       </footer>
-    </div>
+    </div> -->
     <div class="main-content-wrap">
+
+
       <div class="page-header">
         <div class="main-content">
+          <a href="{{ site.url }}{{ site.baseurl }}" class="site-title fs-7 lh-tight"> <b> {{site.first_name}} </b>{{ site.last_name}}</a>
           {% if site.search_enabled != nil %}
           <div class="search js-search">
             <div class="search-input-wrap">

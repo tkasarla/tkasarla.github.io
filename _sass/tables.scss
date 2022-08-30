@@ -10,7 +10,7 @@ table {
   margin-bottom: $sp-5;
   overflow-x: auto;
   border-collapse: separate;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 14px rgba(0, 0, 0, 0.02);
 
   @include mq(sm) {
     display: table;
@@ -20,14 +20,14 @@ table {
 th,
 td {
   @include fs-3;
-  min-width: 120px;
+  min-width: 150px;
   padding-top: $sp-2;
   padding-right: $sp-3;
   padding-bottom: $sp-2;
   padding-left: $sp-3;
   background-color: lighten($body-background-color, 2%);
-  border-bottom: $border rgba($border-color, 0.5);
-  border-left: $border $border-color;
+  // border-bottom: $border rgba($border-color, 0.5);
+  // border-left: $border $border-color;
 
   &:first-of-type {
     border-left: 0;
@@ -53,6 +53,9 @@ tbody:first-child {
 }
 
 tbody {
+    overflow-y: scroll;
+    display: block;
+    height: 150px;
   tr {
     &:last-of-type {
       th,
