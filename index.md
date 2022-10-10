@@ -8,15 +8,9 @@ permalink: /
 <div class="row">
 
     <div class="col-sm-3 col-xs-12">
-      <img src="/assets/images/profile_photo.png" width="85%" style="border-radius:15px" >
-      <!-- <span style="font-size:large;"><strong>Tejaswi Kasarla</strong></span><br> -->
-      <!-- <span style="font-size:large;">PhD student</span> <br> -->
-      <!-- <a href="https://ivi.fnwi.uva.nl/vislab/">University of Amsterdam</a> <br> -->
-      <p align="left"> <b><a href="mailto:t.kasarla@uva.nl"><img src="assets/icons/email.png" height="20px" width = "20px"> </a></b> | <b><a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer"><img src="assets/icons/gs.png" height="20px" width = "20px"></a></b> | <b><a href="cv.html"><img src="assets/icons/cv.png" height="20px" width = "20px"></a></b> | <b><a href="https://github.com/tkasarla" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github.png" height="20px" width = "20px"></a></b> | <b><a href="https://www.linkedin.com/in/tejaswikasarla/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin.png" height="20px" width = "20px"> </a></b> </p>
+      <img src="/assets/images/profile_photo.png" width="85%" style="border-radius:15px" align="center">
 
-      <p align="center"> <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 182px; height: 20px;" title="Twitter Follow Button" src="https://platform.twitter.com/widgets/follow_button.9d00f3a022654eb8edfbc3190e981f9d.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=tkasarla_&amp;show_count=false&amp;show_screen_name=true&amp;size=m&amp;time=1661827941003" data-screen-name="tkasarla_">
-      </iframe><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </p>
+      <p align="center"> <b><a href="mailto:t.kasarla@uva.nl"><img src="assets/icons/email.png" height="20px" width = "20px"> </a></b> | <b><a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener noreferrer"><img src="assets/icons/gs.png" height="20px" width = "20px"></a></b> | <b><a href="cv.html"><img src="assets/icons/cv.png" height="20px" width = "20px"></a></b> | <b><a href="https://github.com/tkasarla" target="_blank" rel="noopener noreferrer"><img src="assets/icons/github.png" height="20px" width = "20px"></a></b> | <b><a href="https://www.linkedin.com/in/tejaswikasarla/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin.png" height="20px" width = "20px"> </a></b> | <b><a href="https://twitter.com/tkasarla_" target="_blank" rel="noopener noreferrer"><img src="assets/icons/twitter.png" height="20px" width = "20px"> </a></b> </p>
 
     </div>
 
@@ -31,7 +25,7 @@ permalink: /
 
 
     <p markdown="1">
-      I am one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
+      I was one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
 
       </p>
 
@@ -55,14 +49,12 @@ permalink: /
 </div>
 
 
-
-
-
-
 <a name="/news"></a>
 
 # highlights
 
+Sep 2022 | I attended the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
+Sep 2022 | Our work on Maximum Separation is accepted to NeurIPS 2022! I will be presenting this work at the conference and the Women in Machine Learning workshop.
 Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
 Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
 Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
@@ -77,24 +69,18 @@ Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Sem
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
 
-<!-- <a href="" class="read-more">Read More</a> -->
-
-<!-- <div id="read-more-button">
-    <a nohref style="color:gray">↓ more</a>
-</div>
-<div id="read-less-button">
-    <a nohref style="color:gray">↑ less</a>
-</div> -->
 
 
 <a name="/publications"></a>
 
 # publications
 
-_Maximum Class Separation as Inductive Bias in One Matrix_, **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/). arXiv preprint.
+_Maximum Class Separation as Inductive Bias in One Matrix_. **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/). **NeurIPS 2022**.
+
 <div>
+<span class="abstract"> [<a>abstract</a>]</span>
 [<a href="https://arxiv.org/abs/2206.08704">paper</a>]
-<span class="bibtex"> [<a>bibtex</a>] </span> <br />  
+<span class="bibtex"> [<a>bibtex</a>] </span>
 <span hidden class="abstract-hidden" style="border: 1px solid black; border-style: dashed; display:inline-block; font-size: 10pt; text-align: justify"> Maximizing the separation between classes constitutes a well-known inductive bias in machine learning and a pillar of many traditional algorithms. By default, deep networks are not equipped with this inductive bias and therefore many alternative solutions have been proposed through differential optimization. Current approaches tend to optimize classification and separation jointly: aligning inputs with class vectors and separating class vectors angularly. This paper proposes a simple alternative: encoding maximum separation as an inductive bias in the network by adding one fixed matrix multiplication before computing the softmax activations. The main observation behind our approach is that separation does not require optimization but can be solved in closed-form prior to training and plugged into a network. We outline a recursive approach to obtain the matrix consisting of maximally separable vectors for any number of classes, which can be added with negligible engineering effort and computational overhead. Despite its simple nature, this one matrix multiplication provides real impact. We show that our proposal directly boosts classification, long-tailed recognition, out-of-distribution detection, and open-set recognition, from CIFAR to ImageNet. We find empirically that maximum separation works best as a fixed bias; making the matrix learnable adds nothing to the performance. The closed-form implementation and code to reproduce the experiments are on github. </span>
 <span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display: block; font-size: 10pt; text-align:justify">
 @article{kasarla2022maximum, <br>
@@ -104,11 +90,13 @@ journal={arXiv preprint arXiv:2206.08704}, <br>
 year={2022} <br>
 }
 </span>
-<span hidden class="bibtex-hidden" style="border: 1px solid black; border-style: dashed; display: block; font-size: 10pt; text-align:justify">
-</span>
+
 </div>
+
 <br>
-_Region-Based Active Learning for Efficient Labelling in Semantic Segmentation_. **Tejaswi Kasarla**, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113), [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a), [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). WACV 2019
+
+_Region-Based Active Learning for Efficient Labelling in Semantic Segmentation_. **Tejaswi Kasarla**, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113), [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a), [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/). **WACV 2019**
+
 <div>
 [<a href="https://ieeexplore.ieee.org/document/8659293">paper</a>]
 [<a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing">supplementary</a>]

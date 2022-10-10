@@ -22,7 +22,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 markdown: kramdown
 #permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
-
+logo: "/assets/icon/logo.jpg"
 # Enable or disable the site search
 #search_enabled: false
 
