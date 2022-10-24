@@ -8,7 +8,7 @@ table {
   width: 100%;
   max-width: 100%;
   margin-bottom: $sp-5;
-  overflow-x: auto;
+  // overflow-x: auto;
   // overflow-y: auto;
   border-collapse: separate;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 14px rgba(0, 0, 0, 0.02);
@@ -54,7 +54,7 @@ tbody:first-child {
 }
 
 tbody {
-    overflow-x: hidden;
+    // overflow-x: hidden;
     overflow-y: scroll;
     display: block;
     width: 100%;
