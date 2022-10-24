@@ -53,7 +53,7 @@ permalink: /
 
 # highlights
 
-Sep 2022 | I attended the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
+Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
 Sep 2022 | Our work on Maximum Separation is accepted to NeurIPS 2022! I will be presenting this work at the conference and the Women in Machine Learning workshop.
 Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
 Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
