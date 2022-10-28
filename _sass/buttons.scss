@@ -1,6 +1,4 @@
-//
 // Buttons and things that look like buttons
-//
 // stylelint-disable color-named
 
 .btn {
@@ -21,7 +19,7 @@
   cursor: pointer;
   background-color: $base-button-color;
   border-width: 0;
-  border-radius: 3px;
+  border-radius: $border-radius;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   appearance: none;
 
@@ -115,34 +113,4 @@
 
 .btn-green {
   @include btn-color($white, $green-100);
-}
-
-
-#read-more-button {
-  text-align: center;
-  margin-top: -90px;
-  padding-top: 80px;
-  height: 110px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1.0));
-  position: relative;
-  z-index: 2;
-}
-
-#read-more-button > a {
-  cursor: pointer;
-}
-
-#read-less-button {
-
-  text-align: center;
-  margin-top: -90px;
-  padding-top: 80px;
-  height: 110px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
-  position: relative;
-  z-index: 2;
-}
-
-#read-less-button > a {
-  cursor: pointer;
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Constrained Policy Optimization 
+title: Constrained Policy Optimization
 header-img: "img/code-front-end.jpg"
 description: summary of the paper Constrained Policy Optimization, <strong>ICML 2017</strong> from <i>Joshua Achiam et.al., Berkeley AI Research</i>
 
@@ -24,5 +24,3 @@ Another example of local policy search is policy gradients, explained well in An
 In [Trust Region](https://arxiv.org/abs/1502.05477) method, each new policy has to be close to the old one in terms of average KL-divergence. Since policies output probability distrbution over actions, and KL-divergence measures how different two probability distributions are over each other, this seems a *natural* way to update policies.
 
 CPO also uses trust region method of updating policies, and is for constrained RL which approximately enforces constraints in every policy update.It uses approximations of the constraints to predict how much the constraint costs might change after any given update, and then chooses the update that will most improve performance while keeping the constraint costs below their limits.
-
-
