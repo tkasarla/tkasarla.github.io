@@ -6,12 +6,17 @@ description: "PhD Student, University of Amsterdam"
 permalink: /
 ---
 
-![Profile Photo](assets/images/profile_photo.png){: .float-left width="25%" style="border-radius:15px" .mr-4}  
+![Drag Racing](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
+
 
 I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).  
-{: style="text-align: justify"}
+{: .flex-justify-around style="text-align: justify" }
 I was one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
-{: style="text-align: justify"}
+{: .flex-justify-around style="text-align: justify"}
+
+[![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) \| [![Google Scholar](assets/images/gs.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} \| [![CV](assets/images/cv.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](cv.html) \| [![Github](assets/images/github.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} \| [![LinkedIn](assets/images/linkedin.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} \| [![Twitter](assets/images/twitter.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
+
+&nbsp;
 
 
 # highlights
@@ -44,8 +49,10 @@ Maximum Class Separation as Inductive Bias in One Matrix
 NeurIPS 2022 [(Oral)](){: .text-red-300}
 
 <span class="fs-3">
-[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline target="_blank" }
+[project page](2022/08/22/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } 
 </span>
+
+
 
 <span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  

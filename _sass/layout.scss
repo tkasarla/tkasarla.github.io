@@ -76,7 +76,7 @@
   width: 100%;
 
   @include mq(lg) {
-    width: $nav-width;
+    width: $nav-width-md ; //tkasarla: $nav-width
   }
 }
 
