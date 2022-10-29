@@ -11,7 +11,7 @@ permalink: /
 
 I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).  
 {: .flex-justify-around style="text-align: justify" }
-I was one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art.html)!
+I was one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
 {: .flex-justify-around style="text-align: justify"}
 
 [![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) \| [![Google Scholar](assets/images/gs.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} \| [![CV](assets/images/cv.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](cv.html) \| [![Github](assets/images/github.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} \| [![LinkedIn](assets/images/linkedin.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} \| [![Twitter](assets/images/twitter.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
@@ -45,11 +45,11 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 <span class="fs-5">
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
- Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300}  
+ Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
 NeurIPS 2022 [(Oral)](){: .text-red-300}
 
 <span class="fs-3">
-[project page](2022/08/22/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } 
+[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
 </span>
 
 
@@ -57,9 +57,9 @@ NeurIPS 2022 [(Oral)](){: .text-red-300}
 <span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
 </span>
-Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){: .text-grey-dk-300}, [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a){: .text-grey-dk-300}, [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/){: .text-grey-dk-300}, [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/){: .text-grey-dk-300}  
+Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){: .text-grey-dk-300 target="_blank"}, [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a){: .text-grey-dk-300 target="_blank"}, [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/){: .text-grey-dk-300 target="_blank"}, [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/){: .text-grey-dk-300 target="_blank"}  
 WACV 2019
 
 <span class="fs-3">
-[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"}
+[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline fn-bibtex">bibtex</button>{: .v-align-top}
 </span>
