@@ -21,15 +21,16 @@ I was one of the organizers of [Women in Computer Vision Workshop](https://sites
 
 # highlights
 
+Nov 2022 | Teaching Assistant for Applied Machine Learning course
 Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
-Sep 2022 | Our work on Maximum Separation is accepted to NeurIPS 2022 ! I will be presenting this work at the conference and the Women in Machine Learning workshop.
+Sep 2022 | Our work on Maximum Separation is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference and the Women in Machine Learning workshop.
 Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
 Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
 Nov 2021 | Teaching Assistant for Applied Machine Learning course
 Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
 Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021!
 Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
-Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live). ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions.
+<!-- Nov 2020 | I was featured on [ResearcHers Code](https://www.researcherscode.com/twitter-contributors) [twitter](https://twitter.com/search?q=from%3AResearchersCode%20since%3A2020-11-02%20until%3A2020-11-09&src=typed_query&f=live). ResearcHers Code is an international community supporting cis & trans women & non-binary working in computational sciences, technology and research. I talked about my research and other related topics like SciComm, PhD admissions. -->
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
 Aug 2019 |  Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
 Jun 2019 |  Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
