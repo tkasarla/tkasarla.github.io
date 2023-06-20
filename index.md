@@ -6,12 +6,12 @@ description: "PhD Student, University of Amsterdam"
 permalink: /
 ---
 
-![Drag Racing](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
+![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
 
-I am interested in problems involving computer vision, machine learning with real world applications. I am a first-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).  
+I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).  
 {: .flex-justify-around style="text-align: justify" }
-I was one of the organizers of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
+I was one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
 {: .flex-justify-around style="text-align: justify"}
 
 [![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) \| [![Google Scholar](assets/images/gs.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} \| [![CV](assets/images/cv.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](/cv) \| [![Github](assets/images/github.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} \| [![LinkedIn](assets/images/linkedin.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} \| [![Twitter](assets/images/twitter.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
@@ -23,7 +23,7 @@ I was one of the organizers of [Women in Computer Vision Workshop](https://sites
 
 Nov 2022 | Teaching Assistant for Applied Machine Learning course
 Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
-Sep 2022 | Our work on Maximum Separation is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference and the Women in Machine Learning workshop.
+Sep 2022 | Our work on [Maximum Separation](https://arxiv.org/abs/2206.08704) is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference. I will also present this work as a contributed talk at the Women in Machine Learning workshop.
 Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
 Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
 Nov 2021 | Teaching Assistant for Applied Machine Learning course
@@ -52,7 +52,7 @@ NeurIPS 2022 [(Oral)](){: .text-red-300}
 Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
 {: .text-dk-gray-300 .fs-3}
 <span class="fs-3">
-[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
 </span>  
 
 
