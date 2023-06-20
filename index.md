@@ -9,7 +9,7 @@ permalink: /
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
 
-I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/) and [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara).  
+I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is supported by the [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/).
 {: .flex-justify-around style="text-align: justify" }
 I was one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
 {: .flex-justify-around style="text-align: justify"}
