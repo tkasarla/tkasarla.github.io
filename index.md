@@ -9,17 +9,19 @@ permalink: /
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
 
-I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning). My research is supported by the [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/).
+I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning){: target="_blank"}. My research is supported by the [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/).
 {: .flex-justify-around style="text-align: justify" }
 I was one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
 {: .flex-justify-around style="text-align: justify"}
 
+<p markdown="1" align="center">
 [![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) \| [![Google Scholar](assets/images/gs.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} \| [![CV](assets/images/cv.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](/cv) \| [![Github](assets/images/github.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} \| [![LinkedIn](assets/images/linkedin.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} \| [![Twitter](assets/images/twitter.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
+</p>
 
-&nbsp;
 
 
 # highlights
+
 Jul 2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023 and NeurIPS 2023.
 Nov 2022 | Teaching Assistant for Applied Machine Learning course.
 Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
@@ -37,7 +39,6 @@ May 2019 | Started working as Computer Vision Researcher at **Research and Techn
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
-
 
 
 # publications
