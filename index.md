@@ -8,8 +8,7 @@ permalink: /
 
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
-
-I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning){: target="_blank"}. My research is supported by the [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/).
+I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage prior knowledge and inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning){: target="_blank"}. 
 {: .flex-justify-around style="text-align: justify" }
 I was one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele, [reading books](/more.html) and occasionally, exploring some [computational art](/art)!
 {: .flex-justify-around style="text-align: justify"}
@@ -47,7 +46,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
  Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
-NeurIPS 2022 [(Oral)](){: .text-red-300}
+NeurIPS 2022 [(Oral -- top 0.08%)](){: .text-red-300}
 {: .fs-4}  
 Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
 {: .text-dk-gray-300 .fs-3}
