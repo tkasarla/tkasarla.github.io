@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 gemspec
 
-gem "webrick", ">= 2.2.8"
+gem "webrick", "1.8.1"
