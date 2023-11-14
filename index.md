@@ -8,7 +8,7 @@ permalink: /
 
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
-I am interested in problems involving computer vision, machine learning with real world applications. I am a second-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage prior knowledge and inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning){: target="_blank"}. 
+I am interested in problems involving computer vision and machine learning with real world applications. I am a third-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). During my PhD, I will explore _how to leverage prior knowledge and inductive biases in learning visual data_, and if that intersts you, read more about my thesis topic on the ELLIS [website](https://ellis.eu/projects/inductive-and-semantic-priors-for-categorization-in-deep-learning){: target="_blank"}. 
 {: .flex-justify-around style="text-align: justify" }
 I was one of the chairs of [Women in Computer Vision Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). In my free time, I enjoy playing ukulele and [reading books](/more.html)!
 {: .flex-justify-around style="text-align: justify"}
@@ -27,7 +27,7 @@ I was one of the chairs of [Women in Computer Vision Workshop](https://sites.goo
 # highlights
 
 
-2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2023. 
+2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2024. 
 Nov 2022 | Teaching Assistant for Applied Machine Learning course.
 Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
 Sep 2022 | Our work on [Maximum Separation](https://arxiv.org/abs/2206.08704) is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference. I will also present this work as a contributed talk at the Women in Machine Learning workshop.
