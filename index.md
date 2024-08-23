@@ -49,6 +49,16 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 # publications
 
 <span class="fs-5">
+Maximally Separated Active Learning   
+</span>
+ Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
+ECCV 2024 [Beyond Euclidean Workshop](https://sites.google.com/view/beyondeuclidean/home)
+{: .fs-4}  
+<span class="fs-3">
+[code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" }
+</span>  
+
+<span class="fs-5">
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
  Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
@@ -59,7 +69,6 @@ Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml202
 <span class="fs-3">
 [project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
 </span>  
-
 
 
 
