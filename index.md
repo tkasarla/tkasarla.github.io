@@ -59,6 +59,17 @@ ECCV 2024 [Beyond Euclidean Workshop](https://sites.google.com/view/beyondeuclid
 </span>  
 
 <span class="fs-5">
+Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
+</span>
+[Judith Dijk](https://www.linkedin.com/in/judith-dijk){: .text-grey-dk-300 target="_blank"}, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Kapil D. Katyal](https://kdk132.github.io){: .text-grey-dk-300 target="_blank"}, [Bryanna Y. Yeh](https://www.linkedin.com/in/byyeh/){: .text-grey-dk-300 target="_blank"}, [Craig T. Knuth](https://www.linkedin.com/in/craig-knuth/){: .text-grey-dk-300 target="_blank"}, [Ella Fokkinga](https://www.linkedin.com/in/ellafokkinga){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
+ICRA 2024 [Workshop on Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/)
+{: .fs-4}  
+<span class="fs-3">
+[paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" }
+</span>  
+
+
+<span class="fs-5">
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
  Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
