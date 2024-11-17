@@ -17,11 +17,11 @@ I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https:
 [![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) \| [![Google Scholar](assets/images/gs.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} \| [![CV](assets/images/cv.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](/cv) \| [![Github](assets/images/github.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} \| [![LinkedIn](assets/images/linkedin.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} \| [![Twitter](assets/images/twitter.png){: .ml-2 width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
 </p>
 
-<!-- <p markdown=1 align="center" style="color:#FF3300">
+<p markdown=1 align="center" style="color:#FF3300">
 
-&rarr; Currently looking for reserch internships starting summer 2024 &larr;
+&rarr; Currently looking for reserch internships starting spring/summer 2025 &larr;
 
-</p> -->
+</p>
 
 
 # highlights
