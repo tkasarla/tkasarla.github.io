@@ -49,6 +49,17 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 # publications
 
 <span class="fs-5">
+Hyperbolic Safety-Aware Vision-Language Models  
+</span>
+ Tobia Poppi(https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}*, Tejaswi Kasarla*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"},   
+CVPR 2025 [(Highlight)](){: .text-red-300}
+{: .fs-4}  
+<span class="fs-3">
+[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+</span>  
+
+
+<span class="fs-5">
 Maximally Separated Active Learning   
 </span>
  Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
