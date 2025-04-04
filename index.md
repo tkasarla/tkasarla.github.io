@@ -51,7 +51,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 <span class="fs-5">
 Hyperbolic Safety-Aware Vision-Language Models  
 </span>
- Tobia Poppi(https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}\*, Tejaswi Kasarla\*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}   
+[Tobia Poppi](https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}\*, Tejaswi Kasarla\*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}   
 CVPR 2025 [(Highlight)](){: .text-red-300}
 {: .fs-4}  
 <span class="fs-3">
