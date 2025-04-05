@@ -84,7 +84,7 @@ ICRA 2024 [Workshop on Resilient Off-road Autonomy](https://theairlab.org/icra20
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
  Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
-NeurIPS 2022 [(Oral -- top 0.08%)](){: .text-red-300}
+NeurIPS 2022 [(Oral)](){: .text-red-300}
 {: .fs-4}  
 Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
 {: .text-dk-gray-300 .fs-3}
