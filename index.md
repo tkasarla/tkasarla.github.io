@@ -65,20 +65,20 @@ CVPR 2025 [Highlight (top 13.5% of accepted papers)](){: .text-red-300}
 Maximally Separated Active Learning   
 </span>
  Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
-ECCV 2024 [Beyond Euclidean Workshop](https://sites.google.com/view/beyondeuclidean/home)
+ECCV 2024 [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop
 {: .fs-4}  
 <span class="fs-3">
-[code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" }
+[paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
 </span>  
 
 <span class="fs-5">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
 </span>
 [Judith Dijk](https://www.linkedin.com/in/judith-dijk){: .text-grey-dk-300 target="_blank"}, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Kapil D. Katyal](https://kdk132.github.io){: .text-grey-dk-300 target="_blank"}, [Bryanna Y. Yeh](https://www.linkedin.com/in/byyeh/){: .text-grey-dk-300 target="_blank"}, [Craig T. Knuth](https://www.linkedin.com/in/craig-knuth/){: .text-grey-dk-300 target="_blank"}, [Ella Fokkinga](https://www.linkedin.com/in/ellafokkinga){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
-ICRA 2024 [Workshop on Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/)
+ICRA 2024 Workshop on [Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/){: .text-grey-dk-300 target="_blank"}
 {: .fs-4}  
 <span class="fs-3">
-[paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" }
+[paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
 </span>  
 
 
