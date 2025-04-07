@@ -25,7 +25,7 @@ I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https:
 
 # highlights
 
-Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025!  I will be presenting this work in-person at the conference.
+Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.
 Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. 
 2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2024. 
 Nov 2022 | Teaching Assistant for Applied Machine Learning course.
