@@ -52,7 +52,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 Hyperbolic Safety-Aware Vision-Language Models  
 </span>
 [Tobia Poppi](https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}\*, Tejaswi Kasarla\*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}   
-CVPR 2025 [(Highlight - top 13.5\% of accepted papers)](){: .text-red-300}
+CVPR 2025 [(Highlight - top 13.5% of accepted papers)](){: .text-red-300}
 {: .fs-4}  
 <span class="fs-3">
 [project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
@@ -84,7 +84,7 @@ ICRA 2024 [Workshop on Resilient Off-road Autonomy](https://theairlab.org/icra20
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
  Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}  
-NeurIPS 2022 [(Oral - top 6.8\% of accepted papers)](){: .text-red-300}
+NeurIPS 2022 [(Oral - top 6.8% of accepted papers)](){: .text-red-300}
 {: .fs-4}  
 Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
 {: .text-dk-gray-300 .fs-3}
