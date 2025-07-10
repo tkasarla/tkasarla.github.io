@@ -8,7 +8,8 @@ permalink: /
 
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
-I am interested in problems involving computer vision and machine learning with real world applications. I am a fourth-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), working with [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My work is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models. 
+I am interested in problems involving computer vision and machine learning with real world applications. I am currently a Research Scientist Intern at Meta Paris until December 2025. I am a fourth-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), working with [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My work is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models. 
+
 I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). Currently, I'm serving as a board member for WiCV (since Nov 2022). In my free time, I enjoy playing ukulele and [reading books](/more.html)!
 {: .flex-justify-around style="text-align: justify"}
 
@@ -23,6 +24,7 @@ I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https:
 
 
 # highlights
+
 June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs. 
 Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.
 Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.
@@ -47,6 +49,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 
 
 # publications
+
 <span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
 featured publications
 </span>
