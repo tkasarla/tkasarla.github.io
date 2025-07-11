@@ -92,36 +92,18 @@ function showNotification(message, type = 'success') {
 function initBibtexButtons() {
   const bibtexButtons = document.querySelectorAll('.bibtex-button');
   
-  bibtexButtons.forEach((button, index) => {
+  bibtexButtons.forEach((button) => {
+    // Get the paper ID from the data attribute
+    const paperId = button.getAttribute('data-paper-id');
+    if (!paperId) return;
+    
     // Create bibtex display container
     const bibtexContainer = document.createElement('div');
     bibtexContainer.className = 'bibtex-display';
-    bibtexContainer.style.cssText = `
-      display: none;
-      margin-top: 0.5rem;
-      padding: 0.75rem;
-      background-color: #f8f9fa;
-      border: 1px solid #dee2e6;
-      border-radius: 4px;
-      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-      font-size: 0.8rem;
-      line-height: 1.4;
-      white-space: pre-wrap;
-      overflow-x: auto;
-    `;
+    bibtexContainer.id = `bibtex-${paperId}`;
     
-    // Map buttons to bibtex entries
-    const bibtexKeys = [
-      'balanced-hyperbolic',
-      'hyperbolic-safety', 
-      'maximally-separated',
-      'terrain-traversability',
-      'max-separation',
-      'region-based'
-    ];
-    
-    const bibtexKey = bibtexKeys[index];
-    const bibtexContent = bibtexData[bibtexKey];
+    // Get the bibtex content from our data object
+    const bibtexContent = bibtexData[paperId];
     
     if (bibtexContent) {
       bibtexContainer.textContent = bibtexContent;
@@ -136,15 +118,15 @@ function initBibtexButtons() {
       button.addEventListener('click', function(e) {
         e.preventDefault();
         
-        const isVisible = bibtexContainer.style.display !== 'none';
+        const isVisible = bibtexContainer.classList.contains('show');
         
         if (isVisible) {
-          bibtexContainer.style.display = 'none';
+          bibtexContainer.classList.remove('show');
           button.textContent = 'bibtex';
           button.style.backgroundColor = '';
           button.style.color = '';
         } else {
-          bibtexContainer.style.display = 'block';
+          bibtexContainer.classList.add('show');
           button.textContent = 'hide bibtex';
           button.style.backgroundColor = '#007bff';
           button.style.color = 'white';

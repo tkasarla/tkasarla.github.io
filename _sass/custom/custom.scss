@@ -70,12 +70,28 @@ $pink-300: #dd2cd4;
   }
 }
 
-// Publications section styling
+// Publications section with original structure
+.paper-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.featured-paper {
+  background-color: rgba(255, 221, 126, 0.3);
+  padding: 2px 4px;
+  border-radius: 3px;
+  display: inline;
+}
+
 .paper-title {
-  font-size: 1.125rem !important;
-  font-weight: 500 !important;
-  margin-bottom: 0.5rem !important;
-  margin-top: 1rem !important;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
   
   &.featured {
     background-color: rgba(255, 221, 126, 0.3);
@@ -85,27 +101,124 @@ $pink-300: #dd2cd4;
   }
 }
 
-// Style the h2 elements used for paper titles
-h2.paper-title {
-  font-size: 1.125rem !important;
-  font-weight: 500 !important;
-  margin-bottom: 0.5rem !important;
-  margin-top: 1rem !important;
-  border-bottom: none !important;
+.paper-authors {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.paper-venue {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-links {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-text {
+  color: #FF3300;
+}
+
+.workshop-note {
+  color: var(--text-grey-dk-300, #666);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+// Bibtex display styling
+.bibtex-display {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-x: auto;
   
-  &.featured {
-    background-color: rgba(255, 221, 126, 0.3);
-    padding: 2px 4px;
-    border-radius: 3px;
-    display: inline;
+  &.show {
+    display: block;
+  }
+  
+  // Dark mode support
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
   }
 }
 
-// Horizontal dividers between publications
-hr {
-  margin: 2rem 0;
-  border: none;
-  border-top: 1px solid #e9ecef;
+// Highlights section with proper list styling
+.highlights-container {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  margin-right: -1rem;
+  line-height: 1.6;
+  
+  // Hide scrollbar for webkit browsers (Chrome, Safari, Edge)
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  // Hide scrollbar for Firefox
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+  // Smooth scrolling
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  // Subtle fade effect at bottom to indicate more content
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(transparent, var(--body-background-color, #fff));
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  
+  // Make container position relative for pseudo-element
+  position: relative;
+  
+  // Add some padding at the bottom for the fade effect
+  padding-bottom: 1rem;
+  
+  // Style the list items
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    
+    li {
+      margin-bottom: 0.75rem;
+      padding-left: 1rem;
+      position: relative;
+      
+      &::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--btn-primary-color, #007bff);
+        font-weight: bold;
+      }
+      
+      // Make dates stand out
+      strong {
+        color: var(--btn-primary-color, #007bff);
+      }
+    }
+  }
 }
 
 .highlight-text {
