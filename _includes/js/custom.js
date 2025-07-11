@@ -40,7 +40,7 @@ const bibtexData = {
 }`
 };
 
-// Function to copy text to clipboard
+// Simple function to copy text to clipboard
 function copyToClipboard(text) {
   if (navigator.clipboard && navigator.clipboard.writeText) {
     return navigator.clipboard.writeText(text);
@@ -64,10 +64,9 @@ function copyToClipboard(text) {
   }
 }
 
-// Function to show notification
+// Simple notification function
 function showNotification(message, type = 'success') {
   const notification = document.createElement('div');
-  notification.className = `notification notification-${type}`;
   notification.textContent = message;
   notification.style.cssText = `
     position: fixed;
@@ -80,20 +79,16 @@ function showNotification(message, type = 'success') {
     z-index: 1000;
     font-size: 14px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    transition: opacity 0.3s ease;
   `;
   
   document.body.appendChild(notification);
   
   setTimeout(() => {
-    notification.style.opacity = '0';
-    setTimeout(() => {
-      document.body.removeChild(notification);
-    }, 300);
+    document.body.removeChild(notification);
   }, 3000);
 }
 
-// Initialize bibtex button functionality
+// Simple initialization function
 function initBibtexButtons() {
   const bibtexButtons = document.querySelectorAll('.bibtex-button');
   
@@ -101,18 +96,21 @@ function initBibtexButtons() {
     // Create bibtex display container
     const bibtexContainer = document.createElement('div');
     bibtexContainer.className = 'bibtex-display';
+    bibtexContainer.style.cssText = `
+      display: none;
+      margin-top: 0.5rem;
+      padding: 0.75rem;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+      font-size: 0.8rem;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    `;
     
-    // Create copy button
-    const copyButton = document.createElement('button');
-    copyButton.className = 'btn btn-sm btn-outline';
-    copyButton.textContent = 'Copy';
-    copyButton.style.cssText = 'float: right; margin-bottom: 0.5rem; font-size: 0.75rem;';
-    
-    // Create bibtex text container
-    const bibtexText = document.createElement('div');
-    bibtexText.style.cssText = 'clear: both;';
-    
-    // Map buttons to bibtex entries (in order of appearance)
+    // Map buttons to bibtex entries
     const bibtexKeys = [
       'balanced-hyperbolic',
       'hyperbolic-safety', 
@@ -126,77 +124,43 @@ function initBibtexButtons() {
     const bibtexContent = bibtexData[bibtexKey];
     
     if (bibtexContent) {
-      bibtexText.textContent = bibtexContent;
+      bibtexContainer.textContent = bibtexContent;
       
-      // Assemble the bibtex display
-      bibtexContainer.appendChild(copyButton);
-      bibtexContainer.appendChild(bibtexText);
-      
-      // Insert the bibtex display after the button's parent container
+      // Insert after the parent paper-links div
       const paperLinksContainer = button.closest('.paper-links');
-      if (paperLinksContainer) {
+      if (paperLinksContainer && paperLinksContainer.parentNode) {
         paperLinksContainer.parentNode.insertBefore(bibtexContainer, paperLinksContainer.nextSibling);
       }
       
-      // Add click event to toggle display
+      // Add click event
       button.addEventListener('click', function(e) {
         e.preventDefault();
         
-        const isVisible = bibtexContainer.classList.contains('show');
+        const isVisible = bibtexContainer.style.display !== 'none';
         
         if (isVisible) {
-          // Hide bibtex
-          bibtexContainer.classList.remove('show');
-          button.classList.remove('active');
+          bibtexContainer.style.display = 'none';
           button.textContent = 'bibtex';
+          button.style.backgroundColor = '';
+          button.style.color = '';
         } else {
-          // Show bibtex
-          bibtexContainer.classList.add('show');
-          button.classList.add('active');
+          bibtexContainer.style.display = 'block';
           button.textContent = 'hide bibtex';
+          button.style.backgroundColor = '#007bff';
+          button.style.color = 'white';
         }
-      });
-      
-      // Add copy functionality
-      copyButton.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        copyToClipboard(bibtexContent)
-          .then(() => {
-            showNotification('BibTeX copied to clipboard!');
-            copyButton.textContent = 'Copied!';
-            setTimeout(() => {
-              copyButton.textContent = 'Copy';
-            }, 2000);
-          })
-          .catch(() => {
-            showNotification('Failed to copy BibTeX', 'error');
-          });
       });
     }
   });
 }
 
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', function() {
+// Initialize when page is loaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initBibtexButtons);
+} else {
   initBibtexButtons();
-});
+}
 
-// Smooth scrolling for anchor links
-document.addEventListener('DOMContentLoaded', function() {
-  const links = document.querySelectorAll('a[href^="#"]');
-  links.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
-    });
-  });
-});
+// Also try after a delay as fallback
+setTimeout(initBibtexButtons, 1000);
 
