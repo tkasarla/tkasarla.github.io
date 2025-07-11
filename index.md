@@ -51,12 +51,13 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 # publications
 
 <span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
-featured publications
+featured publications 
 </span>
+
 *equal contribution
 
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
-Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors
+Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors 
 </span> 
  Tejaswi Kasarla, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"} 
 Preprint 2025.
