@@ -2,3 +2,108 @@ $pink-000: #f77ef1;
 $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
+
+// Custom classes for simplifying repetitive elements
+.author-link {
+  color: var(--text-grey-dk-300, #666);
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.paper-button {
+  @extend .btn;
+  @extend .btn-outline;
+  @extend .mr-2;
+  
+  &[href^="http"] {
+    @extend %external-link;
+  }
+}
+
+.bibtex-button {
+  @extend .btn;
+  @extend .btn-outline;
+  @extend .v-align-top;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: var(--btn-primary-color, #007bff);
+    color: white;
+  }
+  
+  &.active {
+    background-color: var(--btn-primary-color, #007bff);
+    color: white;
+  }
+}
+
+.bibtex-display {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  
+  &.show {
+    display: block;
+  }
+  
+  // Dark mode support
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+}
+
+.featured-paper {
+  background-color: rgba(255, 221, 126, 0.3);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.paper-title {
+  font-size: 1.125rem; // equivalent to fs-5
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  
+  &.featured {
+    @extend .featured-paper;
+  }
+}
+
+.paper-authors {
+  font-size: 1rem; // equivalent to fs-4
+  margin-bottom: 0.25rem;
+}
+
+.paper-venue {
+  font-size: 1rem; // equivalent to fs-4
+  margin-bottom: 0.5rem;
+}
+
+.paper-links {
+  font-size: 0.875rem; // equivalent to fs-3
+  
+  .btn {
+    @extend .paper-button;
+  }
+}
+
+.highlight-text {
+  color: #FF3300;
+}
+
+.workshop-note {
+  color: var(--text-dk-gray-300, #666);
+  font-size: 0.875rem; // equivalent to fs-3
+}
