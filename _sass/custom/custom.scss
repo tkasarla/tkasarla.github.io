@@ -73,3 +73,15 @@ $pink-300: #dd2cd4;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
+
+// Reduce spacing around publication dividers
+#publications hr {
+  margin: 1rem 0;  // Reduce from default (usually 1.5rem or 2rem)
+  border: none;
+  border-top: 1px solid #e1e4e8;
+  
+  // Dark mode support
+  @media (prefers-color-scheme: dark) {
+    border-top-color: #30363d;
+  }
+}
