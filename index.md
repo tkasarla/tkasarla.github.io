@@ -55,7 +55,7 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 <span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
 featured publications 
 </span>
-
+&nbsp;
 *equal contribution
 
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
