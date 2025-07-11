@@ -23,6 +23,7 @@ Outside of research, I am a photographer, and a home barista. I enjoy exploring 
 
 # highlights
 
+<div id="highlights" markdown="1">
 June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs.  
 Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.  
 Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.  
@@ -44,6 +45,7 @@ May 2019 | Started working as Computer Vision Researcher at **Research and Techn
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)  
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. | Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/), [Amit Kale](https://www.linkedin.com/in/kaleamit/)  
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
+</div>
 
 
 # publications
@@ -63,6 +65,8 @@ Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors
 [paper](https://arxiv.org/abs/2506.10146){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>{: .v-align-top}
 </span>
 
+---
+
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Hyperbolic Safety-Aware Vision-Language Models  
 </span> 
@@ -71,6 +75,8 @@ Hyperbolic Safety-Aware Vision-Language Models
 <span class="fs-3">
 [project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>{: .v-align-top}                                                   </span>  
 
+---
+
 <span class="fs-5">
 Maximally Separated Active Learning   
 </span>
@@ -78,6 +84,8 @@ Maximally Separated Active Learning
 {: .fs-4}  
 <span class="fs-3">
 [paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="maximally-separated">bibtex</button>{: .v-align-top}                                                             </span>  
+
+---
 
 <span class="fs-5">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
@@ -88,6 +96,7 @@ Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Te
 [paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="terrain-traversability">bibtex</button>{: .v-align-top}
 </span>  
 
+---
 
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Maximum Class Separation as Inductive Bias in One Matrix  
@@ -99,7 +108,7 @@ Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml202
 <span class="fs-3">
 [project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="max-separation">bibtex</button>{: .v-align-top}           </span>  
 
-
+---
 
 <span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  

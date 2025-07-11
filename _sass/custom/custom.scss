@@ -3,6 +3,12 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
+// Profile image styling
+.profile-image {
+  width: 200px;
+  max-width: 100%;
+}
+
 // Minimal bibtex functionality styles (keeping modern features)
 .bibtex-button {
   @extend .btn;
@@ -50,6 +56,8 @@ $pink-300: #dd2cd4;
 #highlights {
   max-height: 400px;
   overflow-y: auto;
+  border: none;
+  background: transparent;
   
   // Hide scrollbar for webkit browsers
   &::-webkit-scrollbar {
@@ -66,29 +74,5 @@ $pink-300: #dd2cd4;
   -webkit-overflow-scrolling: touch;
 }
 
-// Bibtex display styling
-.bibtex-display {
-  display: none;
-  margin-top: 0.5rem;
-  padding: 0.75rem;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
-  border-radius: 4px;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  white-space: pre-wrap;
-  overflow-x: auto;
-  
-  &.show {
-    display: block;
-  }
-  
-  // Dark mode support
-  @media (prefers-color-scheme: dark) {
-    background-color: #2d3748;
-    border-color: #4a5568;
-    color: #e2e8f0;
-  }
-}
+
 
