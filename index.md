@@ -6,7 +6,7 @@ description: "PhD Student, University of Amsterdam"
 permalink: /
 ---
 
-![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="220px" style="border-radius:15px" .mr-4}  
+![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:10px" .mr-4}  
 
 I am a Research Scientist Intern at [Meta FAIR](https://ai.meta.com/research/) in Paris and a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models. 
 
