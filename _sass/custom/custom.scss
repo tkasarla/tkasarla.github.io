@@ -70,46 +70,35 @@ $pink-300: #dd2cd4;
   }
 }
 
-// Publications section with markdown structure
-.publications-section {
-  .paper-title {
-    font-size: 1.125rem !important;
-    font-weight: 500 !important;
-    line-height: 1.3 !important;
-    margin-bottom: 0.5rem !important;
-    margin-top: 0 !important;
-    display: block !important;
-    
-    &.featured {
-      background-color: rgba(255, 221, 126, 0.3);
-      padding: 2px 4px;
-      border-radius: 3px;
-      display: inline;
-    }
-  }
+// Publications section - original styling
+.paper-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
   
-  // Each paper section with proper spacing
-  > p {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #e9ecef;
-    line-height: 1.6;
-    
-    &:last-child {
-      border-bottom: none;
-    }
+  &.featured {
+    background-color: rgba(255, 221, 126, 0.3);
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline;
   }
-  
-  // Horizontal dividers between papers
-  hr {
-    margin: 2rem 0;
-    border: none;
-    border-top: 1px solid #e9ecef;
-    
-    &:last-child {
-      display: none;
-    }
-  }
+}
+
+.paper-authors {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: var(--text-grey-dk-300, #666);
+}
+
+.paper-venue {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-links {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .featured-paper {
@@ -117,6 +106,33 @@ $pink-300: #dd2cd4;
   padding: 2px 4px;
   border-radius: 3px;
   display: inline;
+}
+
+// Highlights section - original simple styling
+#highlights {
+  max-height: 400px;
+  overflow-y: auto;
+  
+  // Hide scrollbar for webkit browsers
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  // Hide scrollbar for Firefox
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+  // Smooth scrolling
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+// Publication dividers
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #e9ecef;
 }
 
 .highlight-text {
@@ -154,85 +170,6 @@ $pink-300: #dd2cd4;
     border-color: #4a5568;
     color: #e2e8f0;
   }
-}
-
-// Highlights section with proper list styling
-.highlights-container {
-  max-height: 400px;
-  overflow-y: auto;
-  padding-right: 1rem;
-  margin-right: -1rem;
-  line-height: 1.6;
-  
-  // Hide scrollbar for webkit browsers (Chrome, Safari, Edge)
-  &::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
-  
-  // Hide scrollbar for Firefox
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  
-  // Smooth scrolling
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  
-  // Subtle fade effect at bottom to indicate more content
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(transparent, var(--body-background-color, #fff));
-    pointer-events: none;
-    opacity: 0.8;
-  }
-  
-  // Make container position relative for pseudo-element
-  position: relative;
-  
-  // Add some padding at the bottom for the fade effect
-  padding-bottom: 1rem;
-  
-  // Style the list items
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    
-    li {
-      margin-bottom: 0.75rem;
-      padding-left: 1rem;
-      position: relative;
-      
-      &::before {
-        content: "→";
-        position: absolute;
-        left: 0;
-        color: var(--btn-primary-color, #007bff);
-        font-weight: bold;
-      }
-      
-      // Make dates stand out
-      strong {
-        color: var(--btn-primary-color, #007bff);
-      }
-    }
-  }
-}
-
-.highlight-text {
-  color: #FF3300;
-}
-
-.workshop-note {
-  color: var(--text-grey-dk-300, #666);
-  font-size: 0.875rem;
-  font-style: italic;
-  margin-bottom: 0.5rem;
 }
 
 // Responsive and seamless design improvements

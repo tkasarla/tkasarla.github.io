@@ -122,10 +122,10 @@ function initBibtexButtons() {
     if (bibtexContent) {
       bibtexContainer.textContent = bibtexContent;
       
-      // Insert after the button's parent paragraph
-      const parentParagraph = button.closest('p');
-      if (parentParagraph && parentParagraph.parentNode) {
-        parentParagraph.parentNode.insertBefore(bibtexContainer, parentParagraph.nextSibling);
+      // Insert after the button's parent div (paper-links)
+      const parentDiv = button.closest('.paper-links');
+      if (parentDiv && parentDiv.parentNode) {
+        parentDiv.parentNode.insertBefore(bibtexContainer, parentDiv.nextSibling);
       }
       
       // Add click event
