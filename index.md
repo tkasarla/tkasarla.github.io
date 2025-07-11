@@ -48,95 +48,63 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 
 # publications
 
-<span class="featured-paper">featured publications</span> &nbsp; *equal contribution
+<span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
+featured publications 
+</span>
+&nbsp;
+*equal contribution
 
-<div class="paper-title featured">
+<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors 
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://nl.linkedin.com/in/max-van-spengler-45908b147" class="author-link" target="_blank">Max van Spengler</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a> 
-</div>
-<div class="paper-venue">
-<strong>Preprint 2025.</strong>
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2506.10146" class="paper-button" target="_blank">paper</a> <button class="bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
-</div>
+</span> 
+ Tejaswi Kasarla, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                                                               Preprint 2025.
+{: .fs-4}  
+<span class="fs-3">
+[paper](https://arxiv.org/abs/2506.10146){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>{: .v-align-top}
+</span>
 
-<hr>
-
-<div class="paper-title featured">
+<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Hyperbolic Safety-Aware Vision-Language Models  
-</div>
-<div class="paper-authors">
-<a href="https://tobiapoppi.github.io" class="author-link" target="_blank">Tobia Poppi</a>*, Tejaswi Kasarla*, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>, <a href="https://www.lorenzobaraldi.com" class="author-link" target="_blank">Lorenzo Baraldi</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>   
-</div>
-<div class="paper-venue">
-<strong>CVPR 2025</strong> <span class="highlight-text">Highlight (top 13.5% of accepted papers)</span>
-</div>
-<div class="paper-links">
-<a href="https://aimagelab.github.io/HySAC/" class="paper-button" target="_blank">project page</a> <a href="https://arxiv.org/abs/2503.12127" class="paper-button" target="_blank">paper</a> <a href="https://github.com/aimagelab/HySAC" class="paper-button" target="_blank">code</a> <a href="https://huggingface.co/aimagelab/HySAC" class="paper-button" target="_blank">model</a> <button class="bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
-</div>
+</span> 
+[Tobia Poppi](https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}\*, Tejaswi Kasarla\*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}                                                                        CVPR 2025 [Highlight (top 13.5% of accepted papers)](){: .text-red-300}
+{: .fs-4}  
+<span class="fs-3">
+[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>{: .v-align-top}                                                   </span>  
 
-<hr>
-
-<div class="paper-title">
+<span class="fs-5">
 Maximally Separated Active Learning   
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://abskjha.github.io" class="author-link" target="_blank">Abhishek Jha</a>, <a href="https://www.linkedin.com/in/faye-tervoort-15298a171/" class="author-link" target="_blank">Faye Tervoort</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>ECCV 2024</strong> <a href="https://sites.google.com/view/beyondeuclidean/home" class="author-link" target="_blank">Beyond Euclidean</a> Workshop
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2411.17444" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/ActiveLearning-MaxSep" class="paper-button" target="_blank">code</a> <button class="bibtex-button" data-paper-id="maximally-separated">bibtex</button>
-</div>
+</span>
+ Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                         ECCV 2024 [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop
+{: .fs-4}  
+<span class="fs-3">
+[paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="maximally-separated">bibtex</button>{: .v-align-top}                                                             </span>  
 
-<hr>
-
-<div class="paper-title">
+<span class="fs-5">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
-</div>
-<div class="paper-authors">
-<a href="https://www.linkedin.com/in/judith-dijk" class="author-link" target="_blank">Judith Dijk</a>, <a href="https://sites.google.com/site/gertjanburghouts/" class="author-link" target="_blank">Gertjan J. Burghouts</a>, <a href="https://kdk132.github.io" class="author-link" target="_blank">Kapil D. Katyal</a>, <a href="https://www.linkedin.com/in/byyeh/" class="author-link" target="_blank">Bryanna Y. Yeh</a>, <a href="https://www.linkedin.com/in/craig-knuth/" class="author-link" target="_blank">Craig T. Knuth</a>, <a href="https://www.linkedin.com/in/ellafokkinga" class="author-link" target="_blank">Ella Fokkinga</a>, Tejaswi Kasarla, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>ICRA 2024</strong> Workshop on <a href="https://theairlab.org/icra2024_offroad_workshop/" class="author-link" target="_blank">Resilient Off-road Autonomy</a>
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2407.13392" class="paper-button" target="_blank">paper</a> <button class="bibtex-button" data-paper-id="terrain-traversability">bibtex</button>
-</div>
+</span>
+[Judith Dijk](https://www.linkedin.com/in/judith-dijk){: .text-grey-dk-300 target="_blank"}, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Kapil D. Katyal](https://kdk132.github.io){: .text-grey-dk-300 target="_blank"}, [Bryanna Y. Yeh](https://www.linkedin.com/in/byyeh/){: .text-grey-dk-300 target="_blank"}, [Craig T. Knuth](https://www.linkedin.com/in/craig-knuth/){: .text-grey-dk-300 target="_blank"}, [Ella Fokkinga](https://www.linkedin.com/in/ellafokkinga){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                                                                                    ICRA 2024 Workshop on [Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/){: .text-grey-dk-300 target="_blank"}
+{: .fs-4}  
+<span class="fs-3">
+[paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="terrain-traversability">bibtex</button>{: .v-align-top}
+</span>  
 
-<hr>
 
-<div class="paper-title featured">
+<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Maximum Class Separation as Inductive Bias in One Matrix  
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://sites.google.com/site/gertjanburghouts/" class="author-link" target="_blank">Gertjan J. Burghouts</a>, <a href="https://nl.linkedin.com/in/max-van-spengler-45908b147" class="author-link" target="_blank">Max van Spengler</a>, <a href="https://www.elisevanderpol.nl" class="author-link" target="_blank">Elise van der Pol</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>NeurIPS 2022</strong> <span class="highlight-text">Oral (top 6.8% of accepted papers)</span>
-</div>
-<div class="workshop-note">
-Also a contributed talk at <a href="https://sites.google.com/view/wiml2022/program" target="_blank">WiML Workshop</a> @ NeurIPS 2022
-</div>
-<div class="paper-links">
-<a href="papers/max-separation-as-inductive-bias/" class="paper-button">project page</a> <a href="https://arxiv.org/abs/2206.08704" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/max-separation-as-inductive-bias" class="paper-button" target="_blank">code</a> <a href="https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245" class="paper-button" target="_blank">poster</a> <a href="https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html" class="paper-button" target="_blank">media</a> <button class="bibtex-button" data-paper-id="max-separation">bibtex</button>
-</div>
+</span>
+ Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                                                             NeurIPS 2022 [Oral (top 6.8% of accepted papers)](){: .text-red-300}
+{: .fs-4}  
+Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
+{: .text-dk-gray-300 .fs-3}
+<span class="fs-3">
+[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="max-separation">bibtex</button>{: .v-align-top}           </span>  
 
-<hr>
 
-<div class="paper-title">
+
+<span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://in.linkedin.com/in/nagendar-g-257305113" class="author-link" target="_blank">G Nagendar</a>, <a href="https://in.linkedin.com/in/guruprasad-hegde-657b81a" class="author-link" target="_blank">Guruprasad Hegde</a>, <a href="https://people.iith.ac.in/vineethnb/" class="author-link" target="_blank">Vineeth N. Balasubramanian</a>, <a href="https://faculty.iiit.ac.in/~jawahar/" class="author-link" target="_blank">C.V. Jawahar</a>  
-</div>
-<div class="paper-venue">
-<strong>WACV 2019</strong>
-</div>
-<div class="paper-links">
-<a href="https://ieeexplore.ieee.org/document/8659293" class="paper-button" target="_blank">paper</a> <a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing" class="paper-button" target="_blank">supplementary</a> <a href="assets/poster_wacv.pdf" class="paper-button" target="_blank">poster</a> <button class="bibtex-button" data-paper-id="region-based">bibtex</button>
-</div>
+</span>
+Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){: .text-grey-dk-300 target="_blank"}, [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a){: .text-grey-dk-300 target="_blank"}, [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/){: .text-grey-dk-300 target="_blank"}, [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/){: .text-grey-dk-300 target="_blank"}                                                        WACV 2019
+
+<span class="fs-3">
+[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="region-based">bibtex</button>{: .v-align-top}                                                                                        </span>

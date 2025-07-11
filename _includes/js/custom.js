@@ -88,7 +88,7 @@ function showNotification(message, type = 'success') {
   }, 3000);
 }
 
-// Simple initialization function
+// Simple initialization function for markdown-based publications
 function initBibtexButtons() {
   const bibtexButtons = document.querySelectorAll('.bibtex-button');
   
@@ -122,10 +122,10 @@ function initBibtexButtons() {
     if (bibtexContent) {
       bibtexContainer.textContent = bibtexContent;
       
-      // Insert after the button's parent div (paper-links)
-      const parentDiv = button.closest('.paper-links');
-      if (parentDiv && parentDiv.parentNode) {
-        parentDiv.parentNode.insertBefore(bibtexContainer, parentDiv.nextSibling);
+      // Insert after the button's parent span (which contains the links)
+      const parentSpan = button.closest('span');
+      if (parentSpan && parentSpan.parentNode) {
+        parentSpan.parentNode.insertBefore(bibtexContainer, parentSpan.nextSibling);
       }
       
       // Add click event
