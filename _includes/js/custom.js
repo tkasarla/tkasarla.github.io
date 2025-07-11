@@ -93,9 +93,23 @@ function initBibtexButtons() {
   const bibtexButtons = document.querySelectorAll('.bibtex-button');
   
   bibtexButtons.forEach((button) => {
+    // Skip if already initialized
+    if (button.classList.contains('bibtex-initialized')) {
+      return;
+    }
+    
+    // Mark as initialized
+    button.classList.add('bibtex-initialized');
+    
     // Get the paper ID from the data attribute
     const paperId = button.getAttribute('data-paper-id');
     if (!paperId) return;
+    
+    // Check if bibtex container already exists
+    const existingContainer = document.getElementById(`bibtex-${paperId}`);
+    if (existingContainer) {
+      existingContainer.remove();
+    }
     
     // Create bibtex display container
     const bibtexContainer = document.createElement('div');
@@ -108,10 +122,10 @@ function initBibtexButtons() {
     if (bibtexContent) {
       bibtexContainer.textContent = bibtexContent;
       
-      // Insert after the parent paper-links div
-      const paperLinksContainer = button.closest('.paper-links');
-      if (paperLinksContainer && paperLinksContainer.parentNode) {
-        paperLinksContainer.parentNode.insertBefore(bibtexContainer, paperLinksContainer.nextSibling);
+      // Insert after the button's parent paragraph
+      const parentParagraph = button.closest('p');
+      if (parentParagraph && parentParagraph.parentNode) {
+        parentParagraph.parentNode.insertBefore(bibtexContainer, parentParagraph.nextSibling);
       }
       
       // Add click event

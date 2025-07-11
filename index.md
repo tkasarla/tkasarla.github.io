@@ -52,95 +52,47 @@ Outside of research, I am a photographer, and a home barista. I enjoy exploring 
 
 <span class="featured-paper">featured publications</span> &nbsp; *equal contribution
 
-<div class="paper-entry">
-<div class="paper-title featured">
-Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors 
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://nl.linkedin.com/in/max-van-spengler-45908b147" class="author-link" target="_blank">Max van Spengler</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a> 
-</div>
-<div class="paper-venue">
-<strong>Preprint 2025.</strong>
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2506.10146" class="paper-button" target="_blank">paper</a> <button class="bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
-</div>
-</div>
+<div class="publications-section" markdown="1">
 
-<div class="paper-entry">
-<div class="paper-title featured">
-Hyperbolic Safety-Aware Vision-Language Models  
-</div>
-<div class="paper-authors">
-<a href="https://tobiapoppi.github.io" class="author-link" target="_blank">Tobia Poppi</a>*, Tejaswi Kasarla*, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>, <a href="https://www.lorenzobaraldi.com" class="author-link" target="_blank">Lorenzo Baraldi</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>   
-</div>
-<div class="paper-venue">
-<strong>CVPR 2025</strong> <span class="highlight-text">Highlight (top 13.5% of accepted papers)</span>
-</div>
-<div class="paper-links">
-<a href="https://aimagelab.github.io/HySAC/" class="paper-button" target="_blank">project page</a> <a href="https://arxiv.org/abs/2503.12127" class="paper-button" target="_blank">paper</a> <a href="https://github.com/aimagelab/HySAC" class="paper-button" target="_blank">code</a> <a href="https://huggingface.co/aimagelab/HySAC" class="paper-button" target="_blank">model</a> <button class="bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
-</div>
-</div>
+**Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors**{: .paper-title .featured}  
+Tejaswi Kasarla, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: target="_blank"}  
+**Preprint 2025.**  
+[paper](https://arxiv.org/abs/2506.10146){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
 
-<div class="paper-entry">
-<div class="paper-title">
-Maximally Separated Active Learning   
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://abskjha.github.io" class="author-link" target="_blank">Abhishek Jha</a>, <a href="https://www.linkedin.com/in/faye-tervoort-15298a171/" class="author-link" target="_blank">Faye Tervoort</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>ECCV 2024</strong> <a href="https://sites.google.com/view/beyondeuclidean/home" class="author-link" target="_blank">Beyond Euclidean</a> Workshop
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2411.17444" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/ActiveLearning-MaxSep" class="paper-button" target="_blank">code</a> <button class="bibtex-button" data-paper-id="maximally-separated">bibtex</button>
-</div>
-</div>
+---
 
-<div class="paper-entry">
-<div class="paper-title">
-Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
-</div>
-<div class="paper-authors">
-<a href="https://www.linkedin.com/in/judith-dijk" class="author-link" target="_blank">Judith Dijk</a>, <a href="https://sites.google.com/site/gertjanburghouts/" class="author-link" target="_blank">Gertjan J. Burghouts</a>, <a href="https://kdk132.github.io" class="author-link" target="_blank">Kapil D. Katyal</a>, <a href="https://www.linkedin.com/in/byyeh/" class="author-link" target="_blank">Bryanna Y. Yeh</a>, <a href="https://www.linkedin.com/in/craig-knuth/" class="author-link" target="_blank">Craig T. Knuth</a>, <a href="https://www.linkedin.com/in/ellafokkinga" class="author-link" target="_blank">Ella Fokkinga</a>, Tejaswi Kasarla, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>ICRA 2024</strong> Workshop on <a href="https://theairlab.org/icra2024_offroad_workshop/" class="author-link" target="_blank">Resilient Off-road Autonomy</a>
-</div>
-<div class="paper-links">
-<a href="https://arxiv.org/abs/2407.13392" class="paper-button" target="_blank">paper</a> <button class="bibtex-button" data-paper-id="terrain-traversability">bibtex</button>
-</div>
-</div>
+**Hyperbolic Safety-Aware Vision-Language Models**{: .paper-title .featured}  
+[Tobia Poppi](https://tobiapoppi.github.io){: target="_blank"}*, Tejaswi Kasarla*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: target="_blank"}  
+**CVPR 2025** *Highlight (top 13.5% of accepted papers)*{: .highlight-text}  
+[project page](https://aimagelab.github.io/HySAC/){: .paper-button target="_blank"} [paper](https://arxiv.org/abs/2503.12127){: .paper-button target="_blank"} [code](https://github.com/aimagelab/HySAC){: .paper-button target="_blank"} [model](https://huggingface.co/aimagelab/HySAC){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
 
-<div class="paper-entry">
-<div class="paper-title featured">
-Maximum Class Separation as Inductive Bias in One Matrix  
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://sites.google.com/site/gertjanburghouts/" class="author-link" target="_blank">Gertjan J. Burghouts</a>, <a href="https://nl.linkedin.com/in/max-van-spengler-45908b147" class="author-link" target="_blank">Max van Spengler</a>, <a href="https://www.elisevanderpol.nl" class="author-link" target="_blank">Elise van der Pol</a>, <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1" class="author-link" target="_blank">Rita Cucchiara</a>, <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" class="author-link" target="_blank">Pascal Mettes</a>  
-</div>
-<div class="paper-venue">
-<strong>NeurIPS 2022</strong> <span class="highlight-text">Oral (top 6.8% of accepted papers)</span>
-</div>
-<div class="workshop-note">
-Also a contributed talk at <a href="https://sites.google.com/view/wiml2022/program" target="_blank">WiML Workshop</a> @ NeurIPS 2022
-</div>
-<div class="paper-links">
-<a href="papers/max-separation-as-inductive-bias/" class="paper-button">project page</a> <a href="https://arxiv.org/abs/2206.08704" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/max-separation-as-inductive-bias" class="paper-button" target="_blank">code</a> <a href="https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245" class="paper-button" target="_blank">poster</a> <a href="https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html" class="paper-button" target="_blank">media</a> <button class="bibtex-button" data-paper-id="max-separation">bibtex</button>
-</div>
-</div>
+---
 
-<div class="paper-entry">
-<div class="paper-title">
-Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
-</div>
-<div class="paper-authors">
-Tejaswi Kasarla, <a href="https://in.linkedin.com/in/nagendar-g-257305113" class="author-link" target="_blank">G Nagendar</a>, <a href="https://in.linkedin.com/in/guruprasad-hegde-657b81a" class="author-link" target="_blank">Guruprasad Hegde</a>, <a href="https://people.iith.ac.in/vineethnb/" class="author-link" target="_blank">Vineeth N. Balasubramanian</a>, <a href="https://faculty.iiit.ac.in/~jawahar/" class="author-link" target="_blank">C.V. Jawahar</a>  
-</div>
-<div class="paper-venue">
-<strong>WACV 2019</strong>
-</div>
-<div class="paper-links">
-<a href="https://ieeexplore.ieee.org/document/8659293" class="paper-button" target="_blank">paper</a> <a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing" class="paper-button" target="_blank">supplementary</a> <a href="assets/poster_wacv.pdf" class="paper-button" target="_blank">poster</a> <button class="bibtex-button" data-paper-id="region-based">bibtex</button>
-</div>
+**Maximally Separated Active Learning**{: .paper-title}  
+Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: target="_blank"}  
+**ECCV 2024** [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: target="_blank"} Workshop  
+[paper](https://arxiv.org/abs/2411.17444){: .paper-button target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="maximally-separated">bibtex</button>
+
+---
+
+**Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability**{: .paper-title}  
+[Judith Dijk](https://www.linkedin.com/in/judith-dijk){: target="_blank"}, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: target="_blank"}, [Kapil D. Katyal](https://kdk132.github.io){: target="_blank"}, [Bryanna Y. Yeh](https://www.linkedin.com/in/byyeh/){: target="_blank"}, [Craig T. Knuth](https://www.linkedin.com/in/craig-knuth/){: target="_blank"}, [Ella Fokkinga](https://www.linkedin.com/in/ellafokkinga){: target="_blank"}, Tejaswi Kasarla, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: target="_blank"}  
+**ICRA 2024** Workshop on [Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/){: target="_blank"}  
+[paper](https://arxiv.org/abs/2407.13392){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="terrain-traversability">bibtex</button>
+
+---
+
+**Maximum Class Separation as Inductive Bias in One Matrix**{: .paper-title .featured}  
+Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: target="_blank"}  
+**NeurIPS 2022** *Oral (top 6.8% of accepted papers)*{: .highlight-text}  
+*Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: target="_blank"} @ NeurIPS 2022*  
+[project page](papers/max-separation-as-inductive-bias/){: .paper-button} [paper](https://arxiv.org/abs/2206.08704){: .paper-button target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .paper-button target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .paper-button target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="max-separation">bibtex</button>
+
+---
+
+**Region-Based Active Learning for Efficient Labelling in Semantic Segmentation**{: .paper-title}  
+Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){: target="_blank"}, [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a){: target="_blank"}, [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/){: target="_blank"}, [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/){: target="_blank"}  
+**WACV 2019**  
+[paper](https://ieeexplore.ieee.org/document/8659293){: .paper-button target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing){: .paper-button target="_blank"} [poster](assets/poster_wacv.pdf){: .paper-button target="_blank"} <button class="bibtex-button" data-paper-id="region-based">bibtex</button>
+
 </div>

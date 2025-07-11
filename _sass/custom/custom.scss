@@ -70,14 +70,45 @@ $pink-300: #dd2cd4;
   }
 }
 
-// Publications section with original structure
-.paper-entry {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e9ecef;
+// Publications section with markdown structure
+.publications-section {
+  .paper-title {
+    font-size: 1.125rem !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 0 !important;
+    display: block !important;
+    
+    &.featured {
+      background-color: rgba(255, 221, 126, 0.3);
+      padding: 2px 4px;
+      border-radius: 3px;
+      display: inline;
+    }
+  }
   
-  &:last-child {
-    border-bottom: none;
+  // Each paper section with proper spacing
+  > p {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    line-height: 1.6;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  // Horizontal dividers between papers
+  hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #e9ecef;
+    
+    &:last-child {
+      display: none;
+    }
   }
 }
 
@@ -86,34 +117,6 @@ $pink-300: #dd2cd4;
   padding: 2px 4px;
   border-radius: 3px;
   display: inline;
-}
-
-.paper-title {
-  font-size: 1.125rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  
-  &.featured {
-    background-color: rgba(255, 221, 126, 0.3);
-    padding: 2px 4px;
-    border-radius: 3px;
-    display: inline;
-  }
-}
-
-.paper-authors {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.paper-venue {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.paper-links {
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
 }
 
 .highlight-text {
@@ -226,58 +229,10 @@ $pink-300: #dd2cd4;
 }
 
 .workshop-note {
-  color: var(--text-dk-gray-300, #666);
-  font-size: 0.875rem; // equivalent to fs-3
-}
-
-// Featured publication header
-.featured-paper {
-  background-color: rgba(255, 221, 126, 0.3);
-  padding: 2px 4px;
-  border-radius: 3px;
-  display: inline;
-}
-
-// Seamless scrollable highlights section
-.highlights-container {
-  max-height: 400px;
-  overflow-y: auto;
-  padding-right: 1rem;
-  margin-right: -1rem;
-  line-height: 1.6;
-  
-  // Hide scrollbar for webkit browsers (Chrome, Safari, Edge)
-  &::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
-  
-  // Hide scrollbar for Firefox
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  
-  // Smooth scrolling
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  
-  // Subtle fade effect at bottom to indicate more content
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(transparent, var(--body-background-color, #fff));
-    pointer-events: none;
-    opacity: 0.8;
-  }
-  
-  // Make container position relative for pseudo-element
-  position: relative;
-  
-  // Add some padding at the bottom for the fade effect
-  padding-bottom: 1rem;
+  color: var(--text-grey-dk-300, #666);
+  font-size: 0.875rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
 }
 
 // Responsive and seamless design improvements
