@@ -8,9 +8,11 @@ permalink: /
 
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .float-left width="200px" style="border-radius:15px" .mr-4}  
 
-I am interested in problems involving computer vision and machine learning with real world applications. I am currently a Research Scientist Intern at Meta Paris until December 2025. I am a fourth-year PhD at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/), working with [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My work is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models. 
+I am a Research Scientist Intern at [Meta FAIR](https://ai.meta.com/research/) in Paris and a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models. 
 
-I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/), co-hosted with [CVPR 2021](http://cvpr2021.thecvf.com/) and [CVPR 2022](http://cvpr2022.thecvf.com/). Currently, I'm serving as a board member for WiCV (since Nov 2022). In my free time, I enjoy playing ukulele and [reading books](/more.html)!
+I am passionate about community building and was one of the organizers for the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) at CVPR 2021 and 2022, and have served as a board member for WiCV since 2022.
+
+Outside of research, I am a photographer, and a home barista. I enjoy exploring the [speciality coffee scene](/more.html) wherever I go! 
 {: .flex-justify-around style="text-align: justify"}
 
 <p markdown="1" align="center">
