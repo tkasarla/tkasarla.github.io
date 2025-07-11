@@ -21,8 +21,7 @@ Outside of research, I am a photographer, and a home barista. I enjoy exploring 
 </div>
 
 
-# highlights
-{: #highlights}
+# highlights {: #highlights}
 
 June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs.  
 Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.  
@@ -41,9 +40,9 @@ Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.go
 Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**  
 Aug 2019 | Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.  
 Jun 2019 | Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!  
-May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. | Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)  
+May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)  
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)  
-Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. | Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/), [Amit Kale](https://www.linkedin.com/in/kaleamit/)  
+Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/), [Amit Kale](https://www.linkedin.com/in/kaleamit/)  
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
 
 
@@ -64,6 +63,7 @@ Tejaswi Kasarla, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-
 <span class="fs-3">
 [paper](https://arxiv.org/abs/2506.10146){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>{: .v-align-top}
 </span>
+
 ---
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Hyperbolic Safety-Aware Vision-Language Models  
@@ -73,7 +73,9 @@ Hyperbolic Safety-Aware Vision-Language Models
 
 {: .fs-4}  
 <span class="fs-3">
-[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>{: .v-align-top}                                                   </span>  
+[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>{: .v-align-top}                                                   
+</span>  
+
 ---
 <span class="fs-5">
 Maximally Separated Active Learning   
@@ -82,7 +84,9 @@ Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 t
 **ECCV 2024 [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop**
 {: .fs-4}  
 <span class="fs-3">
-[paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="maximally-separated">bibtex</button>{: .v-align-top}                                                             </span>  
+[paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="maximally-separated">bibtex</button>{: .v-align-top}                                                             
+</span>  
+
 ---
 <span class="fs-5">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
@@ -93,6 +97,7 @@ Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Te
 <span class="fs-3">
 [paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="terrain-traversability">bibtex</button>{: .v-align-top}
 </span>  
+
 ---
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Maximum Class Separation as Inductive Bias in One Matrix  
@@ -103,7 +108,9 @@ Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanbur
 Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
 {: .text-dk-gray-300 .fs-3}
 <span class="fs-3">
-[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="max-separation">bibtex</button>{: .v-align-top}           </span>  
+[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="max-separation">bibtex</button>{: .v-align-top}           
+</span>  
+
 ---
 <span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
@@ -112,4 +119,5 @@ Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){:
 **WACV 2019**
 
 <span class="fs-3">
-[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="region-based">bibtex</button>{: .v-align-top}                                                                                        </span>
+[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="region-based">bibtex</button>{: .v-align-top}                                                                                        
+</span>
