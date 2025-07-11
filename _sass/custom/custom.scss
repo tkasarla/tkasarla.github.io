@@ -19,7 +19,12 @@ $pink-300: #dd2cd4;
   @extend .mr-2;
   
   &[href^="http"] {
-    @extend %external-link;
+    // Add external link indicator
+    &::after {
+      content: " ↗";
+      font-size: 0.8em;
+      opacity: 0.7;
+    }
   }
 }
 
