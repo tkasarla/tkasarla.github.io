@@ -70,10 +70,22 @@ $pink-300: #dd2cd4;
   }
 }
 
+// Individual publication container
+.paper-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
 .featured-paper {
   background-color: rgba(255, 221, 126, 0.3);
   padding: 2px 4px;
   border-radius: 3px;
+  display: inline;
 }
 
 .paper-title {
@@ -82,7 +94,10 @@ $pink-300: #dd2cd4;
   margin-bottom: 0.5rem;
   
   &.featured {
-    @extend .featured-paper;
+    background-color: rgba(255, 221, 126, 0.3);
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: inline;
   }
 }
 
@@ -98,6 +113,7 @@ $pink-300: #dd2cd4;
 
 .paper-links {
   font-size: 0.875rem; // equivalent to fs-3
+  margin-bottom: 0.5rem;
   
   .btn {
     @extend .paper-button;

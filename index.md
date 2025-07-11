@@ -58,6 +58,7 @@ featured publications
 &nbsp;
 *equal contribution
 
+<div class="paper-entry">
 <div class="paper-title featured">
 Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors 
 </div>
@@ -70,7 +71,9 @@ Preprint 2025.
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2506.10146" class="paper-button" target="_blank">paper</a> <button class="bibtex-button">bibtex</button>
 </div>
+</div>
 
+<div class="paper-entry">
 <div class="paper-title featured">
 Hyperbolic Safety-Aware Vision-Language Models  
 </div>
@@ -83,7 +86,9 @@ CVPR 2025 <span class="highlight-text">Highlight (top 13.5% of accepted papers)<
 <div class="paper-links">
 <a href="https://aimagelab.github.io/HySAC/" class="paper-button" target="_blank">project page</a><a href="https://arxiv.org/abs/2503.12127" class="paper-button" target="_blank">paper</a> <a href="https://github.com/aimagelab/HySAC" class="paper-button" target="_blank">code</a> <a href="https://huggingface.co/aimagelab/HySAC" class="paper-button" target="_blank">model</a> <button class="bibtex-button">bibtex</button>
 </div>
+</div>
 
+<div class="paper-entry">
 <div class="paper-title">
 Maximally Separated Active Learning   
 </div>
@@ -96,7 +101,9 @@ ECCV 2024 <a href="https://sites.google.com/view/beyondeuclidean/home" class="au
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2411.17444" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/ActiveLearning-MaxSep" class="paper-button" target="_blank">code</a> <button class="bibtex-button">bibtex</button>
 </div>
+</div>
 
+<div class="paper-entry">
 <div class="paper-title">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
 </div>
@@ -109,7 +116,9 @@ ICRA 2024 Workshop on <a href="https://theairlab.org/icra2024_offroad_workshop/"
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2407.13392" class="paper-button" target="_blank">paper</a> <button class="bibtex-button">bibtex</button>
 </div>
+</div>
 
+<div class="paper-entry">
 <div class="paper-title featured">
 Maximum Class Separation as Inductive Bias in One Matrix  
 </div>
@@ -125,7 +134,9 @@ Also a contributed talk at <a href="https://sites.google.com/view/wiml2022/progr
 <div class="paper-links">
 <a href="papers/max-separation-as-inductive-bias/" class="paper-button">project page</a><a href="https://arxiv.org/abs/2206.08704" class="paper-button" target="_blank">paper</a> <a href="https://github.com/tkasarla/max-separation-as-inductive-bias" class="paper-button" target="_blank">code</a> <a href="https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245" class="paper-button" target="_blank">poster</a> <a href="https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html" class="paper-button" target="_blank">media</a> <button class="bibtex-button">bibtex</button>
 </div>
+</div>
 
+<div class="paper-entry">
 <div class="paper-title">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
 </div>
@@ -136,5 +147,6 @@ Tejaswi Kasarla, <a href="https://in.linkedin.com/in/nagendar-g-257305113" class
 WACV 2019
 </div>
 <div class="paper-links">
-<a href="https://ieeexplore.ieee.org/document/8659293" class="paper-button" target="_blank">paper</a> <a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing" class="paper-button" target="_blank">supplementary</a> <a href="assets/poster_wacv.pdf" class="paper-button" target="_blank">poster</a> <button class="bibtex-button fn-bibtex">bibtex</button>
+<a href="https://ieeexplore.ieee.org/document/8659293" class="paper-button" target="_blank">paper</a> <a href="https://drive.google.com/file/d/1N3VXOKCNsdL2MySr7EXJV5DcAymV632z/view?usp=sharing" class="paper-button" target="_blank">supplementary</a> <a href="assets/poster_wacv.pdf" class="paper-button" target="_blank">poster</a> <button class="bibtex-button">bibtex</button>
+</div>
 </div>
