@@ -72,10 +72,36 @@ $pink-300: #dd2cd4;
   // Smooth scrolling
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  
+  // Style the table to look seamless
+  table {
+    border: none;
+    background: transparent;
+    
+    th, td {
+      border: none;
+      padding: 0.25rem 0.5rem 0.25rem 0;
+      background: transparent;
+      vertical-align: top;
+    }
+    
+    // First column (dates) styling
+    td:first-child {
+      font-weight: 500;
+      white-space: nowrap;
+      padding-right: 1rem;
+      min-width: 100px;
+    }
+    
+    // Hide table header
+    thead {
+      display: none;
+    }
+  }
 }
 
 // Reduce spacing around publication dividers
-#publications hr {
+#divider hr {
   margin: 1rem 0;  // Reduce from default (usually 1.5rem or 2rem)
   border: none;
   border-top: 1px solid #e1e4e8;

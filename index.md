@@ -24,32 +24,35 @@ Outside of research, I am a photographer, and a home barista. I enjoy exploring 
 # highlights
 
 <div id="highlights" markdown="1">
-June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs.  
-Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.  
-Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.  
-Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024.  
-2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2024.  
-Nov 2022 | Teaching Assistant for Applied Machine Learning course.  
-Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!  
-Sep 2022 | Our work on [Maximum Separation](https://arxiv.org/abs/2206.08704) is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference. I will also present this work as a contributed talk at the Women in Machine Learning workshop.  
-Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)  
-Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!  
-Nov 2021 | Teaching Assistant for Applied Machine Learning course  
-Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.  
-Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021!  
-Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!  
-Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**  
-Aug 2019 | Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.  
-Jun 2019 | Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!  
-May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)  
-Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)  
-Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/), [Amit Kale](https://www.linkedin.com/in/kaleamit/)  
-Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
+
+| Date | Event |
+|------|-------|
+| June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs. |
+| Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA. |
+| Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference. |
+| Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. |
+| 2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2024. |
+| Nov 2022 | Teaching Assistant for Applied Machine Learning course. |
+| Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain! |
+| Sep 2022 | Our work on [Maximum Separation](https://arxiv.org/abs/2206.08704) is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference. I will also present this work as a contributed talk at the Women in Machine Learning workshop. |
+| Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704) |
+| Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022! |
+| Nov 2021 | Teaching Assistant for Applied Machine Learning course |
+| Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam. |
+| Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021! |
+| Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021! |
+| Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)** |
+| Aug 2019 | Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**. |
+| Jun 2019 | Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)! |
+| May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/) |
+| Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293) |
+| Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/), [Amit Kale](https://www.linkedin.com/in/kaleamit/) |
+| Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad |
+
 </div>
 
 
 # publications
-{: #publications}
 
 <span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
 featured publications 
@@ -68,6 +71,8 @@ Tejaswi Kasarla, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-
 </span>
 
 ---
+{: #divider}
+
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Hyperbolic Safety-Aware Vision-Language Models  
 </span> 
@@ -80,6 +85,8 @@ Hyperbolic Safety-Aware Vision-Language Models
 </span>  
 
 ---
+{: #divider}
+
 <span class="fs-5">
 Maximally Separated Active Learning   
 </span>
@@ -91,6 +98,8 @@ Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 t
 </span>  
 
 ---
+{: #divider}
+
 <span class="fs-5">
 Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
 </span>
@@ -102,6 +111,8 @@ Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Te
 </span>  
 
 ---
+{: #divider}
+
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Maximum Class Separation as Inductive Bias in One Matrix  
 </span>
@@ -115,6 +126,8 @@ Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml202
 </span>  
 
 ---
+{: #divider}
+
 <span class="fs-5">
 Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
 </span>
