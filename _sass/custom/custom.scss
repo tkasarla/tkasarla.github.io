@@ -124,3 +124,45 @@ hr {
   border-radius: 3px;
   display: inline;
 }
+
+// Seamless scrollable highlights section
+.highlights-container {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 1rem;
+  margin-right: -1rem;
+  line-height: 1.6;
+  
+  // Hide scrollbar for webkit browsers (Chrome, Safari, Edge)
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  // Hide scrollbar for Firefox
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+  // Smooth scrolling
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  // Subtle fade effect at bottom to indicate more content
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(transparent, var(--body-background-color, #fff));
+    pointer-events: none;
+    opacity: 0.8;
+  }
+  
+  // Make container position relative for pseudo-element
+  position: relative;
+  
+  // Add some padding at the bottom for the fade effect
+  padding-bottom: 1rem;
+}

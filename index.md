@@ -27,6 +27,7 @@ Outside of research, I am a photographer, and a home barista. I enjoy exploring 
 
 # highlights
 
+<div class="highlights-container">
 June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs. 
 Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.
 Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.
@@ -48,6 +49,7 @@ May 2019 | Started working as Computer Vision Researcher at **Research and Techn
 Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
 Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
 Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
+</div>
 
 
 # publications
