@@ -27,7 +27,7 @@ nav_exclude: True
 </iframe>
 
 <!-- Fallback link always visible
-<p>
+<p> 
   <a href="/assets/Tejaswi_Kasarla_CV.pdf" target="_blank" rel="noopener noreferrer">
     Download Tejaswi Kasarla's CV (PDF)
   </a>

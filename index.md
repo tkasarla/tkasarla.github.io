@@ -25,6 +25,8 @@ I was one of the organizers of [Women in Computer Vision (WiCV) Workshop](https:
 
 # highlights
 
+Jan 2025 | Our work on [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2601.10592) is available as a preprint on arXiv!
+June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs.
 Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.
 Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.
 Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. 
@@ -51,6 +53,47 @@ Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** 
 <span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
 *featured publications
 </span>
+
+<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
+Action100M: A Large-scale Video Action Dataset  
+</span> 
+    [Delong Chen](https://chendelong.world){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Yejin Bang](https://www.linkedin.com/in/yejinbang/){: .text-grey-dk-300 target="_blank"}, [Mustafa Shukor](https://mustafashukor.github.io){: .text-grey-dk-300 target="_blank"}, [Willy Chung](https://willyhc22.github.io){: .text-grey-dk-300 target="_blank"}, [Jade Yu](https://jadeleiyu.github.io){: .text-grey-dk-300 target="_blank"}, [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/){: .text-grey-dk-300 target="_blank"}, [Théo Moutakanni](https://www.linkedin.com/in/theo-moutakanni){: .text-grey-dk-300 target="_blank"}, [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139){: .text-grey-dk-300 target="_blank"}    
+Arxiv Preprint, 2026  
+{: .fs-4}  
+<span class="fs-3">
+[project page](https://github.com/facebookresearch/Action100M){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://www.arxiv.org/abs/2601.10592){: .btn .btn-outline .mr-2 target="_blank"} [dataset](https://huggingface.co/datasets/facebook/action100m-preview){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+</span>  
+
+<span class="fs-5">
+VL-JEPA: Joint Embedding Predictive Architecture for Vision-language  
+</span> 
+[Delong Chen\*](https://chendelong.world){: .text-grey-dk-300 target="_blank"}, [Mustafa Shukor\*](https://mustafashukor.github.io){: .text-grey-dk-300 target="_blank"}, [Théo Moutakanni\*](https://www.linkedin.com/in/theo-moutakanni){: .text-grey-dk-300 target="_blank"}, [Willy Chung\*](https://willyhc22.github.io){: .text-grey-dk-300 target="_blank"}, [Jade Yu](https://jadeleiyu.github.io){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/){: .text-grey-dk-300 target="_blank"}, [Yann LeCun](https://www.linkedin.com/in/yann-lecun/){: .text-grey-dk-300 target="_blank"}, [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139){: .text-grey-dk-300 target="_blank"}    
+Arxiv Preprint, 2025  
+{: .fs-4}  
+<span class="fs-3">
+[paper](https://arxiv.org/abs/2512.10942){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+</span>  
+
+<span class="fs-5">
+HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets  
+</span> 
+Tejaswi Kasarla, [Ruthu Hulikal Rooparaghunath](https://scholar.google.com/citations?user=RM1dNQoAAAAJ&hl=en){: .text-grey-dk-300 target="_blank"}, [Stefano D’Arrigo](https://www.linkedin.com/in/stefano-d-arrigo-6b084019a/){: .text-grey-dk-300 target="_blank"}, [Gowreesh Mago](https://gowreesh-mago.github.io/){: .text-grey-dk-300 target="_blank"},
+[Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Melika Ayoughi](https://melika.xyz/){: .text-grey-dk-300 target="_blank"}, [Swasti Shreya Mishra](https://www.linkedin.com/in/swastishreyamishra){: .text-grey-dk-300 target="_blank"}, [Ana Manzano Rodríguez](https://www.linkedin.com/in/ana-manzano-rodriguez){: .text-grey-dk-300 target="_blank"},[Teng Long](https://www.linkedin.com/in/tenglong-926500116){: .text-grey-dk-300 target="_blank"}, [Mina Ghadimi Atigh](https://minaghadimi.github.io){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}    
+ECCV 2025 [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop [Oral](){: .text-red-300}
+{: .fs-4 }  
+<span class="fs-3">
+[paper](https://openreview.net/forum?id=deDq9Te0lT){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/HierVision){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+</span>  
+
+<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
+Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors   
+</span> 
+Tejaswi Kasarla, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}    
+Arxiv Preprint, 2025  
+{: .fs-4 }  
+<span class="fs-3">
+[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
+</span>  
 
 <span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
 Hyperbolic Safety-Aware Vision-Language Models  
