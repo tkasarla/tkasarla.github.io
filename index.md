@@ -9,17 +9,19 @@ permalink: /
 ![Tejaswi Kasarla](assets/images/profile_photo.png){: .profile-image .float-left style="border-radius:10px" .mr-4}
 
 <div class="bio-content" markdown="1">
-I am a Research Scientist Intern at [Meta FAIR](https://ai.meta.com/research/) in Paris and a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models.
+I am a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models.
 
-I am passionate about community building and was one of the organizers for the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) at CVPR 2021 and 2022, and have served as a board member for WiCV since 2022.
-
-Outside of research, I am a photographer, and a home barista. I enjoy exploring the [speciality coffee scene](/more/#coffee) wherever I go!
+I am passionate about community building and was one of the organizers for the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) at CVPR 2021 & 2022, and have served as a board member for WiCV since 2022. Outside of research, I am a photographer, and a home barista. I enjoy exploring the [speciality coffee scene](/more/#coffee) wherever I go!
 </div>
 
-<div class="social-links" markdown="1">
+
+<div class="social-links" markdown="1" align="center">
 [![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) · [![Google Scholar](assets/images/gs.png){: width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} · [![CV](assets/images/cv.png){: width="20px" .mr-2 .v-align-bottom}](/cv) · [![Github](assets/images/github.png){: width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} · [![LinkedIn](assets/images/linkedin.png){: width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} · [![Twitter](assets/images/twitter.png){: width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
 </div>
 
+<p markdown="1" align="center" style="color:#FF3300">
+&rarr; Currently looking for PostDoc/Research Scientist positions starting summer 2026 &larr;
+</p>
 
 # highlights
 
