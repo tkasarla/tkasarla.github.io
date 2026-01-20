@@ -2,3 +2,112 @@ $pink-000: #f77ef1;
 $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
+
+// Profile image styling
+.profile-image {
+  width: 200px;
+  max-width: 100%;
+}
+
+// Minimal bibtex functionality styles (keeping modern features)
+.bibtex-button {
+  @extend .btn;
+  @extend .btn-outline;
+  @extend .v-align-top;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: var(--btn-primary-color, #007bff);
+    color: white;
+  }
+  
+  &.active {
+    background-color: var(--btn-primary-color, #007bff);
+    color: white;
+  }
+}
+
+.bibtex-display {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-x: auto;
+  
+  &.show {
+    display: block;
+  }
+  
+  // Dark mode support
+  @media (prefers-color-scheme: dark) {
+    background-color: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+}
+
+// Seamless highlights styling (keeping modern features)
+#highlights {
+  max-height: 400px;
+  overflow-y: auto;
+  border: none;
+  background: transparent;
+  
+  // Hide scrollbar for webkit browsers
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  // Hide scrollbar for Firefox
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  
+  // Smooth scrolling
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  // Style the table to look seamless
+  table {
+    border: none;
+    background: transparent;
+    
+    th, td {
+      border: none;
+      padding: 0.25rem 0.5rem 0.25rem 0;
+      background: transparent;
+      vertical-align: top;
+    }
+    
+    // First column (dates) styling
+    td:first-child {
+      font-weight: 500;
+      white-space: nowrap;
+      padding-right: 1rem;
+      min-width: 100px;
+    }
+    
+    // Hide table header
+    thead {
+      display: none;
+    }
+  }
+}
+
+// Reduce spacing around publication dividers
+#divider hr {
+  margin: 1rem 0;  // Reduce from default (usually 1.5rem or 2rem)
+  border: none;
+  border-top: 1px solid #e1e4e8;
+  
+  // Dark mode support
+  @media (prefers-color-scheme: dark) {
+    border-top-color: #30363d;
+  }
+}
