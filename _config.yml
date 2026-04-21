@@ -91,10 +91,10 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   Blog: /blog/
-  Publications: \#publications
+  Publications: /publications/
   Resources: /resources/
   # Art: /art.html
-  Books, Coffee and More: /more/
+  More: /more/
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -175,3 +175,8 @@ compress_html:
   #   envs: all
 
 remote_theme: just-the-docs/just-the-docs
+
+sass:
+  silence_deprecations:
+    - import
+    - global-builtin

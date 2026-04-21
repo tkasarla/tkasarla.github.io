@@ -6,157 +6,99 @@ description: "PhD Student, University of Amsterdam"
 permalink: /
 ---
 
-![Tejaswi Kasarla](assets/images/profile_photo.png){: .profile-image .float-left style="border-radius:10px" .mr-4}
+<div class="hero">
+<div class="hero-text" markdown="1">
+I am a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research explores non-Euclidean representation spaces (hyperbolic and hyperspherical) as a principled foundation for open-world visual recognition and multimodal foundation models. More recently, I am interested in how the geometry of the representation space can structure and ground embodied world models, so that agents can reason about actions and uncertainty at multiple levels of abstraction. 
 
-<div class="bio-content" markdown="1">
-I am a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research is at the intersection of non-euclidean representation learning (hyperspherical and hyperbolic deep learning) for open-world understanding and multimodal foundation models.
+I care deeply about building inclusive research communities. I co-organized the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and have served on the WiCV board since 2022. Outside research, I am a photographer and home barista, always in search of good light and a [perfect cup](/more/#coffee) wherever I go!
 
-I am passionate about community building and was one of the organizers for the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) at CVPR 2021 & 2022, and have served as a board member for WiCV since 2022. Outside of research, I am a photographer, and a home barista. I enjoy exploring the [speciality coffee scene](/more/#coffee) wherever I go!
+
+</div>
+<div class="hero-photo">
+<img src="assets/images/profile_photo.png" alt="Tejaswi Kasarla">
+<div class="hero-photo-links">
+  <a href="mailto:t.kasarla@uva.nl" data-label="Email"><i class="fas fa-envelope"></i><span class="link-label">Email</span></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" data-label="Scholar" target="_blank"><i class="fas fa-graduation-cap"></i><span class="link-label">Scholar</span></a>
+  <a href="/cv" data-label="CV"><i class="fas fa-file-lines"></i><span class="link-label">CV</span></a>
+  <a href="https://github.com/tkasarla" data-label="GitHub" target="_blank"><i class="fab fa-github"></i><span class="link-label">GitHub</span></a>
+  <a href="https://www.linkedin.com/in/tejaswikasarla/" data-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i><span class="link-label">LinkedIn</span></a>
+  <a href="https://twitter.com/tkasarla_" data-label="Twitter" target="_blank"><i class="fab fa-x-twitter"></i><span class="link-label">Twitter</span></a>
+</div>
+</div>
 </div>
 
 
-<div class="social-links" markdown="1" align="center">
-[![Email](assets/images/email.png){: width="20px" .mr-2 .v-align-bottom}](mailto:t.kasarla@uva.nl) · [![Google Scholar](assets/images/gs.png){: width="20px" .mr-2 .v-align-bottom}](https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate){: target="_blank"} · [![CV](assets/images/cv.png){: width="20px" .mr-2 .v-align-bottom}](/cv) · [![Github](assets/images/github.png){: width="20px" .mr-2 .v-align-bottom}](https://github.com/tkasarla){: target="_blank"} · [![LinkedIn](assets/images/linkedin.png){: width="20px" .mr-2 .v-align-bottom}](https://www.linkedin.com/in/tejaswikasarla/){: target="_blank"} · [![Twitter](assets/images/twitter.png){: width="20px" .mr-2 .v-align-bottom}](https://twitter.com/tkasarla_){: target="_blank"}
+
+# news
+
+| Date | Event |
+|------|-------|
+| Apr 2026 | Our work on [Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors](https://link.springer.com/article/10.1007/s11263-026-02775-6) is accepted to IJCV! |
+| Jan 2026 | Our work on [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2601.10592) is available as a preprint on arXiv! |
+| Jun 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs. |
+| Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA. |
+| Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference. |
+| Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. |
+{: .news-table}
+
+
+# featured publications
+
+<div class="pub-card pub-featured" markdown="1">
+**CVPR 2026 EgoVis Workshop**
+{: .pub-venue}
+
+[Action100M: A Large-scale Video Action Dataset](https://github.com/facebookresearch/Action100M){: target="_blank"}
+{: .pub-title}
+
+[Delong Chen](https://chendelong.world), **Tejaswi Kasarla**, [Yejin Bang](https://www.linkedin.com/in/yejinbang/), [Mustafa Shukor](https://mustafashukor.github.io), [Willy Chung](https://willyhc22.github.io), [Jade Yu](https://jadeleiyu.github.io), [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/), [Théo Moutakanni](https://www.linkedin.com/in/theo-moutakanni), [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139)
+{: .pub-authors}
+
+[project page](https://github.com/facebookresearch/Action100M){: .pub-link target="_blank"} [paper](https://www.arxiv.org/abs/2601.10592){: .pub-link target="_blank"} [dataset](https://huggingface.co/datasets/facebook/action100m-preview){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="action100m">bibtex</button>
+{: .pub-links}
 </div>
 
-<p markdown="1" align="center" style="color:#FF3300">
-&rarr; Currently looking for PostDoc/Research Scientist positions starting summer 2026 &larr;
-</p>
+<div class="pub-card pub-featured" markdown="1">
+**IJCV 2026**
+{: .pub-venue}
 
-# highlights
+[Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors](/papers/balanced-hyperbolic/)
+{: .pub-title}
 
-Jan 2025 | Our work on [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2601.10592) is available as a preprint on arXiv!
-June 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs.
-Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA.
-Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference.
-Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. 
-2023 | Reviewed papers for ICCV 2023, WiCV Workshop @ CVPR 2023, NeurIPS 2023 and ICLR 2024. 
-Nov 2022 | Teaching Assistant for Applied Machine Learning course.
-Sep 2022 | I presented a poster on our NeurIPS 2022 [paper](https://arxiv.org/abs/2206.08704) the [ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/) in Alicante, Spain!
-Sep 2022 | Our work on [Maximum Separation](https://arxiv.org/abs/2206.08704) is accepted to NeurIPS 2022 ! I will be presenting this work in-person at the conference. I will also present this work as a contributed talk at the Women in Machine Learning workshop.
-Jun 2022 | New preprint on arXiv!: [Maximum Class Separation as Inductive Bias in One Matrix](https://arxiv.org/abs/2206.08704)
-Jun 2022 | We organized the in-person and virtual [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2022/home) at CVPR 2022!
-Nov 2021 | Teaching Assistant for Applied Machine Learning course
-Oct 2021 | I joined PhD at VIS Lab, University of Amsterdam.
-Oct 2021 | We organized the Women in Computer Vision (WiCV) [Social](https://iccv2021.thecvf.com/networking-sessions) at ICCV 2021!
-Jun 2021 | We organized the [Women in Computer Vision Workshop](https://sites.google.com/view/wicvcvpr2021/home) at CVPR 2021!
-Aug 2020 | Presented [poster](https://smiles.skoltech.ru/poster-presentations) on Region based Active Learning for Semantic Segmentation at **Summer School of Machine Learning at Skoltech (SMILES)**
-Aug 2019 |  Reviewed papers for **Women in Machine Learning (WiML) workshop**, co-located with **NeurIPS 2019**.
-Jun 2019 |  Defended my Master's [thesis](http://web2py.iiit.ac.in/research_centres/publications/view_publication/mastersthesis/769)!
-May 2019 | Started working as Computer Vision Researcher at **Research and Technology Center, Bosch**. Excited to work on problems related to Autonomous Driving. \| Collaborators: [Amit Kale](https://www.linkedin.com/in/kaleamit/), [Yasaswi Bharadwaj](https://www.linkedin.com/in/yasaswi-bharadwaj-katta-87647555), [Hiranmai M.](https://www.linkedin.com/in/hiranmai-4b0a3398/), [Subramanya Bharadwaj](https://www.linkedin.com/in/subramanya-bharadwaj-63b10758/)
-Nov 2018 | Paper on _Region Based Active Learning for Efficient Labelling in Semantic Segmentation_ accepted to [WACV 2019](http://wacv19.wacv.net) [[link]](https://ieeexplore.ieee.org/document/8659293)
-Jun 2018 - Oct 2018 | Interning at **Research and Technology Center, Bosch**. \| Mentors: [Guruprasad Hegde](https://www.linkedin.com/in/guruprasad-hegde-657b81a/),  [Amit Kale](https://www.linkedin.com/in/kaleamit/)
-Apr 2018 | Presenting our work on **Active Learning for Semantic Segmentation** at 1st Research Symposium, IIIT Hyderabad
+**Tejaswi Kasarla**, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
+{: .pub-authors}
 
+[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
+{: .pub-links}
+</div>
 
-# publications
+<div class="pub-card pub-featured" markdown="1">
+**CVPR 2025** · <span class="pub-award">★ Highlight </span>
+{: .pub-venue}
 
-<span class="fs-4" style="background-color:rgba(255, 221, 126, 0.3)">
-*featured publications
-</span>
+[Hyperbolic Safety-Aware Vision-Language Models](https://aimagelab.github.io/HySAC/){: target="_blank"}
+{: .pub-title}
 
-<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
-Action100M: A Large-scale Video Action Dataset  
-</span> 
-    [Delong Chen](https://chendelong.world){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Yejin Bang](https://www.linkedin.com/in/yejinbang/){: .text-grey-dk-300 target="_blank"}, [Mustafa Shukor](https://mustafashukor.github.io){: .text-grey-dk-300 target="_blank"}, [Willy Chung](https://willyhc22.github.io){: .text-grey-dk-300 target="_blank"}, [Jade Yu](https://jadeleiyu.github.io){: .text-grey-dk-300 target="_blank"}, [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/){: .text-grey-dk-300 target="_blank"}, [Théo Moutakanni](https://www.linkedin.com/in/theo-moutakanni){: .text-grey-dk-300 target="_blank"}, [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139){: .text-grey-dk-300 target="_blank"}    
-Arxiv Preprint, 2026  
-{: .fs-4}  
-<span class="fs-3">
-[project page](https://github.com/facebookresearch/Action100M){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://www.arxiv.org/abs/2601.10592){: .btn .btn-outline .mr-2 target="_blank"} [dataset](https://huggingface.co/datasets/facebook/action100m-preview){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
-</span>  
+[Tobia Poppi\*](https://tobiapoppi.github.io), **Tejaswi Kasarla\***, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/), [Lorenzo Baraldi](https://www.lorenzobaraldi.com), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1)
+{: .pub-authors}
 
-<span class="fs-5">
-VL-JEPA: Joint Embedding Predictive Architecture for Vision-language  
-</span> 
-[Delong Chen\*](https://chendelong.world){: .text-grey-dk-300 target="_blank"}, [Mustafa Shukor\*](https://mustafashukor.github.io){: .text-grey-dk-300 target="_blank"}, [Théo Moutakanni\*](https://www.linkedin.com/in/theo-moutakanni){: .text-grey-dk-300 target="_blank"}, [Willy Chung\*](https://willyhc22.github.io){: .text-grey-dk-300 target="_blank"}, [Jade Yu](https://jadeleiyu.github.io){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/){: .text-grey-dk-300 target="_blank"}, [Yann LeCun](https://www.linkedin.com/in/yann-lecun/){: .text-grey-dk-300 target="_blank"}, [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139){: .text-grey-dk-300 target="_blank"}    
-Arxiv Preprint, 2025  
-{: .fs-4}  
-<span class="fs-3">
-[paper](https://arxiv.org/abs/2512.10942){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
-</span>  
+[project page](https://aimagelab.github.io/HySAC/){: .pub-link target="_blank"} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank"} [code](https://github.com/aimagelab/HySAC){: .pub-link target="_blank"} [model](https://huggingface.co/aimagelab/HySAC){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
+{: .pub-links}
+</div>
 
-<span class="fs-5">
-HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets  
-</span> 
-Tejaswi Kasarla, [Ruthu Hulikal Rooparaghunath](https://scholar.google.com/citations?user=RM1dNQoAAAAJ&hl=en){: .text-grey-dk-300 target="_blank"}, [Stefano D’Arrigo](https://www.linkedin.com/in/stefano-d-arrigo-6b084019a/){: .text-grey-dk-300 target="_blank"}, [Gowreesh Mago](https://gowreesh-mago.github.io/){: .text-grey-dk-300 target="_blank"},
-[Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Melika Ayoughi](https://melika.xyz/){: .text-grey-dk-300 target="_blank"}, [Swasti Shreya Mishra](https://www.linkedin.com/in/swastishreyamishra){: .text-grey-dk-300 target="_blank"}, [Ana Manzano Rodríguez](https://www.linkedin.com/in/ana-manzano-rodriguez){: .text-grey-dk-300 target="_blank"},[Teng Long](https://www.linkedin.com/in/tenglong-926500116){: .text-grey-dk-300 target="_blank"}, [Mina Ghadimi Atigh](https://minaghadimi.github.io){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}    
-ECCV 2025 [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop [Oral](){: .text-red-300}
-{: .fs-4 }  
-<span class="fs-3">
-[paper](https://openreview.net/forum?id=deDq9Te0lT){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/HierVision){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
-</span>  
+<div class="pub-card pub-featured" markdown="1">
+**NeurIPS 2022** · <span class="pub-award">★ Oral</span>  
+*Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program) @ NeurIPS 2022*
+{: .pub-venue}
 
-<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
-Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors   
-</span> 
-Tejaswi Kasarla, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}    
-Arxiv Preprint, 2025  
-{: .fs-4 }  
-<span class="fs-3">
-[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex">bibtex</button>{: .v-align-top}
-</span>  
+[Maximum Class Separation as Inductive Bias in One Matrix](/papers/max-separation-as-inductive-bias/)
+{: .pub-title}
 
-<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
-Hyperbolic Safety-Aware Vision-Language Models  
-</span> 
-[Tobia Poppi](https://tobiapoppi.github.io){: .text-grey-dk-300 target="_blank"}\*, Tejaswi Kasarla\*, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}, [Lorenzo Baraldi](https://www.lorenzobaraldi.com){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}                                                                        
-**CVPR 2025** [Highlight (top 13.5% of accepted papers)](){: .text-red-300}
+**Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
+{: .pub-authors}
 
-{: .fs-4}  
-<span class="fs-3">
-[project page](https://aimagelab.github.io/HySAC/){: .btn .btn-outline .mr-2 target="_blank"}[paper](https://arxiv.org/abs/2503.12127){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank" } [model](https://huggingface.co/aimagelab/HySAC){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>{: .v-align-top}                                                   
-</span>  
+[project page](papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
+{: .pub-links}
+</div>
 
----
-{: #divider}
-
-<span class="fs-5">
-Maximally Separated Active Learning   
-</span>
-Tejaswi Kasarla, [Abhishek Jha](https://abskjha.github.io){: .text-grey-dk-300 target="_blank"}, [Faye Tervoort](https://www.linkedin.com/in/faye-tervoort-15298a171/){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                         
-**ECCV 2024** [Beyond Euclidean](https://sites.google.com/view/beyondeuclidean/home){: .text-grey-dk-300 target="_blank"} Workshop
-{: .fs-4}  
-<span class="fs-3">
-[paper](https://arxiv.org/abs/2411.17444){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/ActiveLearning-MaxSep){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="maximally-separated">bibtex</button>{: .v-align-top}                                                             
-</span>  
-
----
-{: #divider}
-
-<span class="fs-5">
-Lightweight Uncertainty Quantification with Simplex Semantic Segmentation for Terrain Traversability
-</span>
-[Judith Dijk](https://www.linkedin.com/in/judith-dijk){: .text-grey-dk-300 target="_blank"}, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Kapil D. Katyal](https://kdk132.github.io){: .text-grey-dk-300 target="_blank"}, [Bryanna Y. Yeh](https://www.linkedin.com/in/byyeh/){: .text-grey-dk-300 target="_blank"}, [Craig T. Knuth](https://www.linkedin.com/in/craig-knuth/){: .text-grey-dk-300 target="_blank"}, [Ella Fokkinga](https://www.linkedin.com/in/ellafokkinga){: .text-grey-dk-300 target="_blank"}, Tejaswi Kasarla, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                                                                                    
-**ICRA 2024** Workshop on [Resilient Off-road Autonomy](https://theairlab.org/icra2024_offroad_workshop/){: .text-grey-dk-300 target="_blank"}
-{: .fs-4}  
-<span class="fs-3">
-[paper](https://arxiv.org/abs/2407.13392){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="terrain-traversability">bibtex</button>{: .v-align-top}
-</span>  
-
----
-{: #divider}
-
-<span class="fs-5" style="background-color:rgba(255, 221, 126, 0.3)">
-Maximum Class Separation as Inductive Bias in One Matrix  
-</span>
-Tejaswi Kasarla, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/){: .text-grey-dk-300 target="_blank"}, [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147){: .text-grey-dk-300 target="_blank"}, [Elise van der Pol](https://www.elisevanderpol.nl){: .text-grey-dk-300 target="_blank"}, [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1){: .text-grey-dk-300 target="_blank"}, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/){: .text-grey-dk-300 target="_blank"}                                                                                             
-**NeurIPS 2022** [Oral (top 6.8% of accepted papers)](){: .text-red-300}
-{: .fs-4}  
-Also a contributed talk at [WiML Workshop](https://sites.google.com/view/wiml2022/program){: .text-dk-gray-300 target="_blank"} @ NeurIPS 2022
-{: .text-dk-gray-300 .fs-3}
-<span class="fs-3">
-[project page](papers/max-separation-as-inductive-bias/){: .btn .btn-outline .mr-2 }[paper](https://arxiv.org/abs/2206.08704){: .btn .btn-outline .mr-2 target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .btn .btn-outline .mr-2 target="_blank" } [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .btn .btn-outline .mr-2 target="_blank" } [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .btn .btn-outline .mr-2 target="_blank" } <button class="btn btn-outline bibtex-button" data-paper-id="max-separation">bibtex</button>{: .v-align-top}           
-</span>  
-
----
-{: #divider}
-
-<span class="fs-5">
-Region-Based Active Learning for Efficient Labelling in Semantic Segmentation  
-</span>
-Tejaswi Kasarla, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113){: .text-grey-dk-300 target="_blank"}, [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a){: .text-grey-dk-300 target="_blank"}, [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/){: .text-grey-dk-300 target="_blank"}, [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/){: .text-grey-dk-300 target="_blank"}                                                        
-**WACV 2019**
-
-<span class="fs-3">
-[paper](https://ieeexplore.ieee.org/document/8659293){: .btn .btn-outline .mr-2 target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .btn .btn-outline .mr-2 target="_blank"} [poster](assets/poster_wacv.pdf){: .btn .btn-outline .mr-2 target="_blank"} <button class="btn btn-outline bibtex-button" data-paper-id="region-based">bibtex</button>{: .v-align-top}                                                                                        
-</span>
+<p class="pub-see-all"><a href="/publications/">see all publications →</a></p>

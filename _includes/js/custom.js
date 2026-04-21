@@ -37,6 +37,36 @@ const bibtexData = {
   author={Kasarla, Tejaswi and Nagendar, G and Hegde, Guruprasad and Balasubramanian, Vineeth N and Jawahar, CV},
   booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   year={2019}
+}`,
+  'hyperbolic-granularity': `@inproceedings{ghadimiatigh2026hyperbolic,
+  title={Hyperbolic Learning with Supervision from any Granularity},
+  author={Ghadimi Atigh, Mina and van Spengler, Max and Long, Teng and Ayoughi, Melika and Kasarla, Tejaswi and Mettes, Pascal},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  year={2026}
+}`,
+  'orthorf': `@inproceedings{touska2026orthorf,
+  title={OrthoRF: Exploring Orthogonality in Object-Centric Representations},
+  author={Touska, Despoina and Fagginger Auer, Bastiaan Onne and Onose, Alexandru and Kasarla, Tejaswi and P{\'e}rez Rey, Luis Armando and Lipp, Maximilian and Amitonova, Lyubov and Oswald, Martin R. and Cerfontaine, Pascal},
+  booktitle={International Conference on Learning Representations},
+  year={2026}
+}`,
+  'action100m': `@inproceedings{chen2026action100m,
+  title={Action100M: A Large-scale Video Action Dataset},
+  author={Chen, Delong and Kasarla, Tejaswi and Bang, Yejin and Shukor, Mustafa and Chung, Willy and Yu, Jade and Bolourchi, Allen and Moutakanni, Th{\'e}o and Fung, Pascale},
+  booktitle={CVPR Workshop on Egocentric Vision},
+  year={2026}
+}`,
+  'vl-jepa': `@inproceedings{chen2026vljepa,
+  title={VL-JEPA: Joint Embedding Predictive Architecture for Vision-language},
+  author={Chen, Delong and Shukor, Mustafa and Moutakanni, Th{\'e}o and Chung, Willy and Yu, Jade and Kasarla, Tejaswi and Bolourchi, Allen and LeCun, Yann and Fung, Pascale},
+  booktitle={International Conference on Learning Representations},
+  year={2026}
+}`,
+  'hiervision': `@inproceedings{kasarla2025hiervision,
+  title={HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets},
+  author={Kasarla, Tejaswi and Rooparaghunath, Ruthu Hulikal and D'Arrigo, Stefano and Mago, Gowreesh and Jha, Abhishek and Ayoughi, Melika and Mishra, Swasti Shreya and Manzano Rodr{\'{i}}guez, Ana and Long, Teng and Ghadimi Atigh, Mina and van Spengler, Max and Mettes, Pascal},
+  booktitle={ECCV Workshop on Beyond Euclidean},
+  year={2025}
 }`
 };
 
@@ -122,10 +152,10 @@ function initBibtexButtons() {
     if (bibtexContent) {
       bibtexContainer.textContent = bibtexContent;
       
-      // Insert after the button's parent span (which contains the links)
-      const parentSpan = button.closest('span');
-      if (parentSpan && parentSpan.parentNode) {
-        parentSpan.parentNode.insertBefore(bibtexContainer, parentSpan.nextSibling);
+      // Insert after the button's parent container (pub-links div or legacy span)
+      const parentContainer = button.closest('.pub-links') || button.closest('span');
+      if (parentContainer && parentContainer.parentNode) {
+        parentContainer.parentNode.insertBefore(bibtexContainer, parentContainer.nextSibling);
       }
       
       // Add click event

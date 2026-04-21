@@ -1,16 +1,55 @@
 ---
 layout: default
 ---
-<div class="paper" align="center" >
-  <header class="paper-header" >
-    <h2 class="paper-title"  >{{ page.title }}</h2>
-    <p>{{ page.description }}</p>
-  </header>
+<div class="paper-page">
 
+  <div class="paper-hero">
+    <h1 class="paper-title">{{ page.title }}</h1>
 
+    <div class="paper-venue">
+      {% if page.award %}<span class="pub-award">{{ page.award }}</span>{% endif %}
+      <span>{{ page.venue }}</span>
+    </div>
 
-  <article class="paper-content">
-   <small> {{ content }} </small>
-  </article>
+    <div class="paper-authors">
+      {% for author in page.authors %}{% if author.url %}<a href="{{ author.url }}" target="_blank">{% endif %}{% if author.me %}<strong>{% endif %}{{ author.name }}{% if author.equal %}<sup>*</sup>{% endif %}{% if author.affil %}<sup>{{ author.affil }}</sup>{% endif %}{% if author.me %}</strong>{% endif %}{% if author.url %}</a>{% endif %}{% unless forloop.last %},&ensp;{% endunless %}{% endfor %}
+    </div>
+
+    {% if page.affiliations %}
+    <div class="paper-affiliations">
+      {% for aff in page.affiliations %}<span><sup>{{ aff.num }}</sup>{{ aff.name }}</span>{% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="paper-links">
+      {% for link in page.links %}<a href="{{ link.url }}" class="paper-btn" {% unless link.local %}target="_blank"{% endunless %}>{% if link.icon %}<i class="{{ link.icon }}"></i>&thinsp;{% endif %}{{ link.label }}</a>{% endfor %}
+    </div>
+
+    {% if page.thumbnail %}
+    <div class="paper-thumbnail">
+      <img src="{{ page.thumbnail }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+  </div>
+
+  {% if page.abstract %}
+  <section class="paper-section">
+    <h2>Abstract</h2>
+    <p class="paper-abstract">{{ page.abstract }}</p>
+  </section>
+  {% endif %}
+
+  {% if content != "" %}
+  <div class="paper-content" markdown="1">
+{{ content }}
+  </div>
+  {% endif %}
+
+  {% if page.bibtex %}
+  <section class="paper-section">
+    <h2>BibTeX</h2>
+    <pre class="paper-bibtex">{{ page.bibtex }}</pre>
+  </section>
+  {% endif %}
 
 </div>

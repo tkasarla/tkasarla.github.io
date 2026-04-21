@@ -3,48 +3,410 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
-// Profile image styling
-.profile-image {
-  width: 200px;
-  max-width: 100%;
+// =================================
+// Global Typography
+// =================================
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.875rem;
 }
 
-// Minimal bibtex functionality styles (keeping modern features)
-.bibtex-button {
-  @extend .btn;
-  @extend .btn-outline;
-  @extend .v-align-top;
-  cursor: pointer;
-  
-  &:hover {
-    background-color: var(--btn-primary-color, #007bff);
-    color: white;
+// Fix thin h1 (theme default is font-weight: 300)
+h1 {
+  font-weight: 400;
+}
+
+// Center content when sidebar is hidden
+.main {
+  @include mq(md) {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
-  
-  &.active {
-    background-color: var(--btn-primary-color, #007bff);
-    color: white;
+
+  @include mq(lg) {
+    margin-left: auto !important;
   }
 }
+
+// =================================
+// Hero Layout
+// =================================
+
+.hero {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+
+  > p:first-child { margin-top: 0; }
+}
+
+.hero-name {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 0.75rem 0;
+  color: #27262b;
+}
+
+.hero-links {
+  margin-top: 0.85rem;
+  font-size: 0.875rem; // secondary
+
+  a {
+    color: #5c5962;
+    text-decoration: none;
+
+    &:hover {
+      color: #27262b;
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: #5c5962;
+    }
+  }
+}
+
+.hero-photo {
+  flex-shrink: 0;
+
+  img {
+    width: 230px;
+    border-radius: 40px;
+    display: block;
+    box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.28);
+  }
+
+  @media (max-width: 600px) {
+    img {
+      width: 140px;
+    }
+  }
+}
+
+.hero-photo-links {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin-top: 0.75rem;
+  width: 230px;
+
+  a {
+    font-size: 1.05rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2rem;
+    overflow: visible;
+    color: #959396;
+    transition: color 0.15s ease;
+
+    i { color: inherit; }
+    position: relative;
+
+    span.link-label {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.62rem;
+      color: inherit;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      pointer-events: none;
+      margin-top: 2px;
+    }
+
+    &:visited { color: #959396; }
+  }
+}
+
+.hero-photo-links a:hover,
+.hero-photo-links a:focus {
+  color: #8b2810 !important;
+
+  i { color: #8b2810 !important; }
+
+  span.link-label {
+    opacity: 1;
+  }
+}
+
+// =================================
+// News Section
+// =================================
+
+.table-wrapper:has(.news-table) {
+  box-shadow: none;
+  // box-shadow: inset 0 -10px 10px -6px rgba(0, 0, 0, 0.08);
+  border-radius: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.news-table {
+  border: none !important;
+  background: transparent !important;
+  width: 100%;
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: none !important;
+    background: transparent !important;
+
+    &:hover {
+      background: transparent !important;
+    }
+  }
+
+  td {
+    border: none !important;
+    background: transparent !important;
+    padding: 0.3rem 0.75rem 0.3rem 0 !important;
+    vertical-align: top;
+
+    &:first-child {
+      font-size: 0.75rem; // small labels
+      font-weight: 500;
+      color: #959396;
+      white-space: nowrap;
+      min-width: 82px;
+      padding-top: 0.42rem !important;
+      letter-spacing: 0.01em;
+    }
+
+    &:last-child {
+      font-size: 0.875rem; // secondary
+      line-height: 1.55;
+    }
+  }
+}
+
+// =================================
+// Publications Section
+// =================================
+
+
+
+.pub-legend {
+  display: block;
+  font-size: 0.75rem;
+  color: #959396;
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.pub-see-all {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.pub-card {
+  padding: 0.85rem 0.9rem 0.85rem 1.1rem;
+  margin-bottom: 0.5rem;
+  border-left: 3px solid #e6e1e8;
+  border-radius: 0 6px 6px 0;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-left-color: #b0adb5;
+  }
+
+  &.pub-featured {
+    border-left-color: #C63F28;
+
+    &:hover {
+      background-color: rgba(198, 63, 40, 0.06);
+      border-left-color: #a33220;
+    }
+
+    .pub-venue strong {
+      background: #fdf2f0;
+      border-color: #e8b5a8;
+      color: #8b2810;
+    }
+  }
+
+  // Reset paragraph margins inside cards
+  p {
+    margin: 0 0 0.28rem 0;
+  }
+
+  .pub-title {
+    font-size: 1rem; // body
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 0.3rem !important;
+
+    a {
+      color: #27262b;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:visited {
+        color: #27262b;
+      }
+    }
+  }
+
+  .pub-authors {
+    font-size: 0.875rem; // secondary
+    color: #5c5962;
+    line-height: 1.5;
+
+    a {
+      color: #5c5962;
+      text-decoration: none;
+
+      &:hover {
+        color: #27262b;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pub-venue {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+
+    strong {
+      display: inline-block;
+      background: #f0eef5;
+      border: 1px solid #ddd8e4;
+      border-radius: 4px;
+      padding: 0.1rem 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #44434d;
+      letter-spacing: 0.01em;
+    }
+
+    a {
+      font-size: 0.75rem;
+      color: #5c5962;
+    }
+
+    em {
+      display: block;
+      margin-top: 0.25rem;
+      color: #5c5962;
+    }
+  }
+
+  .pub-award {
+    display: inline-block;
+    background: #f2eaeb;
+    border: 1px solid #deccce;
+    border-radius: 4px;
+    padding: 0.1rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #513b3d;
+    letter-spacing: 0.01em;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0;
+    margin-top: 0.45rem;
+  }
+
+  .pub-link {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #5c5962;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 0;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1.5;
+    transition: color 0.15s ease;
+
+    &::after {
+      content: ' /';
+      color: #d0ccd4;
+      margin: 0 0.35rem 0 0.35rem;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    &:last-child::after {
+      content: '';
+      margin: 0;
+    }
+
+    &:hover {
+      color: #8b2810 !important;
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: #5c5962;
+    }
+
+    &.active {
+      color: #27262b;
+      font-weight: 600;
+    }
+  }
+}
+
+// =================================
+// BibTeX Display
+// =================================
 
 .bibtex-display {
   display: none;
-  margin-top: 0.5rem;
-  padding: 0.75rem;
+  margin-top: 0.6rem;
+  padding: 0.7rem;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 4px;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-  font-size: 0.8rem;
-  line-height: 1.4;
+  font-size: 0.75rem; // small labels
+  line-height: 1.5;
   white-space: pre-wrap;
   overflow-x: auto;
-  
+
   &.show {
     display: block;
   }
-  
-  // Dark mode support
+
   @media (prefers-color-scheme: dark) {
     background-color: #2d3748;
     border-color: #4a5568;
@@ -52,62 +414,379 @@ $pink-300: #dd2cd4;
   }
 }
 
-// Seamless highlights styling (keeping modern features)
-#highlights {
-  max-height: 400px;
-  overflow-y: auto;
-  border: none;
-  background: transparent;
-  
-  // Hide scrollbar for webkit browsers
-  &::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
-  
-  // Hide scrollbar for Firefox
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  
-  // Smooth scrolling
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  
-  // Style the table to look seamless
-  table {
-    border: none;
-    background: transparent;
-    
-    th, td {
-      border: none;
-      padding: 0.25rem 0.5rem 0.25rem 0;
-      background: transparent;
-      vertical-align: top;
-    }
-    
-    // First column (dates) styling
-    td:first-child {
-      font-weight: 500;
-      white-space: nowrap;
-      padding-right: 1rem;
-      min-width: 100px;
-    }
-    
-    // Hide table header
-    thead {
-      display: none;
-    }
+// Legacy bibtex-button alias
+.bibtex-button {
+  &.active {
+    background: #27262b;
+    border-color: #27262b;
+    color: #fff;
   }
 }
 
-// Reduce spacing around publication dividers
-#divider hr {
-  margin: 1rem 0;  // Reduce from default (usually 1.5rem or 2rem)
-  border: none;
-  border-top: 1px solid #e1e4e8;
-  
-  // Dark mode support
-  @media (prefers-color-scheme: dark) {
-    border-top-color: #30363d;
+// =================================
+// Paper Project Pages
+// =================================
+
+.paper-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.paper-hero {
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid #ebe9ed;
+  margin-bottom: 2rem;
+}
+
+.paper-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #27262b;
+  margin-bottom: 0.75rem;
+}
+
+.paper-venue {
+  font-size: 0.875rem;
+  color: #5c5962;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.paper-authors {
+  font-size: 0.875rem;
+  color: #5c5962;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+
+  a {
+    color: #5c5962;
+    text-decoration: none;
+    &:hover { color: #8b2810; text-decoration: underline; }
+  }
+
+  strong { color: #27262b; }
+}
+
+.paper-affiliations {
+  font-size: 0.75rem;
+  color: #959396;
+  margin-bottom: 1.25rem;
+
+  span + span::before {
+    content: ' · ';
+  }
+}
+
+.paper-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.paper-btn {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  background: #27262b;
+  color: #fff !important;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background 0.15s ease;
+
+  &:hover { background: #8b2810; }
+}
+
+.paper-thumbnail {
+  margin-top: 1rem;
+
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  }
+}
+
+.paper-section {
+  margin-bottom: 2rem;
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #27262b;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #ebe9ed;
+  }
+}
+
+.paper-abstract {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: #3d3c42;
+  text-align: justify;
+}
+
+.paper-content {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.paper-bibtex {
+  background: #f6f5f7;
+  border: 1px solid #ebe9ed;
+  border-radius: 6px;
+  padding: 1rem;
+  font-size: 0.75rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  line-height: 1.6;
+  overflow-x: auto;
+  white-space: pre;
+  text-align: left;
+}
+
+// =================================
+// More / Bookshelf Page
+// =================================
+
+.more-intro {
+  font-size: 1rem;
+  color: #5c5962;
+  margin-bottom: 1.5rem;
+}
+
+.more-intro-text {
+  font-size: 0.875rem;
+  color: #5c5962;
+  margin-bottom: 1.25rem;
+
+  a { color: #8b2810; }
+}
+
+.more-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.more-nav-pill {
+  display: inline-block;
+  padding: 0.35rem 1rem;
+  background: #f0eef5;
+  border: 1px solid #ddd8e4;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  color: #44434d;
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+  &:hover {
+    background: #8b2810;
+    border-color: #8b2810;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.more-card {
+  padding: 0.85rem 1rem;
+  border: 1px solid #ebe9ed;
+  border-radius: 8px;
+  background: #faf9fb;
+  margin: 0;
+
+  strong {
+    display: block;
+    font-size: 0.875rem;
+    color: #27262b;
+    margin-bottom: 0.15rem;
+  }
+
+  a {
+    font-size: 0.8rem;
+    color: #8b2810;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.more-note {
+  font-size: 0.875rem;
+  color: #5c5962;
+  background: #f8f7fa;
+  border-left: 3px solid #ddd8e4;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 1rem;
+
+  a { color: #8b2810; }
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.book-card {
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #ebe9ed;
+  border-radius: 8px;
+  background: #faf9fb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  .book-title {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #27262b;
+    line-height: 1.4;
+  }
+
+  .book-author {
+    font-size: 0.75rem;
+    color: #5c5962;
+    font-style: italic;
+  }
+
+  .book-link {
+    font-size: 0.75rem;
+    color: #8b2810;
+    text-decoration: none;
+    margin-top: 0.2rem;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.coffee-highlight {
+  background: #fdf8f3;
+  border-left: 3px solid #d4956a;
+  padding: 0.75rem 1rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.875rem;
+  color: #5c5962;
+  margin-bottom: 1.25rem;
+
+  a { color: #8b2810; }
+}
+
+.more-footer-note {
+  font-size: 0.875rem;
+  color: #5c5962;
+  margin-top: 1.25rem;
+
+  a { color: #8b2810; }
+}
+
+// ── Static OpenStreetMap tile maps ──────────────────────────────────────────
+
+.map-container-with-toggle {
+  display: block;
+  margin: 0.5rem 0 1rem 0;
+  overflow-x: auto;
+}
+
+// The actual checkbox is invisible; the label is the click target
+.toggle {
+  display: none;
+}
+
+.map-toggle-label {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 2px 9px;
+  background: #f5f5f5;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  color: #5c5962;
+  user-select: none;
+  margin-bottom: 0.4rem;
+
+  &::before { content: "show map ▾"; }
+}
+
+.toggle:checked ~ .map-toggle-label {
+  background: #eaf6f5;
+  border-color: #2aa198;
+  color: #2aa198;
+
+  &::before { content: "hide map ▴"; }
+}
+
+// Hidden by default; revealed when checkbox is checked
+.map-container {
+  display: none;
+  clear: both;
+  position: relative;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.toggle:checked ~ .map-container {
+  display: block;
+}
+
+.map {
+  position: relative;
+}
+
+.tile {
+  border: 0;
+  padding: 0;
+  font-size: 0;
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
+
+.annotation {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #2aa198;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .annotation:hover::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 14px;
+    top: -5px;
+    background: white;
+    color: black;
+    padding: 2px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
   }
 }

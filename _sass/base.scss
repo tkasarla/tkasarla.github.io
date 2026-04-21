@@ -11,9 +11,9 @@
 }
 
 html {
-  @include fs-4;
-
   scroll-behavior: smooth;
+
+  @include fs-4;
 }
 
 body {

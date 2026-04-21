@@ -4,3 +4,7 @@
 _site
 Gemfile.lock
 node_modules
+more.md.bak
+index.md.bak
+_tools
+.vscode
