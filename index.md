@@ -8,9 +8,12 @@ permalink: /
 
 <div class="hero">
 <div class="hero-text" markdown="1">
-I am a fourth-year PhD candidate at [VIS lab](https://ivi.fnwi.uva.nl/vislab/), [University of Amsterdam](https://www.uva.nl/en) and [ELLIS Unit Amsterdam](https://ivi.fnwi.uva.nl/ellis/). I am supervised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](http://personale.unimore.it/Rubrica/dettaglio/cucchiara). My research explores non-Euclidean representation spaces (hyperbolic and hyperspherical) as a principled foundation for open-world visual recognition and multimodal foundation models. More recently, I am interested in how the geometry of the representation space can structure and ground embodied world models, so that agents can reason about actions and uncertainty at multiple levels of abstraction. 
 
-I care deeply about building inclusive research communities. I co-organized the [Women in Computer Vision (WiCV) Workshop](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and have served on the WiCV board since 2022. Outside research, I am a photographer and home barista, always in search of good light and a [perfect cup](/more/#coffee) wherever I go!
+I am an ELLIS PhD student at [**University of Amsterdam**](https://www.uva.nl/en){: .text-grey-dk-100}, advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html). My main research is in non-Euclidean representation learning (especially hyperbolic and hyperspherical representation spaces) and their applications to open-world visual recognition and multimodal foundation models. More recently, I am interested in how the geometry of the representation space can structure and ground embodied world models, so that agents can reason about actions and uncertainty at multiple levels of abstraction.
+
+I was a visiting researcher at [**UNIMORE**](https://www.unimore.it/){: .text-grey-dk-100} with [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) and a research intern at **Meta FAIR** with [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139). I care deeply about building inclusive research communities. I co-organized the [Women in Computer Vision (WiCV)](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and have served on the WiCV board since 2022. 
+
+Outside academia, I am a photographer and home barista, always in search of good light and a [perfect cup](/more/#coffee) wherever I go!
 
 
 </div>
