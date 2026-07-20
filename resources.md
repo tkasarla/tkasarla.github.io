@@ -51,7 +51,7 @@ Over time, I curated some awesome resources for (technical and non-technical par
 
 - [A pragmatic guide to PhD programs](https://gautamcgoel.substack.com/p/a-pragmatic-guide-to-phd-programs) by [Gautam Goel](https://twitter.com/gautamcgoel)
 
-- [Krishna Murthy](http://krrish94.github.io) writes about grad school application [advice](http://krrish94.github.io/blog/gradschool-pick-school/) focusing on different factors that give a holistic view on choosing a school and advisor based on what is important to you.
+- [Krishna Murthy](https://krrish94.github.io) writes about grad school application [advice](https://krrish94.github.io/blog/2020/gradschool-pick-school/) focusing on different factors that give a holistic view on choosing a school and advisor based on what is important to you.
 
 - [A definitive guide](https://www.cs.columbia.edu/wp-content/uploads/2019/03/Get-Advisor.pdf) to what do I look for/ask for in a PhD advisor curated by [Andrew Kuznetsov](https://twitter.com/andrewkuznet).
 

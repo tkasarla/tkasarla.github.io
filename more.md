@@ -6,7 +6,7 @@ nav_exclude: True
 
 # Coffee
 
-I enjoy brewing with Aeropress and Mokapot (and sometimes espresso)! Inspired by coffee pages from other researchers: [Justine Sherry](http://www.justinesherry.com/coffee.html){: target="_blank"}, [Divyansh Kaushik](https://www.cs.cmu.edu/~dkaushik/index.html){: target="_blank"}, [Akshay Narayan](https://akshayn.xyz/coffee.html){: target="_blank"}.
+I enjoy brewing with Aeropress and Mokapot (and sometimes espresso)! Inspired by coffee pages from other researchers: [Justine Sherry](https://web.archive.org/web/20220810045645/https://www.justinesherry.com/coffee.html){: target="_blank"}, [Divyansh Kaushik](https://www.cs.cmu.edu/~dkaushik/index.html){: target="_blank"}, [Akshay Narayan](https://akshayn.xyz/coffee.html){: target="_blank"}.
 
 ## Amsterdam ☕︎
 

@@ -37,7 +37,7 @@ For a list of my featured publications, please scroll down the [home](/#featured
 **Tejaswi Kasarla**, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
+[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2506.10146){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -156,7 +156,7 @@ For a list of my featured publications, please scroll down the [home](/#featured
 **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
+[project page](/papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -172,6 +172,6 @@ For a list of my featured publications, please scroll down the [home](/#featured
 **Tejaswi Kasarla**, [G Nagendar](https://in.linkedin.com/in/nagendar-g-257305113), [Guruprasad Hegde](https://in.linkedin.com/in/guruprasad-hegde-657b81a), [Vineeth N. Balasubramanian](https://people.iith.ac.in/vineethnb/), [C.V. Jawahar](https://faculty.iiit.ac.in/~jawahar/)
 {: .pub-authors}
 
-[project page](/papers/region-based-al/){: .pub-link} [paper](https://ieeexplore.ieee.org/document/8659293){: .pub-link target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .pub-link target="_blank"} [poster](assets/poster_wacv.pdf){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="region-based">bibtex</button>
+[project page](/papers/region-based-al/){: .pub-link} [paper](https://ieeexplore.ieee.org/document/8659293){: .pub-link target="_blank"} [supplementary](https://drive.google.com/file/d/1N3VXOKCNsdL2MYSr7EXJV5DcAymV632z/view?usp=sharing){: .pub-link target="_blank"} [poster](/assets/poster_wacv.pdf){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="region-based">bibtex</button>
 {: .pub-links}
 </div>

@@ -71,7 +71,7 @@ Outside academia, I am a photographer and home barista, always in search of good
 **Tejaswi Kasarla**, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
+[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2506.10146){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -100,7 +100,7 @@ Outside academia, I am a photographer and home barista, always in search of good
 **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
+[project page](/papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
 {: .pub-links}
 </div>
 
