@@ -8,3 +8,7 @@ more.md.bak
 index.md.bak
 _tools
 .vscode
+.claude/
+.DS_Store
+vendor/
+.jekyll-cache

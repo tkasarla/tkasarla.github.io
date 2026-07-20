@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gemspec
 
-gem "webrick", ">= 1.8.2"
+gem "jekyll", ">= 4.3"
+gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
+gem "webrick", ">= 1.8.2"
