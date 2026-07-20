@@ -147,6 +147,7 @@ callouts:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 kramdown:
   syntax_highlighter_opts:
