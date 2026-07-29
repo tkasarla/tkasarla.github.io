@@ -39,4 +39,8 @@ bibtex: |
     journal={International Journal of Computer Vision},
     year={2026}
   }
+thumbnail: "/assets/images/papers/balanced-hyperbolic.jpg"
+thumbnail_webp: "/assets/images/papers/balanced-hyperbolic.webp"
+thumbnail_alt: "Hyperbolic embeddings of in-distribution and out-of-distribution samples in the Poincare disk"
+thumbnail_caption: "Figure 1 from the paper."
 ---

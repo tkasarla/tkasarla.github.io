@@ -26,9 +26,13 @@ layout: default
     </div>
 
     {% if page.thumbnail %}
-    <div class="paper-thumbnail">
-      <img src="{{ page.thumbnail }}" alt="{{ page.title }}">
-    </div>
+    <figure class="paper-thumbnail">
+      <picture>
+        {% if page.thumbnail_webp %}<source srcset="{{ page.thumbnail_webp | relative_url }}" type="image/webp">{% endif %}
+        <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.thumbnail_alt | default: page.title }}" loading="lazy">
+      </picture>
+      {% if page.thumbnail_caption %}<figcaption>{{ page.thumbnail_caption }}</figcaption>{% endif %}
+    </figure>
     {% endif %}
   </div>
 

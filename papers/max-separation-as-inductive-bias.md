@@ -63,4 +63,8 @@ bibtex: |
     booktitle={Advances in Neural Information Processing Systems},
     year={2022}
   }
+thumbnail: "/assets/images/papers/max-separation-as-inductive-bias.jpg"
+thumbnail_webp: "/assets/images/papers/max-separation-as-inductive-bias.webp"
+thumbnail_alt: "Recursive construction of maximally separated class prototypes on a circle and a sphere"
+thumbnail_caption: "Figure 1 from the paper."
 ---

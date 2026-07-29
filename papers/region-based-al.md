@@ -47,4 +47,8 @@ bibtex: |
     booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
     year={2019}
   }
+thumbnail: "/assets/images/papers/region-based-al.jpg"
+thumbnail_webp: "/assets/images/papers/region-based-al.webp"
+thumbnail_alt: "Pipeline: an unlabeled image is segmented, informative pixels are selected, an oracle labels them, and the model is retrained"
+thumbnail_caption: "Method pipeline, from the WACV 2019 poster."
 ---

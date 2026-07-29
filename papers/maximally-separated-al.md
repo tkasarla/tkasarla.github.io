@@ -45,5 +45,9 @@ bibtex: |
     booktitle={European Conference on Computer Vision Workshop},
     year={2024}
   }
+thumbnail: "/assets/images/papers/maximally-separated-al.jpg"
+thumbnail_webp: "/assets/images/papers/maximally-separated-al.webp"
+thumbnail_alt: "Accuracy versus labelling budget curves on MNIST and TinyImageNet"
+thumbnail_caption: "Figure 1 from the paper."
 ---
 

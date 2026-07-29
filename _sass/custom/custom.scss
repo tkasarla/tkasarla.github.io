@@ -1053,3 +1053,14 @@ h2.home-heading {
   .theme-toggle-light { display: none; }
   .theme-toggle-dark { display: inline; }
 }
+
+// Teaser figure on paper project pages
+.paper-thumbnail {
+  margin: 1rem 0 0;
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+}
