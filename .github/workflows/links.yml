@@ -1,0 +1,50 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: '0 7 1 * *'   # 07:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      # Check the built HTML rather than the Markdown, so generated links
+      # and layout-produced links are covered too.
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --timeout 20
+            --retry-wait-time 10
+            --accept 200,206,403,429
+            --exclude-path _site/assets/vendor
+            '_site/**/*.html'
+          fail: false
+
+      - name: Open an issue if links are broken
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5
+        with:
+          title: Broken links found on the site
+          content-filepath: ./lychee/out.md
+          labels: broken-links
