@@ -120,8 +120,8 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
-gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_repository: "https://github.com/tkasarla/tkasarla.github.io" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
@@ -144,6 +144,19 @@ callouts:
   warning:
     title: Warning
     color: red
+
+# Link previews (jekyll-seo-tag). Nothing here renders on the site itself; it
+# controls the card other services draw when someone shares a link.
+author: Tejaswi Kasarla
+twitter:
+  username: tkasarla_
+  card: summary_large_image
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-card.png
 
 plugins:
   - jekyll-seo-tag

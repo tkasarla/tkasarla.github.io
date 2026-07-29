@@ -12,11 +12,11 @@ $pink-300: #dd2cd4;
 // theme-toggle.html, which also honours the OS preference by default).
 
 :root {
-  --page-bg:              #ffffff;
+  --page-bg:              #fff;
   --page-bg-elevated:     #f5f6fa;
-
   --text-strong:          #27262b;
   --text-body:            #5c5962;
+
   // Was #959396, which is 3.05:1 on white and fails WCAG AA for the news
   // dates, publication legend, and paper affiliations. 4.6:1.
   --text-muted:           #75727e;
@@ -24,15 +24,12 @@ $pink-300: #dd2cd4;
   --text-award:           #513b3d;
   --text-abstract:        #3d3c42;
   --text-sep:             #d0ccd4;
-
   --accent:               #a33220;
   --accent-strong:        #8b2810;
   --accent-bright:        #c63f28;
-  --on-accent:            #ffffff;
-
+  --on-accent:            #fff;
   --btn-bg:               #27262b;
-  --btn-text:             #ffffff;
-
+  --btn-text:             #fff;
   --border:               #ebe9ed;
   --border-strong:        #ddd8e4;
   --border-code:          #dee2e6;
@@ -41,7 +38,6 @@ $pink-300: #dd2cd4;
   --border-accent:        #e8b5a8;
   --border-award:         #deccce;
   --border-toggle:        #d0d0d0;
-
   --surface-card:         #faf9fb;
   --surface-chip:         #f0eef5;
   --surface-code:         #f8f9fa;
@@ -52,15 +48,13 @@ $pink-300: #dd2cd4;
   --surface-award:        #f2eaeb;
   --surface-toggle:       #f5f5f5;
   --surface-toggle-on:    #eaf6f5;
-
-  --hover-tint:           rgba(0, 0, 0, 0.02);
-  --hover-tint-accent:    rgba(198, 63, 40, 0.06);
+  --hover-tint:           rgb(0 0 0 / 2%);
+  --hover-tint-accent:    rgb(198 63 40 / 6%);
 }
 
 :root[data-theme="dark"] {
   --page-bg:              #17161a;
   --page-bg-elevated:     #1e1d22;
-
   --text-strong:          #ece9f0;
   --text-body:            #b6b2bd;
   --text-muted:           #8b8792;
@@ -68,15 +62,12 @@ $pink-300: #dd2cd4;
   --text-award:           #e6c4bd;
   --text-abstract:        #c3bfca;
   --text-sep:             #4a4852;
-
   --accent:               #e8836d;
   --accent-strong:        #f0a08c;
   --accent-bright:        #d9644c;
   --on-accent:            #1b1a1f;
-
   --btn-bg:               #34323b;
   --btn-text:             #ece9f0;
-
   --border:               #302e37;
   --border-strong:        #3b3944;
   --border-code:          #43414c;
@@ -85,7 +76,6 @@ $pink-300: #dd2cd4;
   --border-accent:        #6d4438;
   --border-award:         #4e3a3c;
   --border-toggle:        #43414c;
-
   --surface-card:         #212026;
   --surface-chip:         #2b2933;
   --surface-code:         #212026;
@@ -96,9 +86,8 @@ $pink-300: #dd2cd4;
   --surface-award:        #33272a;
   --surface-toggle:       #2b2933;
   --surface-toggle-on:    #14302e;
-
-  --hover-tint:           rgba(255, 255, 255, 0.04);
-  --hover-tint-accent:    rgba(217, 100, 76, 0.12);
+  --hover-tint:           rgb(255 255 255 / 4%);
+  --hover-tint-accent:    rgb(217 100 76 / 12%);
 }
 
 // =================================
@@ -106,7 +95,7 @@ $pink-300: #dd2cd4;
 // =================================
 
 body {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   font-size: 0.875rem;
 }
 
@@ -124,7 +113,7 @@ h1 {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
 }
@@ -166,7 +155,7 @@ h2.home-heading {
   align-items: flex-start;
   margin-bottom: 2.5rem;
 
-  @media (max-width: 600px) {
+  @media (width <= 600px) {
     flex-direction: column-reverse;
     align-items: center;
     gap: 1.5rem;
@@ -184,7 +173,7 @@ h2.home-heading {
   font-size: 1.85rem;
   font-weight: 700;
   line-height: 1.2;
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.75rem;
   color: var(--text-strong);
 }
 
@@ -214,10 +203,10 @@ h2.home-heading {
     width: 230px;
     border-radius: 40px;
     display: block;
-    box-shadow: 6px 8px 20px rgba(0, 0, 0, 0.28);
+    box-shadow: 6px 8px 20px rgb(0 0 0 / 28%);
   }
 
-  @media (max-width: 600px) {
+  @media (width <= 600px) {
     img {
       width: 140px;
     }
@@ -243,6 +232,7 @@ h2.home-heading {
     transition: color 0.15s ease;
 
     i { color: inherit; }
+
     position: relative;
 
     span.link-label {
@@ -280,6 +270,7 @@ h2.home-heading {
 
 .table-wrapper:has(.news-table) {
   box-shadow: none;
+
   // box-shadow: inset 0 -10px 10px -6px rgba(0, 0, 0, 0.08);
   border-radius: 0;
   max-height: 220px;
@@ -344,6 +335,7 @@ h2.home-heading {
 .pub-see-all {
   margin-top: 1rem;
   font-size: 0.875rem;
+
   a {
     color: var(--accent);
     text-decoration: none;
@@ -380,7 +372,7 @@ h2.home-heading {
 
   // Reset paragraph margins inside cards
   p {
-    margin: 0 0 0.28rem 0;
+    margin: 0 0 0.28rem;
   }
 
   .pub-title {
@@ -487,7 +479,7 @@ h2.home-heading {
     &::after {
       content: ' /';
       color: var(--text-sep);
-      margin: 0 0.35rem 0 0.35rem;
+      margin: 0 0.35rem;
       display: inline-block;
       text-decoration: none;
     }
@@ -524,7 +516,7 @@ h2.home-heading {
   background-color: var(--surface-code);
   border: 1px solid var(--border-code);
   border-radius: 4px;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-family: Monaco, Menlo, 'Ubuntu Mono', monospace;
   font-size: 0.75rem; // small labels
   line-height: 1.5;
   white-space: pre-wrap;
@@ -589,7 +581,11 @@ h2.home-heading {
   a {
     color: var(--text-body);
     text-decoration: none;
-    &:hover { color: var(--accent-strong); text-decoration: underline; }
+
+    &:hover {
+      color: var(--accent-strong);
+      text-decoration: underline;
+    }
   }
 
   strong { color: var(--text-strong); }
@@ -624,16 +620,25 @@ h2.home-heading {
   text-decoration: none !important;
   transition: background 0.15s ease;
 
-  &:hover { background: var(--accent-strong); color: var(--on-accent) !important; }
+  &:hover {
+    background: var(--accent-strong);
+    color: var(--on-accent) !important;
+  }
 }
 
 .paper-thumbnail {
-  margin-top: 1rem;
+  margin: 1rem 0 0;
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
 
   img {
     max-width: 100%;
     border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 20px rgb(0 0 0 / 12%);
   }
 }
 
@@ -669,7 +674,7 @@ h2.home-heading {
   border-radius: 6px;
   padding: 1rem;
   font-size: 0.75rem;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-family: Monaco, Menlo, 'Ubuntu Mono', monospace;
   line-height: 1.6;
   overflow-x: auto;
   white-space: pre;
@@ -825,7 +830,7 @@ h2.home-heading {
 
 .map-container-with-toggle {
   display: block;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0 1rem;
   overflow-x: auto;
 }
 
@@ -911,6 +916,7 @@ h2.home-heading {
     z-index: 10;
   }
 }
+
 // =================================
 // Dark theme: overrides for theme-owned surfaces
 // =================================
@@ -918,6 +924,8 @@ h2.home-heading {
 // components it owns (page chrome, tables, code, search) need explicit
 // overrides. Everything in this file above uses the tokens and needs none.
 
+// stylelint-disable-next-line no-duplicate-selectors -- dark tokens are
+// declared above; this block intentionally groups the dark overrides.
 :root[data-theme="dark"] {
   color-scheme: dark;
 
@@ -953,6 +961,7 @@ h2.home-heading {
 
     // Tables
     table { background-color: transparent; }
+
     th, td {
       background-color: transparent;
       border-color: var(--border);
@@ -967,12 +976,14 @@ h2.home-heading {
       color: var(--text-strong);
       border-color: var(--border-code);
     }
+
     pre.highlight,
     div.highlighter-rouge,
     figure.highlight {
       background-color: var(--surface-code);
       border-color: var(--border-code);
     }
+
     blockquote {
       color: var(--text-body);
       border-left-color: var(--border-strong);
@@ -986,8 +997,10 @@ h2.home-heading {
     color: var(--text-body);
   }
   .search-input::placeholder { color: var(--text-muted); }
+
   .search-result-title,
   .search-result-doc-title { color: var(--text-strong); }
+
   .search-result:hover,
   .search-result.active { background-color: var(--hover-tint); }
 
@@ -1067,13 +1080,15 @@ h2.home-heading {
   align-items: center;
   justify-content: center;
   font-size: 9px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgb(0 0 0 / 25%);
   transition: transform 0.2s ease, background-color 0.2s ease;
 
   .theme-switch-moon { display: none; }
 }
 
 // Dark: knob slides right and shows the moon
+// stylelint-disable-next-line no-duplicate-selectors -- dark tokens are
+// declared above; this block intentionally groups the dark overrides.
 :root[data-theme="dark"] {
   .theme-switch-knob {
     transform: translateX(20px);
@@ -1090,16 +1105,6 @@ h2.home-heading {
   }
 }
 
-// Teaser figure on paper project pages
-.paper-thumbnail {
-  margin: 1rem 0 0;
-
-  figcaption {
-    margin-top: 0.5rem;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-  }
-}
 
 // Attribution for the OpenStreetMap/CARTO tiles, required by both licences.
 // Shown with the map, since the tiles are only fetched once it is expanded.
@@ -1109,7 +1114,10 @@ h2.home-heading {
   color: var(--text-muted);
   margin: 0.35rem 0 0;
 
-  a { color: inherit; text-decoration: underline; }
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
 }
 
 .toggle:checked ~ .map-attribution {

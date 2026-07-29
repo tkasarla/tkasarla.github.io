@@ -1,84 +1,71 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+# tkasarla.github.io
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+Source for [tkasarla.github.io](https://tkasarla.github.io), the personal
+website of Tejaswi Kasarla.
 
-## Installation
+This is a personal-site repository, not a reusable theme. It began as a fork of
+[just-the-docs](https://github.com/just-the-docs/just-the-docs); the theme is
+vendored in `_sass/` and `_layouts/` and has been customised, so it is not
+tracked as a gem or remote theme.
 
-### via GitHub Pages remote theme
+## Layout
 
-The quickiest way to use Just The Docs is to use GitHub pages [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) feature in your `_config.yml` file:
+| Path | What it holds |
+| --- | --- |
+| `index.md`, `publications.md`, `resources.md`, `more.md` | The main pages |
+| `papers/` | One project page per paper, rendered by `_layouts/paper.html` |
+| `_posts/`, `blog/` | Notes (an archive; newest post is from 2018) |
+| `_sass/custom/custom.scss` | All site-specific styling, including the colour tokens both themes are built from |
+| `assets/vendor/`, `assets/fonts/` | Self-hosted Font Awesome and Inter — the site makes no third-party requests |
 
-```yaml
-remote_theme: just-the-docs/just-the-docs
-```
-### via RubyGems:
+## Local development
 
-Alternatively you can install it as a Ruby Gem.
+Requires Ruby (see `.ruby-version`) and Node 20+.
 
-Add this line to your Jekyll site's Gemfile:
-
-```ruby
-gem "just-the-docs"
+```bash
+bundle install
+npm ci
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: just-the-docs
+```bash
+bundle exec jekyll serve
 ```
 
-And then execute:
+The site is then at <http://localhost:4000>. Note that changes to `_config.yml`
+need a server restart; everything else rebuilds automatically.
 
-    $ bundle
+## Checks
 
-Or install it yourself as:
+```bash
+npm test
+```
 
-    $ gem install just-the-docs
+Lints `_sass/custom/`. The vendored theme SCSS is deliberately excluded — it is
+third-party code. `npm run lint:fix` applies the fixable ones.
 
-Alternatively, you can run it inside Docker while developing your site
+```bash
+bundle exec jekyll build
+```
 
-    $ docker-compose up
+## Theming
 
-## Usage
+Light is the default and the OS preference is deliberately ignored; the theme
+only changes when a visitor uses the switch, and the choice is stored in
+`localStorage`. Colours are defined once as custom properties at the top of
+`_sass/custom/custom.scss`, so light and dark differ only in those values.
 
-[View the documentation](https://just-the-docs.github.io/just-the-docs/) for usage information.
+Inline `<script>` blocks must use `/* */` comments only: `compress_html`
+collapses them onto one line, which turns a `//` comment into a comment over
+the rest of the script.
 
-## Contributing
+## Automation
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+| Workflow | When | What |
+| --- | --- | --- |
+| `jekyll.yml` | push to `master` | Builds and deploys to GitHub Pages |
+| `ci.yml` | push, PR | SCSS lint, production build, internal link check |
+| `links.yml` | monthly | Checks external links, opens an issue when they break |
+| `codeql-analysis.yml` | push, PR, weekly | CodeQL analysis |
 
-### Submitting code changes:
-
-- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-A modern [devcontainer configuration](https://code.visualstudio.com/docs/remote/containers) for VSCode is included.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Actions are pinned to commit SHAs; Dependabot updates them weekly, grouped into
+one pull request per ecosystem.
