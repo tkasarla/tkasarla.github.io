@@ -6,6 +6,9 @@ description: "PhD Student, University of Amsterdam"
 permalink: /
 ---
 
+# Tejaswi Kasarla
+{: .sr-only}
+
 <div class="hero">
 <div class="hero-text" markdown="1">
 
@@ -18,21 +21,25 @@ Outside academia, I am a photographer and home barista, always in search of good
 
 </div>
 <div class="hero-photo">
-<img src="assets/images/profile_photo.png" alt="Tejaswi Kasarla">
+<picture>
+  <source srcset="/assets/images/profile_photo.webp" type="image/webp">
+  <img src="/assets/images/profile_photo.jpg" alt="Tejaswi Kasarla" width="460" height="528">
+</picture>
 <div class="hero-photo-links">
   <a href="mailto:t.kasarla@uva.nl" data-label="Email"><i class="fas fa-envelope"></i><span class="link-label">Email</span></a>
-  <a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" data-label="Scholar" target="_blank"><i class="fas fa-graduation-cap"></i><span class="link-label">Scholar</span></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=e_mkTxMAAAAJ&view_op=list_works&sortby=pubdate" data-label="Scholar" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i><span class="link-label">Scholar</span></a>
   <a href="/cv" data-label="CV"><i class="fas fa-file-lines"></i><span class="link-label">CV</span></a>
-  <a href="https://github.com/tkasarla" data-label="GitHub" target="_blank"><i class="fab fa-github"></i><span class="link-label">GitHub</span></a>
-  <a href="https://www.linkedin.com/in/tejaswikasarla/" data-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i><span class="link-label">LinkedIn</span></a>
-  <a href="https://twitter.com/tkasarla_" data-label="Twitter" target="_blank"><i class="fab fa-x-twitter"></i><span class="link-label">Twitter</span></a>
+  <a href="https://github.com/tkasarla" data-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i><span class="link-label">GitHub</span></a>
+  <a href="https://www.linkedin.com/in/tejaswikasarla/" data-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i><span class="link-label">LinkedIn</span></a>
+  <a href="https://twitter.com/tkasarla_" data-label="Twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i><span class="link-label">Twitter</span></a>
 </div>
 </div>
 </div>
 
 
 
-# news
+## news
+{: .home-heading}
 
 | Date | Event |
 |------|-------|
@@ -45,19 +52,20 @@ Outside academia, I am a photographer and home barista, always in search of good
 {: .news-table}
 
 
-# featured publications
+## featured publications
+{: .home-heading}
 
 <div class="pub-card pub-featured" markdown="1">
 **CVPR 2026 EgoVis Workshop**
 {: .pub-venue}
 
-[Action100M: A Large-scale Video Action Dataset](https://github.com/facebookresearch/Action100M){: target="_blank"}
+[Action100M: A Large-scale Video Action Dataset](https://github.com/facebookresearch/Action100M){: target="_blank" rel="noopener noreferrer"}
 {: .pub-title}
 
 [Delong Chen](https://chendelong.world), **Tejaswi Kasarla**, [Yejin Bang](https://www.linkedin.com/in/yejinbang/), [Mustafa Shukor](https://mustafashukor.github.io), [Willy Chung](https://willyhc22.github.io), [Jade Yu](https://jadeleiyu.github.io), [Allen Bolourchi](https://www.linkedin.com/in/allenbolourchi/), [Théo Moutakanni](https://www.linkedin.com/in/theo-moutakanni), [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139)
 {: .pub-authors}
 
-[project page](https://github.com/facebookresearch/Action100M){: .pub-link target="_blank"} [paper](https://www.arxiv.org/abs/2601.10592){: .pub-link target="_blank"} [dataset](https://huggingface.co/datasets/facebook/action100m-preview){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="action100m">bibtex</button>
+[project page](https://github.com/facebookresearch/Action100M){: .pub-link target="_blank" rel="noopener noreferrer"} [paper](https://www.arxiv.org/abs/2601.10592){: .pub-link target="_blank" rel="noopener noreferrer"} [dataset](https://huggingface.co/datasets/facebook/action100m-preview){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="action100m">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -71,7 +79,7 @@ Outside academia, I am a photographer and home barista, always in search of good
 **Tejaswi Kasarla**, [Max van Spengler](https://www.linkedin.com/in/max-van-spengler-45908b147), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2506.10146){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
+[project page](/papers/balanced-hyperbolic){: .pub-link} [paper](https://arxiv.org/abs/2506.10146){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="balanced-hyperbolic">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -79,13 +87,13 @@ Outside academia, I am a photographer and home barista, always in search of good
 **CVPR 2025** · <span class="pub-award">★ Highlight </span>
 {: .pub-venue}
 
-[Hyperbolic Safety-Aware Vision-Language Models](https://aimagelab.github.io/HySAC/){: target="_blank"}
+[Hyperbolic Safety-Aware Vision-Language Models](https://aimagelab.github.io/HySAC/){: target="_blank" rel="noopener noreferrer"}
 {: .pub-title}
 
 [Tobia Poppi\*](https://tobiapoppi.github.io), **Tejaswi Kasarla\***, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/), [Lorenzo Baraldi](https://www.lorenzobaraldi.com), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1)
 {: .pub-authors}
 
-[project page](https://aimagelab.github.io/HySAC/){: .pub-link target="_blank"} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank"} [code](https://github.com/aimagelab/HySAC){: .pub-link target="_blank"} [model](https://huggingface.co/aimagelab/HySAC){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
+[project page](https://aimagelab.github.io/HySAC/){: .pub-link target="_blank" rel="noopener noreferrer"} [paper](https://arxiv.org/abs/2503.12127){: .pub-link target="_blank" rel="noopener noreferrer"} [code](https://github.com/aimagelab/HySAC){: .pub-link target="_blank" rel="noopener noreferrer"} [model](https://huggingface.co/aimagelab/HySAC){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="hyperbolic-safety">bibtex</button>
 {: .pub-links}
 </div>
 
@@ -100,7 +108,7 @@ Outside academia, I am a photographer and home barista, always in search of good
 **Tejaswi Kasarla**, [Gertjan J. Burghouts](https://sites.google.com/site/gertjanburghouts/), [Max van Spengler](https://nl.linkedin.com/in/max-van-spengler-45908b147), [Elise van der Pol](https://www.elisevanderpol.nl), [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](/papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
+[project page](/papers/max-separation-as-inductive-bias/){: .pub-link} [paper](https://arxiv.org/abs/2206.08704){: .pub-link target="_blank" rel="noopener noreferrer"} [code](https://github.com/tkasarla/max-separation-as-inductive-bias){: .pub-link target="_blank" rel="noopener noreferrer"} [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/55160.png?t=1669329923.0358245){: .pub-link target="_blank" rel="noopener noreferrer"} [media](https://ivi.uva.nl/content/news/2022/11/phd-student-improves-image-classification.html){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="max-separation">bibtex</button>
 {: .pub-links}
 </div>
 
