@@ -1100,3 +1100,18 @@ h2.home-heading {
     color: var(--text-muted);
   }
 }
+
+// Attribution for the OpenStreetMap/CARTO tiles, required by both licences.
+// Shown with the map, since the tiles are only fetched once it is expanded.
+.map-attribution {
+  display: none;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin: 0.35rem 0 0;
+
+  a { color: inherit; text-decoration: underline; }
+}
+
+.toggle:checked ~ .map-attribution {
+  display: block;
+}

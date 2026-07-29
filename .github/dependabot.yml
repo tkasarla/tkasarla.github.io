@@ -5,15 +5,25 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    # One PR per week for all gem updates instead of one PR per gem.
+    groups:
+      gems:
+        patterns: ["*"]
 
-  # Keep GitHub Actions workflows up to date
+  # Keep GitHub Actions workflows up to date (the pinned SHAs)
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      actions:
+        patterns: ["*"]
 
-  # Dev-only linting/formatting tools
+  # Dev-only linting/formatting tools (npm test, npm run format)
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      dev-tooling:
+        patterns: ["*"]
