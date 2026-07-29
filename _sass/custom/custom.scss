@@ -1019,39 +1019,75 @@ h2.home-heading {
 // Theme toggle button
 // =================================
 
-.theme-toggle {
+// A sliding switch: the knob travels from left (light) to right (dark) and
+// carries the icon for the theme currently in use.
+.theme-switch {
   background: none;
-  border: 1px solid var(--border-strong);
-  border-radius: 999px;
+  border: 0;
+  padding: 0;
+  margin-left: 0.7rem;
   cursor: pointer;
-  color: var(--text-body);
-  font-size: 0.85rem;
-  line-height: 1;
-  padding: 0.32rem 0.5rem;
-  margin-left: 0.6rem;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
-
-  &:hover {
-    color: var(--accent-strong);
-    border-color: var(--accent-strong);
-    background-color: var(--hover-tint);
-  }
+  line-height: 1;
 
   &:focus-visible {
     outline: 2px solid var(--accent);
-    outline-offset: 2px;
+    outline-offset: 3px;
+    border-radius: 999px;
   }
-
-  // Show the icon for the theme you would switch *to*
-  .theme-toggle-dark { display: none; }
 }
 
-:root[data-theme="dark"] .theme-toggle {
-  .theme-toggle-light { display: none; }
-  .theme-toggle-dark { display: inline; }
+.theme-switch-track {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 22px;
+  border-radius: 999px;
+  background-color: var(--surface-chip);
+  border: 1px solid var(--border-strong);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  .theme-switch:hover & {
+    border-color: var(--accent-strong);
+  }
+}
+
+.theme-switch-knob {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background-color: var(--text-strong);
+  color: var(--page-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+
+  .theme-switch-moon { display: none; }
+}
+
+// Dark: knob slides right and shows the moon
+:root[data-theme="dark"] {
+  .theme-switch-knob {
+    transform: translateX(20px);
+
+    .theme-switch-sun { display: none; }
+    .theme-switch-moon { display: block; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-switch-track,
+  .theme-switch-knob {
+    transition: none;
+  }
 }
 
 // Teaser figure on paper project pages

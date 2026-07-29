@@ -2,39 +2,25 @@
   var btn = document.getElementById('theme-toggle');
   if (!btn) return;
 
-  function label(theme) {
-    btn.setAttribute(
-      'aria-label',
-      theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'
-    );
+  // Light is the default. The OS preference is intentionally ignored; only an
+  // explicit choice, saved in localStorage, switches the site to dark.
+  function apply(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    btn.setAttribute('aria-checked', theme === 'dark' ? 'true' : 'false');
   }
 
-  label(document.documentElement.getAttribute('data-theme') || 'light');
+  apply(document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
 
   btn.addEventListener('click', function () {
     var next =
       document.documentElement.getAttribute('data-theme') === 'dark'
         ? 'light'
         : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    label(next);
+    apply(next);
     try {
       localStorage.setItem('theme', next);
     } catch (e) {
       // Private mode: the choice just will not persist.
     }
-  });
-
-  // Follow the OS while the visitor has not made an explicit choice.
-  var mq = window.matchMedia('(prefers-color-scheme: dark)');
-  mq.addEventListener('change', function (e) {
-    try {
-      if (localStorage.getItem('theme')) return;
-    } catch (err) {
-      // Ignore storage errors and fall through to following the OS.
-    }
-    var theme = e.matches ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', theme);
-    label(theme);
   });
 })();
