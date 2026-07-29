@@ -12,7 +12,7 @@ layout: default
     </div>
 
     <div class="paper-authors">
-      {% for author in page.authors %}{% if author.url %}<a href="{{ author.url }}" target="_blank">{% endif %}{% if author.me %}<strong>{% endif %}{{ author.name }}{% if author.equal %}<sup>*</sup>{% endif %}{% if author.affil %}<sup>{{ author.affil }}</sup>{% endif %}{% if author.me %}</strong>{% endif %}{% if author.url %}</a>{% endif %}{% unless forloop.last %},&ensp;{% endunless %}{% endfor %}
+      {% for author in page.authors %}{% if author.url %}<a href="{{ author.url }}" target="_blank" rel="noopener noreferrer">{% endif %}{% if author.me %}<strong>{% endif %}{{ author.name }}{% if author.equal %}<sup>*</sup>{% endif %}{% if author.affil %}<sup>{{ author.affil }}</sup>{% endif %}{% if author.me %}</strong>{% endif %}{% if author.url %}</a>{% endif %}{% unless forloop.last %},&ensp;{% endunless %}{% endfor %}
     </div>
 
     {% if page.affiliations %}
@@ -22,7 +22,7 @@ layout: default
     {% endif %}
 
     <div class="paper-links">
-      {% for link in page.links %}<a href="{{ link.url }}" class="paper-btn" {% unless link.local %}target="_blank"{% endunless %}>{% if link.icon %}<i class="{{ link.icon }}"></i>&thinsp;{% endif %}{{ link.label }}</a>{% endfor %}
+      {% for link in page.links %}<a href="{{ link.url }}" class="paper-btn" {% unless link.local %}target="_blank" rel="noopener noreferrer"{% endunless %}>{% if link.icon %}<i class="{{ link.icon }}"></i>&thinsp;{% endif %}{{ link.label }}</a>{% endfor %}
     </div>
 
     {% if page.thumbnail %}

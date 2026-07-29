@@ -4,11 +4,14 @@ title: Resources
 nav_exclude: True
 ---
 
+# Resources
+
 Over time, I curated some awesome resources for (technical and non-technical parts of) research; most of which specific to Computer Vision, Machine Learning. I update this occasionally.
 
 <div align="center" markdown="1">
 
-### [[Technical]](#the-actual-research) [[Non-technical]](#how-to-research)
+[[Technical]](#the-actual-research) [[Non-technical]](#how-to-research)
+{: .section-jump}
 
 </div>
 

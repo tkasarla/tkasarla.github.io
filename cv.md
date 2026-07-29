@@ -20,14 +20,15 @@ nav_exclude: True
   }
 </style>
 
-<iframe class="pdf-viewer" src="/assets/Tejaswi_Kasarla_CV.pdf">
+# CV
+
+<iframe class="pdf-viewer" title="Tejaswi Kasarla's CV" src="/assets/Tejaswi_Kasarla_CV.pdf">
   This browser does not support PDFs. Please download the PDF:
   <a href="/assets/Tejaswi_Kasarla_CV.pdf">Download PDF</a>.
 </iframe>
 
-<!-- Fallback link always visible
-<p> 
+<p>
   <a href="/assets/Tejaswi_Kasarla_CV.pdf" target="_blank" rel="noopener noreferrer">
-    Download Tejaswi Kasarla's CV (PDF)
+    Download CV (PDF)
   </a>
-</p> -->
+</p>
