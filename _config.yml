@@ -88,8 +88,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  Blog: /blog/
   Publications: /publications/
+  Notes: /blog/
   Resources: /resources/
   # Art: /art.html
   More: /more/

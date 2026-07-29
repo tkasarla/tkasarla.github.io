@@ -2,6 +2,7 @@
 layout: default
 title: Art
 nav_exclude: True
+published: false # unpublished until there is more than one piece to show
 ---
 
 <div class="art-intro" markdown="1">

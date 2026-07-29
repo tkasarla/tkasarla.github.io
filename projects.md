@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Projects
+published: false # unpublished until the entries have descriptions/links
 ---
 
 <div class="projects-intro" markdown="1">
