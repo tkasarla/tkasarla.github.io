@@ -1,2 +1,15 @@
 <link rel="stylesheet" href="{{ '/assets/fonts/inter/inter.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/vendor/fontawesome/css/all.min.css' | relative_url }}">
+
+<script>
+  /* Set the theme before first paint so a dark-theme visitor never sees a
+     white flash. Runs in <head>, so it must not touch document.body.
+     Block comments only: compress_html collapses this onto one line, which
+     would turn a // comment into a comment over the whole script. */
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem('theme'); } catch (e) { /* ignore */ }
+    var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>

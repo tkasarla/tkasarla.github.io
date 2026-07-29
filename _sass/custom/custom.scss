@@ -4,6 +4,104 @@ $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
 // =================================
+// Color tokens
+// =================================
+// Every colour used by this stylesheet is defined once here, so light and
+// dark differ only in these values. Dark values are applied when the root
+// element carries data-theme="dark" (set by the toggle in _includes/
+// theme-toggle.html, which also honours the OS preference by default).
+
+:root {
+  --page-bg:              #ffffff;
+  --page-bg-elevated:     #f5f6fa;
+
+  --text-strong:          #27262b;
+  --text-body:            #5c5962;
+  // Was #959396, which is 3.05:1 on white and fails WCAG AA for the news
+  // dates, publication legend, and paper affiliations. 4.6:1.
+  --text-muted:           #75727e;
+  --text-chip:            #44434d;
+  --text-award:           #513b3d;
+  --text-abstract:        #3d3c42;
+  --text-sep:             #d0ccd4;
+
+  --accent:               #a33220;
+  --accent-strong:        #8b2810;
+  --accent-bright:        #c63f28;
+  --on-accent:            #ffffff;
+
+  --btn-bg:               #27262b;
+  --btn-text:             #ffffff;
+
+  --border:               #ebe9ed;
+  --border-strong:        #ddd8e4;
+  --border-code:          #dee2e6;
+  --border-soft:          #e6e1e8;
+  --border-muted:         #b0adb5;
+  --border-accent:        #e8b5a8;
+  --border-award:         #deccce;
+  --border-toggle:        #d0d0d0;
+
+  --surface-card:         #faf9fb;
+  --surface-chip:         #f0eef5;
+  --surface-code:         #f8f9fa;
+  --surface-bibtex:       #f6f5f7;
+  --surface-note:         #f8f7fa;
+  --surface-warm:         #fdf8f3;
+  --surface-accent-tint:  #fdf2f0;
+  --surface-award:        #f2eaeb;
+  --surface-toggle:       #f5f5f5;
+  --surface-toggle-on:    #eaf6f5;
+
+  --hover-tint:           rgba(0, 0, 0, 0.02);
+  --hover-tint-accent:    rgba(198, 63, 40, 0.06);
+}
+
+:root[data-theme="dark"] {
+  --page-bg:              #17161a;
+  --page-bg-elevated:     #1e1d22;
+
+  --text-strong:          #ece9f0;
+  --text-body:            #b6b2bd;
+  --text-muted:           #8b8792;
+  --text-chip:            #cfcbd8;
+  --text-award:           #e6c4bd;
+  --text-abstract:        #c3bfca;
+  --text-sep:             #4a4852;
+
+  --accent:               #e8836d;
+  --accent-strong:        #f0a08c;
+  --accent-bright:        #d9644c;
+  --on-accent:            #1b1a1f;
+
+  --btn-bg:               #34323b;
+  --btn-text:             #ece9f0;
+
+  --border:               #302e37;
+  --border-strong:        #3b3944;
+  --border-code:          #43414c;
+  --border-soft:          #35333d;
+  --border-muted:         #55525d;
+  --border-accent:        #6d4438;
+  --border-award:         #4e3a3c;
+  --border-toggle:        #43414c;
+
+  --surface-card:         #212026;
+  --surface-chip:         #2b2933;
+  --surface-code:         #212026;
+  --surface-bibtex:       #212026;
+  --surface-note:         #212026;
+  --surface-warm:         #2a241f;
+  --surface-accent-tint:  #38251f;
+  --surface-award:        #33272a;
+  --surface-toggle:       #2b2933;
+  --surface-toggle-on:    #14302e;
+
+  --hover-tint:           rgba(255, 255, 255, 0.04);
+  --hover-tint-accent:    rgba(217, 100, 76, 0.12);
+}
+
+// =================================
 // Global Typography
 // =================================
 
@@ -87,7 +185,7 @@ h2.home-heading {
   font-weight: 700;
   line-height: 1.2;
   margin: 0 0 0.75rem 0;
-  color: #27262b;
+  color: var(--text-strong);
 }
 
 .hero-links {
@@ -95,16 +193,16 @@ h2.home-heading {
   font-size: 0.875rem; // secondary
 
   a {
-    color: #5c5962;
+    color: var(--text-body);
     text-decoration: none;
 
     &:hover {
-      color: #27262b;
+      color: var(--text-strong);
       text-decoration: underline;
     }
 
     &:visited {
-      color: #5c5962;
+      color: var(--text-body);
     }
   }
 }
@@ -141,7 +239,7 @@ h2.home-heading {
     align-items: center;
     width: 2rem;
     overflow: visible;
-    color: #959396;
+    color: var(--text-muted);
     transition: color 0.15s ease;
 
     i { color: inherit; }
@@ -161,15 +259,15 @@ h2.home-heading {
       margin-top: 2px;
     }
 
-    &:visited { color: #959396; }
+    &:visited { color: var(--text-muted); }
   }
 }
 
 .hero-photo-links a:hover,
 .hero-photo-links a:focus {
-  color: #8b2810 !important;
+  color: var(--accent-strong) !important;
 
-  i { color: #8b2810 !important; }
+  i { color: var(--accent-strong) !important; }
 
   span.link-label {
     opacity: 1;
@@ -215,7 +313,7 @@ h2.home-heading {
     &:first-child {
       font-size: 0.75rem; // small labels
       font-weight: 500;
-      color: #959396;
+      color: var(--text-muted);
       white-space: nowrap;
       min-width: 82px;
       padding-top: 0.42rem !important;
@@ -238,7 +336,7 @@ h2.home-heading {
 .pub-legend {
   display: block;
   font-size: 0.75rem;
-  color: #959396;
+  color: var(--text-muted);
   font-style: italic;
   margin-bottom: 1.25rem;
 }
@@ -247,7 +345,7 @@ h2.home-heading {
   margin-top: 1rem;
   font-size: 0.875rem;
   a {
-    color: $link-color;
+    color: var(--accent);
     text-decoration: none;
     &:hover { text-decoration: underline; }
   }
@@ -256,27 +354,27 @@ h2.home-heading {
 .pub-card {
   padding: 0.85rem 0.9rem 0.85rem 1.1rem;
   margin-bottom: 0.5rem;
-  border-left: 3px solid #e6e1e8;
+  border-left: 3px solid var(--border-soft);
   border-radius: 0 6px 6px 0;
   transition: border-color 0.15s ease, background-color 0.15s ease;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.02);
-    border-left-color: #b0adb5;
+    background-color: var(--hover-tint);
+    border-left-color: var(--border-muted);
   }
 
   &.pub-featured {
-    border-left-color: #C63F28;
+    border-left-color: var(--accent-bright);
 
     &:hover {
-      background-color: rgba(198, 63, 40, 0.06);
-      border-left-color: #a33220;
+      background-color: var(--hover-tint-accent);
+      border-left-color: var(--accent);
     }
 
     .pub-venue strong {
-      background: #fdf2f0;
-      border-color: #e8b5a8;
-      color: #8b2810;
+      background: var(--surface-accent-tint);
+      border-color: var(--border-accent);
+      color: var(--accent-strong);
     }
   }
 
@@ -292,7 +390,7 @@ h2.home-heading {
     margin-bottom: 0.3rem !important;
 
     a {
-      color: #27262b;
+      color: var(--text-strong);
       text-decoration: none;
 
       &:hover {
@@ -300,22 +398,22 @@ h2.home-heading {
       }
 
       &:visited {
-        color: #27262b;
+        color: var(--text-strong);
       }
     }
   }
 
   .pub-authors {
     font-size: 0.875rem; // secondary
-    color: #5c5962;
+    color: var(--text-body);
     line-height: 1.5;
 
     a {
-      color: #5c5962;
+      color: var(--text-body);
       text-decoration: none;
 
       &:hover {
-        color: #27262b;
+        color: var(--text-strong);
         text-decoration: underline;
       }
     }
@@ -329,38 +427,38 @@ h2.home-heading {
 
     strong {
       display: inline-block;
-      background: #f0eef5;
-      border: 1px solid #ddd8e4;
+      background: var(--surface-chip);
+      border: 1px solid var(--border-strong);
       border-radius: 4px;
       padding: 0.1rem 0.5rem;
       font-size: 0.75rem;
       font-weight: 600;
-      color: #44434d;
+      color: var(--text-chip);
       letter-spacing: 0.01em;
     }
 
     a {
       font-size: 0.75rem;
-      color: #5c5962;
+      color: var(--text-body);
     }
 
     em {
       display: block;
       margin-top: 0.25rem;
-      color: #5c5962;
+      color: var(--text-body);
     }
   }
 
   .pub-award {
     display: inline-block;
-    background: #f2eaeb;
-    border: 1px solid #deccce;
+    background: var(--surface-award);
+    border: 1px solid var(--border-award);
     border-radius: 4px;
     padding: 0.1rem 0.5rem;
     font-size: 0.75rem;
     font-weight: 600;
     font-style: normal;
-    color: #513b3d;
+    color: var(--text-award);
     letter-spacing: 0.01em;
   }
 
@@ -375,7 +473,7 @@ h2.home-heading {
   .pub-link {
     font-size: 0.875rem;
     font-weight: 400;
-    color: #5c5962;
+    color: var(--text-body);
     text-decoration: none;
     background: none;
     border: none;
@@ -388,7 +486,7 @@ h2.home-heading {
 
     &::after {
       content: ' /';
-      color: #d0ccd4;
+      color: var(--text-sep);
       margin: 0 0.35rem 0 0.35rem;
       display: inline-block;
       text-decoration: none;
@@ -400,16 +498,16 @@ h2.home-heading {
     }
 
     &:hover {
-      color: #8b2810 !important;
+      color: var(--accent-strong) !important;
       text-decoration: underline;
     }
 
     &:visited {
-      color: #5c5962;
+      color: var(--text-body);
     }
 
     &.active {
-      color: #27262b;
+      color: var(--text-strong);
       font-weight: 600;
     }
   }
@@ -423,8 +521,8 @@ h2.home-heading {
   display: none;
   margin-top: 0.6rem;
   padding: 0.7rem;
-  background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
+  background-color: var(--surface-code);
+  border: 1px solid var(--border-code);
   border-radius: 4px;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
   font-size: 0.75rem; // small labels
@@ -435,20 +533,14 @@ h2.home-heading {
   &.show {
     display: block;
   }
-
-  @media (prefers-color-scheme: dark) {
-    background-color: #2d3748;
-    border-color: #4a5568;
-    color: #e2e8f0;
-  }
 }
 
 // Legacy bibtex-button alias
 .bibtex-button {
   &.active {
-    background: #27262b;
-    border-color: #27262b;
-    color: #fff;
+    background: var(--btn-bg);
+    border-color: var(--btn-bg);
+    color: var(--btn-text);
   }
 }
 
@@ -465,7 +557,7 @@ h2.home-heading {
 .paper-hero {
   text-align: center;
   padding: 2rem 0 1.5rem;
-  border-bottom: 1px solid #ebe9ed;
+  border-bottom: 1px solid var(--border);
   margin-bottom: 2rem;
 }
 
@@ -473,13 +565,13 @@ h2.home-heading {
   font-size: 1.55rem;
   font-weight: 700;
   line-height: 1.3;
-  color: #27262b;
+  color: var(--text-strong);
   margin-bottom: 0.75rem;
 }
 
 .paper-venue {
   font-size: 0.875rem;
-  color: #5c5962;
+  color: var(--text-body);
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -490,22 +582,22 @@ h2.home-heading {
 
 .paper-authors {
   font-size: 0.875rem;
-  color: #5c5962;
+  color: var(--text-body);
   line-height: 1.8;
   margin-bottom: 0.5rem;
 
   a {
-    color: #5c5962;
+    color: var(--text-body);
     text-decoration: none;
-    &:hover { color: #8b2810; text-decoration: underline; }
+    &:hover { color: var(--accent-strong); text-decoration: underline; }
   }
 
-  strong { color: #27262b; }
+  strong { color: var(--text-strong); }
 }
 
 .paper-affiliations {
   font-size: 0.75rem;
-  color: #959396;
+  color: var(--text-muted);
   margin-bottom: 1.25rem;
 
   span + span::before {
@@ -524,15 +616,15 @@ h2.home-heading {
 .paper-btn {
   display: inline-block;
   padding: 0.3rem 0.9rem;
-  background: #27262b;
-  color: #fff !important;
+  background: var(--btn-bg);
+  color: var(--btn-text) !important;
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 500;
   text-decoration: none !important;
   transition: background 0.15s ease;
 
-  &:hover { background: #8b2810; }
+  &:hover { background: var(--accent-strong); color: var(--on-accent) !important; }
 }
 
 .paper-thumbnail {
@@ -551,17 +643,17 @@ h2.home-heading {
   h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #27262b;
+    color: var(--text-strong);
     margin-bottom: 0.75rem;
     padding-bottom: 0.3rem;
-    border-bottom: 2px solid #ebe9ed;
+    border-bottom: 2px solid var(--border);
   }
 }
 
 .paper-abstract {
   font-size: 0.875rem;
   line-height: 1.75;
-  color: #3d3c42;
+  color: var(--text-abstract);
   text-align: justify;
 }
 
@@ -572,8 +664,8 @@ h2.home-heading {
 }
 
 .paper-bibtex {
-  background: #f6f5f7;
-  border: 1px solid #ebe9ed;
+  background: var(--surface-bibtex);
+  border: 1px solid var(--border);
   border-radius: 6px;
   padding: 1rem;
   font-size: 0.75rem;
@@ -590,16 +682,16 @@ h2.home-heading {
 
 .more-intro {
   font-size: 1rem;
-  color: #5c5962;
+  color: var(--text-body);
   margin-bottom: 1.5rem;
 }
 
 .more-intro-text {
   font-size: 0.875rem;
-  color: #5c5962;
+  color: var(--text-body);
   margin-bottom: 1.25rem;
 
-  a { color: #8b2810; }
+  a { color: var(--accent-strong); }
 }
 
 .more-nav {
@@ -612,18 +704,18 @@ h2.home-heading {
 .more-nav-pill {
   display: inline-block;
   padding: 0.35rem 1rem;
-  background: #f0eef5;
-  border: 1px solid #ddd8e4;
+  background: var(--surface-chip);
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
   font-size: 0.875rem;
-  color: #44434d;
+  color: var(--text-chip);
   text-decoration: none;
   transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 
   &:hover {
-    background: #8b2810;
-    border-color: #8b2810;
-    color: #fff;
+    background: var(--accent-strong);
+    border-color: var(--accent-strong);
+    color: var(--on-accent);
     text-decoration: none;
   }
 }
@@ -637,21 +729,21 @@ h2.home-heading {
 
 .more-card {
   padding: 0.85rem 1rem;
-  border: 1px solid #ebe9ed;
+  border: 1px solid var(--border);
   border-radius: 8px;
-  background: #faf9fb;
+  background: var(--surface-card);
   margin: 0;
 
   strong {
     display: block;
     font-size: 0.875rem;
-    color: #27262b;
+    color: var(--text-strong);
     margin-bottom: 0.15rem;
   }
 
   a {
     font-size: 0.8rem;
-    color: #8b2810;
+    color: var(--accent-strong);
     text-decoration: none;
 
     &:hover { text-decoration: underline; }
@@ -660,14 +752,14 @@ h2.home-heading {
 
 .more-note {
   font-size: 0.875rem;
-  color: #5c5962;
-  background: #f8f7fa;
-  border-left: 3px solid #ddd8e4;
+  color: var(--text-body);
+  background: var(--surface-note);
+  border-left: 3px solid var(--border-strong);
   padding: 0.6rem 0.9rem;
   border-radius: 0 6px 6px 0;
   margin-bottom: 1rem;
 
-  a { color: #8b2810; }
+  a { color: var(--accent-strong); }
 }
 
 .book-grid {
@@ -679,9 +771,9 @@ h2.home-heading {
 
 .book-card {
   padding: 0.75rem 0.9rem;
-  border: 1px solid #ebe9ed;
+  border: 1px solid var(--border);
   border-radius: 8px;
-  background: #faf9fb;
+  background: var(--surface-card);
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
@@ -689,19 +781,19 @@ h2.home-heading {
   .book-title {
     font-weight: 600;
     font-size: 0.8rem;
-    color: #27262b;
+    color: var(--text-strong);
     line-height: 1.4;
   }
 
   .book-author {
     font-size: 0.75rem;
-    color: #5c5962;
+    color: var(--text-body);
     font-style: italic;
   }
 
   .book-link {
     font-size: 0.75rem;
-    color: #8b2810;
+    color: var(--accent-strong);
     text-decoration: none;
     margin-top: 0.2rem;
 
@@ -710,23 +802,23 @@ h2.home-heading {
 }
 
 .coffee-highlight {
-  background: #fdf8f3;
+  background: var(--surface-warm);
   border-left: 3px solid #d4956a;
   padding: 0.75rem 1rem;
   border-radius: 0 6px 6px 0;
   font-size: 0.875rem;
-  color: #5c5962;
+  color: var(--text-body);
   margin-bottom: 1.25rem;
 
-  a { color: #8b2810; }
+  a { color: var(--accent-strong); }
 }
 
 .more-footer-note {
   font-size: 0.875rem;
-  color: #5c5962;
+  color: var(--text-body);
   margin-top: 1.25rem;
 
-  a { color: #8b2810; }
+  a { color: var(--accent-strong); }
 }
 
 // ── Static OpenStreetMap tile maps ──────────────────────────────────────────
@@ -748,10 +840,10 @@ h2.home-heading {
   cursor: pointer;
   font-size: 0.75rem;
   padding: 2px 9px;
-  background: #f5f5f5;
-  border: 1px solid #d0d0d0;
+  background: var(--surface-toggle);
+  border: 1px solid var(--border-toggle);
   border-radius: 4px;
-  color: #5c5962;
+  color: var(--text-body);
   user-select: none;
   margin-bottom: 0.4rem;
 
@@ -759,7 +851,7 @@ h2.home-heading {
 }
 
 .toggle:checked ~ .map-toggle-label {
-  background: #eaf6f5;
+  background: var(--surface-toggle-on);
   border-color: #2aa198;
   color: #2aa198;
 
@@ -809,13 +901,155 @@ h2.home-heading {
     position: absolute;
     left: 14px;
     top: -5px;
-    background: white;
-    color: black;
+    background: var(--surface-card);
+    color: var(--text-strong);
     padding: 2px 6px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-toggle);
     border-radius: 3px;
     font-size: 12px;
     white-space: nowrap;
     z-index: 10;
   }
+}
+// =================================
+// Dark theme: overrides for theme-owned surfaces
+// =================================
+// The vendored just-the-docs CSS hardcodes its own light colours, so the
+// components it owns (page chrome, tables, code, search) need explicit
+// overrides. Everything in this file above uses the tokens and needs none.
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  body {
+    background-color: var(--page-bg);
+    color: var(--text-body);
+  }
+
+  .side-bar,
+  .main-header,
+  .site-header,
+  .site-footer {
+    background-color: var(--page-bg-elevated);
+    border-color: var(--border);
+  }
+
+  .site-title,
+  .site-title:visited,
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-strong);
+  }
+
+  // :where() keeps these at zero specificity so the component rules above
+  // (publication titles, author lists, and so on) still decide their own
+  // colours instead of everything turning into an accent-coloured link.
+  :where(a) { color: var(--accent); }
+  :where(a:hover) { color: var(--accent-strong); }
+
+  .main-content {
+    color: var(--text-body);
+
+    hr { background-color: var(--border); }
+
+    // Tables
+    table { background-color: transparent; }
+    th, td {
+      background-color: transparent;
+      border-color: var(--border);
+      color: var(--text-body);
+    }
+    thead th { color: var(--text-strong); }
+    tbody tr:nth-child(even) { background-color: var(--hover-tint); }
+
+    // Inline code and code blocks
+    code {
+      background-color: var(--surface-code);
+      color: var(--text-strong);
+      border-color: var(--border-code);
+    }
+    pre.highlight,
+    div.highlighter-rouge,
+    figure.highlight {
+      background-color: var(--surface-code);
+      border-color: var(--border-code);
+    }
+    blockquote {
+      color: var(--text-body);
+      border-left-color: var(--border-strong);
+    }
+  }
+
+  // Search
+  .search-input,
+  .search-results {
+    background-color: var(--page-bg-elevated);
+    color: var(--text-body);
+  }
+  .search-input::placeholder { color: var(--text-muted); }
+  .search-result-title,
+  .search-result-doc-title { color: var(--text-strong); }
+  .search-result:hover,
+  .search-result.active { background-color: var(--hover-tint); }
+
+  // Buttons and labels
+  .btn {
+    background-color: var(--surface-chip);
+    color: var(--text-strong);
+  }
+
+  // The theme's dark-grey text utilities are meant for a light page; on a
+  // dark one they fall below 4.5:1. Used by the footer and by the bold
+  // organisation links on the home page.
+  .text-grey-dk-000,
+  .text-grey-dk-100,
+  .text-grey-dk-200,
+  .text-grey-dk-300 {
+    color: var(--text-body) !important;
+  }
+
+  // The CV iframe renders a white PDF; keep a light frame around it so it
+  // does not sit on a dark page edge-to-edge.
+  .pdf-viewer {
+    background: var(--page-bg-elevated);
+    border-radius: 6px;
+  }
+}
+
+// =================================
+// Theme toggle button
+// =================================
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--text-body);
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0.32rem 0.5rem;
+  margin-left: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
+
+  &:hover {
+    color: var(--accent-strong);
+    border-color: var(--accent-strong);
+    background-color: var(--hover-tint);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  // Show the icon for the theme you would switch *to*
+  .theme-toggle-dark { display: none; }
+}
+
+:root[data-theme="dark"] .theme-toggle {
+  .theme-toggle-light { display: none; }
+  .theme-toggle-dark { display: inline; }
 }
