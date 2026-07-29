@@ -37,19 +37,13 @@ exclude:
  # specific to the theme website:
    - bin/
    - lib/
-   - "*.gemspec"
    - "*.gem"
    - LICENSE.txt
    - package.json
    - package-lock.json
-   - Rakefile
    - README.md
  # theme leftovers that should not be published:
-   - docs/
    - CHANGELOG.md
-   - CODE_OF_CONDUCT.md
-   - Dockerfile
-   - docker-compose.yml
    - script/
    - "*.bak"
 
@@ -176,8 +170,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
-remote_theme: just-the-docs/just-the-docs
 
 sass:
   silence_deprecations:
