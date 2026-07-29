@@ -37,7 +37,10 @@ jobs:
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1
         with:
-          # Ruby version comes from .ruby-version, so local and CI agree
+          # Keep in step with .ruby-version. Not read from that file: the
+          # runner has no build for every patch release, so a full version
+          # there fails to resolve.
+          ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
