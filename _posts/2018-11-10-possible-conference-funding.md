@@ -44,6 +44,6 @@ description: possible funding scenarios for students to attend conferences outsi
 
 
 
-**Note**: If you want me to add other grants you know of, [email me](mail-to:kasarla.tejaswi@research.iiit.ac.in).
+**Note**: If you want me to add other grants you know of, [email me](mailto:kasarla.tejaswi@research.iiit.ac.in).
 
 \* Women only

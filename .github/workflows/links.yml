@@ -37,6 +37,7 @@ jobs:
             --timeout 20
             --retry-wait-time 10
             --accept 200,206,403,429
+            --root-dir ${{ github.workspace }}/_site
             --exclude-path _site/assets/vendor
             '_site/**/*.html'
           fail: false
