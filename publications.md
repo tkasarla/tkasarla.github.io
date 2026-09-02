@@ -100,7 +100,7 @@ For a list of my featured publications, please scroll down the [home](/#featured
 </div>
 
 <div class="pub-card" markdown="1">
-**ECCV 2025 Beyond Euclidean Workshop** · <span class="pub-award">★ Oral</span>
+**ICCV 2025 Beyond Euclidean Workshop** · <span class="pub-award">★ Oral</span>
 {: .pub-venue}
 
 [HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets](/papers/hiervision/)
@@ -109,7 +109,7 @@ For a list of my featured publications, please scroll down the [home](/#featured
 **Tejaswi Kasarla**, [Ruthu Hulikal Rooparaghunath](https://scholar.google.com/citations?user=RM1dNQoAAAAJ&hl=en), [Stefano D'Arrigo](https://www.linkedin.com/in/stefano-d-arrigo-6b084019a/), [Gowreesh Mago](https://gowreesh-mago.github.io/), [Abhishek Jha](https://abskjha.github.io), [Melika Ayoughi](https://melika.xyz/), [Swasti Shreya Mishra](https://www.linkedin.com/in/swastishreyamishra), [Ana Manzano Rodríguez](https://www.linkedin.com/in/ana-manzano-rodriguez), [Teng Long](https://www.linkedin.com/in/tenglong-926500116), [Mina Ghadimi Atigh](https://minaghadimi.github.io), Max van Spengler, [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/)
 {: .pub-authors}
 
-[project page](/papers/hiervision/){: .pub-link} [paper](https://openreview.net/forum?id=deDq9Te0lT){: .pub-link target="_blank" rel="noopener noreferrer"} [code](https://github.com/tkasarla/HierVision){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="hiervision">bibtex</button>
+[project page](/papers/hiervision/){: .pub-link} [paper](https://openaccess.thecvf.com/content/ICCV2025W/BEW/papers/Kasarla_HierVision_Standardized_and_Reproducible_Hierarchical_Sources_for_Vision_Datasets_ICCVW_2025_paper.pdf){: .pub-link target="_blank" rel="noopener noreferrer"} [openreview](https://openreview.net/forum?id=deDq9Te0lT){: .pub-link target="_blank" rel="noopener noreferrer"} [code](https://github.com/tkasarla/HierVision){: .pub-link target="_blank" rel="noopener noreferrer"} <button class="pub-link bibtex-button" data-paper-id="hiervision">bibtex</button>
 {: .pub-links}
 </div>
 

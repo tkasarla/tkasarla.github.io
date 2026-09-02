@@ -65,7 +65,7 @@ const bibtexData = {
   'hiervision': `@inproceedings{kasarla2025hiervision,
   title={HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets},
   author={Kasarla, Tejaswi and Rooparaghunath, Ruthu Hulikal and D'Arrigo, Stefano and Mago, Gowreesh and Jha, Abhishek and Ayoughi, Melika and Mishra, Swasti Shreya and Manzano Rodr{\'{i}}guez, Ana and Long, Teng and Ghadimi Atigh, Mina and van Spengler, Max and Mettes, Pascal},
-  booktitle={ECCV Workshop on Beyond Euclidean},
+  booktitle={ICCV Workshop on Beyond Euclidean},
   year={2025}
 }`
 };

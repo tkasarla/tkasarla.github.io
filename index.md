@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "PhD Student, University of Amsterdam"
+description: "Postdoctoral Researcher, University of Amsterdam"
 permalink: /
 ---
 
@@ -12,9 +12,9 @@ permalink: /
 <div class="hero">
 <div class="hero-text" markdown="1">
 
-I am an ELLIS PhD student at [**University of Amsterdam**](https://www.uva.nl/en){: .text-grey-dk-100}, advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html). My main research is in non-Euclidean representation learning (especially hyperbolic and hyperspherical representation spaces) and their applications to open-world visual recognition and multimodal foundation models. More recently, I am interested in how the geometry of the representation space can structure and ground embodied world models, so that agents can reason about actions and uncertainty at multiple levels of abstraction.
+I am a postdoctoral researcher at [**University of Amsterdam**](https://www.uva.nl/en){: .text-grey-dk-100}, working with [Cees Snoek](https://www.ceessnoek.info) on embodied world models. I am also part of the Openbots project with [TNO](https://www.tno.nl/en/) and the Royal Netherlands Marechaussee.
 
-I was a visiting researcher at [**UNIMORE**](https://www.unimore.it/){: .text-grey-dk-100} with [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) and a research intern at **Meta FAIR** with [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139). I care deeply about building inclusive research communities. I co-organized the [Women in Computer Vision (WiCV)](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and have served on the WiCV board since 2022. 
+Previously, I was an ELLIS PhD student at University of Amsterdam, advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), where I worked on non-Euclidean representation learning (especially hyperbolic and hyperspherical representation spaces) for open-world recognition and multimodal models. I was a visiting researcher at [**UNIMORE**](https://www.unimore.it/){: .text-grey-dk-100} with Rita Cucchiara and a research intern at **Meta FAIR** with [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139). I co-organized the [Women in Computer Vision (WiCV)](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and serve on the WiCV board.
 
 Outside academia, I am a photographer and home barista, always in search of good light and a [perfect cup](/more/#coffee) wherever I go!
 
@@ -43,9 +43,10 @@ Outside academia, I am a photographer and home barista, always in search of good
 
 | Date | Event |
 |------|-------|
+| Jun 2026 | I started as a postdoctoral researcher at the [University of Amsterdam](https://www.uva.nl/en), working on embodied world models with [Cees Snoek](https://www.ceessnoek.info). |
 | Apr 2026 | Our work on [Balanced Hyperbolic Embeddings are Natural Out-of-Distribution Detectors](https://link.springer.com/article/10.1007/s11263-026-02775-6) is accepted to IJCV! |
 | Jan 2026 | Our work on [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2601.10592) is available as a preprint on arXiv! |
-| Jun 2025 | I started an internship at [Meta FAIR](https://ai.meta.com/research/) in Paris. I will spend the next 6 months working on multimodal LLMs. |
+| Jun 2025 | I joined [Meta FAIR](https://ai.meta.com/research/) in Paris for a six-month research internship on multimodal LLMs and world models. |
 | Apr 2025 | I will be a TA for the [Foundation Models (FoMo)](https://uvafomo.github.io) course at UvA. |
 | Mar 2025 | Our work on [Hyperbolic Safety-Aware Vision-Language Models](https://arxiv.org/abs/2503.12127) is accepted to CVPR 2025 as a Highlight! I will be presenting this work in-person at the conference. |
 | Jun 2024 | Visiting [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1) at [University of Modena and Reggio Emilia](https://www.unimore.it/) until September 2024. |

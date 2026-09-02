@@ -2,7 +2,7 @@
 layout: paper
 title: "HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets"
 nav_exclude: true
-venue: "ECCV 2025 · Beyond Euclidean Workshop"
+venue: "ICCV 2025 · Beyond Euclidean Workshop"
 award: "★ Oral"
 authors:
   - name: Tejaswi Kasarla
@@ -46,8 +46,11 @@ affiliations:
     name: VIS Lab, University of Amsterdam
 links:
   - label: "Paper"
-    url: "https://openreview.net/forum?id=deDq9Te0lT"
+    url: "https://openaccess.thecvf.com/content/ICCV2025W/BEW/papers/Kasarla_HierVision_Standardized_and_Reproducible_Hierarchical_Sources_for_Vision_Datasets_ICCVW_2025_paper.pdf"
     icon: "fas fa-file-lines"
+  - label: "OpenReview"
+    url: "https://openreview.net/forum?id=deDq9Te0lT"
+    icon: "fas fa-comments"
   - label: "Code"
     url: "https://github.com/tkasarla/HierVision"
     icon: "fab fa-github"
@@ -63,7 +66,7 @@ bibtex: |
   @inproceedings{kasarla2025hiervision,
     title={HierVision: Standardized and Reproducible Hierarchical Sources for Vision Datasets},
     author={Kasarla, Tejaswi and Rooparaghunath, Ruthu Hulikal and D'Arrigo, Stefano and Mago, Gowreesh and Jha, Abhishek and Ayoughi, Melika and Mishra, Swasti Shreya and Manzano Rodr{\'i}guez, Ana and Long, Teng and Ghadimi Atigh, Mina and van Spengler, Max and Mettes, Pascal},
-    booktitle={ECCV Workshop on Beyond Euclidean},
+    booktitle={ICCV Workshop on Beyond Euclidean},
     year={2025}
   }
 ---
