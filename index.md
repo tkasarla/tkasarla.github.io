@@ -12,9 +12,10 @@ permalink: /
 <div class="hero">
 <div class="hero-text" markdown="1">
 
-I am a postdoctoral researcher at [**University of Amsterdam**](https://www.uva.nl/en){: .text-grey-dk-100}, working with [Cees Snoek](https://www.ceessnoek.info) on embodied world models. I am also part of the Openbots project with [TNO](https://www.tno.nl/en/) and the Royal Netherlands Marechaussee.
+I am a postdoctoral researcher at [**University of Amsterdam**](https://www.uva.nl/en){: .text-grey-dk-100}, working with [Cees Snoek](https://www.ceessnoek.info) on embodied world models. 
+Previously, I was an ELLIS PhD student at University of Amsterdam, advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), where I worked on non-Euclidean representation learning (especially hyperbolic and hyperspherical representation spaces) for open-world recognition and multimodal models. 
 
-Previously, I was an ELLIS PhD student at University of Amsterdam, advised by [Pascal Mettes](https://staff.fnwi.uva.nl/p.s.m.mettes/index.html) and [Rita Cucchiara](https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1), where I worked on non-Euclidean representation learning (especially hyperbolic and hyperspherical representation spaces) for open-world recognition and multimodal models. I was a visiting researcher at [**UNIMORE**](https://www.unimore.it/){: .text-grey-dk-100} with Rita Cucchiara and a research intern at **Meta FAIR** with [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139). I co-organized the [Women in Computer Vision (WiCV)](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and serve on the WiCV board.
+During my PhD, I was a visiting researcher at [**UNIMORE**](https://www.unimore.it/){: .text-grey-dk-100} with Rita Cucchiara and a research intern at **Meta FAIR** with [Pascale Fung](https://www.linkedin.com/in/pascale-fung-a3aa05139). I co-organized the [Women in Computer Vision (WiCV)](https://sites.google.com/view/wicv/) Workshop at CVPR 2021 & 2022 and serve on the WiCV board.
 
 Outside academia, I am a photographer and home barista, always in search of good light and a [perfect cup](/more/#coffee) wherever I go!
 
